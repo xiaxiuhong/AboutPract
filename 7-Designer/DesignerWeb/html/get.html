@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="../js/core/jquery-3.1.1.min.js"></script>
+	</head>
+	<body>
+	</body>
+	<script>
+	var get ={
+	initProductionData : function(){
+		var data = "pageNow=1&pageCount=12";
+		cm.getApi({
+			url:"getCollectionList.do",
+			data : data,
+			onsuccess : function(dt){
+				if(dt.status == 200){
+					get.setCollectionHtml(dt);
+				}else{
+					alert(dt.msg);
+				}
+			},
+			onerror : function(data){
+				alert(data);	
+			}
+		});
+	},
+	setCollectionHtml : function(dt){
+		var html = "";
+		var obj = dt.obj;
+		for(var i=0;i<obj.length;i++){
+			var o = obj[i];
+			html += '<li><i><img src="'+o.ckf_url+'"/></i>';
+			html += '<p class="title">'+o.ckc_hwname+'</p>';
+			html += '<p class="xinxiw"><span>'+o.ckc_collect+'</span> <span>889</span><span>'+o.ckc_createTime+'</span></p>';
+			html += '</li>';
+		}
+		document.getElementById("designerCollectionId").innerHTML = html;
+	},
+	onClickaddCollectionId : function(){
+		cm.addHtml("html/myProduction/theNewWork.html");
+	}
+};
+
+$(function(){
+	myProduction.initProductionData();
+	document.getElementById("addCollectionId").addEventListener("click",get.onClickaddCollectionId);
+});
+</script>
+	<script src="../js/core/address.js"></script>
+	<script src="../js/core/config.js"></script>
+	<script src="../js/core/common.js"></script>
+	<script src="../js/myProduction/myProduction.js"></script>
+</html>

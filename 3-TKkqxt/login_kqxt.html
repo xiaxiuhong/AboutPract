@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>登录口腔系统</title>
+		<link rel="stylesheet" href="css/public_style.css" />
+		<script src="js/jquery-3.1.0.js"></script>
+		<script>
+			$(function(){
+				//点击聚焦
+				$(".log_tip").on("click",function(){
+					$(this).prev().find("input").focus();
+				});
+				//刷新验证码
+				$(".log_up").on("click",function(){
+					createCode();
+					$("#inputCode").focus();
+				})
+			});
+		</script>
+	</head>
+	<body onload="createCode()">
+		<!--头部-->
+		<header>
+			<div class="inner headCont">
+				<img src="images/top_logo.png" alt="" />
+				<img src="images/top_text.png" alt="" />
+				<a href="javascript:;"><<　返回首页</a>
+			</div>
+		</header>
+		<!--登录框-->
+		<section>
+			<div class="inner">
+				<div class="loginBox">
+					<div class="log_tit">用户登录</div>
+					<form>
+					<!--<form action="" method="post">-->
+						<div><span>用户名</span><input type="text" name="username"/></div><span class="log_tip"><i>!</i>请输入用户名</span>
+						<div><span>密　码</span><input type="password" name="userpwd"/></div><span class="log_tip"><i>!</i>请输入密码</span>
+						<div><span>验证码</span><input type="text" name="verify" id="inputCode"/></div>
+						<!--<input id="btnYz" type="button" class="btnYz"></input>-->
+						<p class="btnYz" id="checkCode" onclick="createCode()" ></p>
+						<span class="log_tip log_up"><i>!</i>点击刷新验证码</span>
+						<p class="log_check"><label><input type="checkbox" checked="checked"><span>记住用户名</span></input></label><a href="javascript:;">密码找回</a></p>
+						<input type="submit" name="" value="登        录" class="logBtn" onclick="validateCode();">
+					</form>
+				</div>
+			</div>
+		</section>
+		<!--底部-->
+		<footer>
+			<div class="inner">
+				<ul>
+					<li><p>未注册　,　<a href="register_kqxt.html">点击此处注册</a></p></li>
+					<li>
+						<span>第三方　</span>
+						<a href="javascript:;"><img src="images/login_icon01.png" alt="" /></a>
+						<a href="javascript:;"><img src="images/login_icon02.png" alt="" /></a>
+						<span><i>3秒 </i>注册</span>
+					</li>
+				</ul>
+			</div>
+		</footer>
+	</body>
+</html>
+<script type="text/javascript" src="js/login_yzm.js"></script>

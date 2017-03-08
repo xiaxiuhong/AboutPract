@@ -1,0 +1,148 @@
+*{ margin: 0;padding: 0;}
+li{list-style: none;}
+a{ text-decoration: none;}
+body{ background: #89defb;font-family: "microsoft yahei";}
+.wrap{ width: 100%;background: url(../images/body_bg.png) no-repeat 0 540px;background-size: contain;}
+.inner{ width: 990px; margin: 0 auto;height: 100%;}
+/*儿童口腔部分*/
+.child_kq{ height: 600px;background: url(../images/head_bg.jpg) no-repeat center center;}
+.child_cont{ position: relative;left: -65px;}
+.child_top{ height: 400px;position: relative;}
+.child_top img{ width: 757px; margin: 0 auto;display: block;z-index: 20;position: relative;}
+.child_bot{ width: 833px; height: 200px; position: relative;top: -30px; left:125px;z-index: 10;}
+.child_xx img{ height: 112px; width: 200px;position: absolute;left:357px; top: 25px;z-index: 30;}
+.child_tit img{height: 125px;width: 581px;position: absolute;left:260px;top:136px;z-index: 30;}
+.child_mrc{ height: 24px; width: 300px;position: absolute;
+left: 390px; top: 282px;z-index: 30;background: #008dc3 url(../images/head_true_03.png) no-repeat 6px;}
+.child_mrc p{ font: 14px/24px "microsoft yahei"; color: #fff;padding-left:25px;}
+.child_jl{ height: 15px;width: 100px; background: #fff;position: absolute;left: 500px; top: 370px;z-index: 30;}
+.child_jl p{ font: 12px/15px "microsoft yahei"; color: #fd8200;}			
+.child_top .child_ic01{position: absolute; height: 49px;width: 51px;z-index: 20;left:800px;top:65px;}
+.child_top .child_ic02{position: absolute; height: 126px;width: 151px;z-index:11;left: 760px;top: 260px;}
+
+/*了解原因部分*/
+.reason_cont{ height: 450px; background: #41b8e0;width: 100%;}
+.rea_tit{ height: 113px;padding-left: 256px;padding-top: 17px; }
+.rea_pic{ height: 290px;}
+.rea_pic li{ float: left;height: 280px;width: 280px;margin: 0 20px;cursor: pointer;
+border: 5px solid #fff;border-radius: 50%;position: relative;overflow: hidden;
+transition: all 0.8s;}
+.rea_pic li .pic_txt{ width: 240px; height: 58px;position: absolute; 
+bottom:-1px; left: 20px;text-align: center;color: #fff;
+font: 14px "microsoft yahei";padding-top: 12px;}
+.rea_pic li .pic_txt span{ font-size: 15px;display: inline-block;font-weight: bold;}
+.rea_pic li:hover{transform: scale(1.2);}	
+
+/*专业儿童部分*/
+.major{ height: 1170px;background:url(../images/major_bg_tree01_07.png) no-repeat;
+position: relative;z-index: 20;left: -45px;}
+.ma_top{ height: 210px; }
+.ma_tit{ height: 101px;width: 555px;position: relative;left: 250px;top: 110px;}
+.ma_logo{ height: 88px; width: 109px; position: relative;left: 275px;top: 95px;}
+.ma_text{ height: 125px;width: 790px; margin: 40px auto 25px;}
+.ma_text p{ font: 15px/25px "microsoft yahei"; color: #41b8e0;}
+.ma_text p span{ display: inline-block;width: 122px;height: 20px;background: url(../images/ma_text_pic.png) no-repeat;
+position: relative;top: 3px;}
+.ma_pic{ width: 790px; margin: 0 auto;}
+.ma_pic img{ height: 100%; width: 100%;}	
+
+
+/*科学护牙部分*/
+.science{ height: 1114px; width: 100%; background-color: #41b8e3;
+position: relative;top: -56px;}
+.sc_bowen{ position: relative;left:-40px;}
+.sci_tit{ margin: 13px 0 27px 207px;}
+/*选项卡切换*/
+.sci_tab{ height: 480px; width: 980px; background: #fff; border-radius:15px;padding:5px;}
+.tabList .ac a{ background: #fe8100;}
+.tabCont .hide{ display: none;}
+.tabList{ width:240px ;height: 100%;float: right;}
+.tabCont{ width: 730px; height: 100%; float: left; margin-right: 10px;}
+.tabList li a{display:block; height:97px ; width: 190px; margin-bottom: 3px; background: #41b8e0;
+	border-radius: 8px;text-align: center;color: #fff; padding: 30px 25px;
+	font:300 23px/44px "microsoft yahei";}
+.tabList li a span{ font:500 26px/51px "microsoft yahei";}	
+.tab_pic{ height:480px; width:273px;margin-right: 10px;float: left;}
+.tab_pic img{ height: 100%; width: 100%;}
+.tab_text{ height: 480px; width: 447px;float:left;}
+.text_tit{ height: 36px; width: 138px; background: #41b8e0; border-radius: 10px;
+	font: 20px/36px "microsoft yahei"; color: #fff;margin:20px auto 8px; text-align: center;}
+.tit_p{ font: 16px/22px "microsoft yahei";color: #53bde2;height: 22px;width: 55%; margin: 0 auto;}
+.click_btn{height: 26px; width: 100%;  margin:15px auto; text-align: center;}
+.click_btn a{ display: inline-block;height: 100%;width: 92px; background: #fe8100;border-radius: 8px;
+	font: 14px/26px "microsoft yahei"; color: #fff;margin: 0 8px;}
+/*选项卡不同部分样式*/
+.tab_text span{ display:inline-block; font:14px/16px "microsoft yahei" ;color: #353434;
+text-align: left;}
+.flow{ height: 308px; width: 100%;text-align: center;}
+.flow li{ float: left; height: 109px;width: 114px;}
+.flow li:nth-child(3n+2){ margin: 0 50px;position: relative;}
+.flow li:nth-child(3n+2):before{ content:url(../images/s_flow_arr.png);position: absolute;
+	left: -40px; top:25px;}
+.flow li:nth-child(3n+2):after{ content:url(../images/s_flow_arr.png);position: absolute;
+	right: -40px; top:25px;}
+.flow_pic{ margin: 14px auto 8px;}
+.flow_pic dt{ font: 15px/30px "microsoft yahei";color: #3e3e3e; height: 30px;}
+.flow p{ text-align: left;padding-left: 10px;font: 14px/21px "microsoft yahei"; color: #3e3e3e;
+	margin-top: 10px;}
+.flow p i{ font-style: normal;color: #000;}
+/*tab02与tab03*/
+.flow02{ height: 338px;}
+.flow02 span{ height: 65px; line-height: 75px; position: relative;left: -185px;color: #000; font-size: 15px;}
+.flow02 .flow_pic{ height: 155px;}
+.flow02 dt{ font-size: 14px;}
+/*********/
+.time_btn{ height: 46px; width: 207px; background: #fe8100; border-radius: 10px;
+font:25px/46px "microsoft yahei"; color: #fff; text-align: center;margin: 35px auto 24px;}
+.time_from{ width: 942px; height: 120px; margin: 0 auto 40px;}
+.time_from img{ height: 100%; width: 100%;}
+.sci_tip{ width: 880px; margin: 0 auto;}
+.sci_tip .tip{position: relative;float: right; left: -35px;top: 55px;}
+.sci_tip .tip img{ position: absolute;left: -20px;top: 10px;}
+.sci_tip .tip_tetx{ display: inline-block;width: 600px; height: 56px; 
+background: #1787ac;border-radius: 8px;font: 16px/28px "microsoft yahei";
+color: #fff; padding: 30px 50px;}
+.sci_bowen{ position: relative;top:-56px}
+/*澳大利亚医师部分*/
+.doctor{ height:580px;}
+.doc_tit{width: 683px; position: relative;left: 195px; top: -40px;}
+.doc_info{ height: 295px;}
+.doc_info li{ float: left; height: 295px; width: 464px;margin:0 16px 0 15px;
+	background: url(../images/doctor_pic1.png) no-repeat;}
+.doc_info li:last-child{background: url(../images/doctor_pic2.png) no-repeat;}
+.doc_text{ width: 265px;height: 100%;margin-left: 199px;}
+.doc_text h2{ font: 45px/68px "simsun"; color: #fff;height: 68px; padding-top: 14px; }
+.doc_text h2 span{ font-size: 25px;}
+.doc_text p{ font: 14px/24px "simsun"; color: #fff; padding-bottom: 9px;}
+.doc_text p:nth-of-type(2){ line-height: 26px;}
+.doc_text p:nth-of-type(2) i{ font-style: normal; font-size: 16px;}
+.doc_btn{margin: 0; position: relative;left: -30px;}
+/*轮播图部分*/
+.rollPic{ height: 134px;margin: 40px auto 0; position: relative;}
+.rollPic .d_tab{ width: 885px; height: 100%;overflow: hidden;margin: 0 auto;}
+.rollPic ul{ height: 134px;width: 885px; margin: 0 auto; position: relative;
+	left:0;top: 0;}
+.rollPic ul li{ height: 127px; width: 165px; float: left; border: 3px solid #fff; border-radius: 10px;
+	margin: 0 3px;}
+
+.rollPic ul li img{ height: 100%; width: 100%;}
+.rollPic .moveBtn{ height: 28px; width: 19px; position: absolute;top: 53px;}
+.rollPic .moveBtn img{ height: 100%; width: 100%;}
+.rollPic .prev{ left: -15px;}
+.rollPic .next{ right: -15px;}
+/*25年坚守关注部分*/
+.doc_bowen{ position: relative;top: 15px;}
+.focus{ height: 1063px; width: 100%; background: #41b8e0;}
+.focus_tit{ position: relative;left: 207px; top: 20px;z-index: 20;}
+.focus_yun{ position: relative; left: 122px;top: -16px;z-index: 10;}
+.focus_pic{ width: 882px; height: 780px; margin: 0 auto;}
+.focus_pic ul li{ float: left; margin:6px 15px; cursor: pointer;transition: all 0.6s;}
+.focus_pic ul li:hover{ transform: scale(1.05);}
+.focus_foot{ height:320px; background:#41b8e0 url(../images/ff_cont_bg.png) center 52px no-repeat;}
+.ff_cont{ height: 220px;position: relative;left: 57px;top: 100px;}
+.ff_left{ height: 202px; width: 174px; float: left;}
+.ff_mid{ height: 117px; width: 460px;float: left;margin:70px 120px 0 30px;text-align:center;}
+.ff_mid img:first-child{ padding-bottom: 15px;}	
+.ff_right{ height: 106px; width: 126px; background: #41b8e0;color: #fff;padding-top: 20px;letter-spacing: 1px;
+	border-radius: 50%;float: left;text-align: center; font:30px/40px "microsoft yahei";margin-top:60px;transition: all 0.6s;}
+.ff_right:hover{ transform: scale(1.1);}

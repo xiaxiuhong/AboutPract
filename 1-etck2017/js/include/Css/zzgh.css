@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+i {
+    font-style: normal;
+}
+
+ul li {
+    list-style: none;
+}
+
+.fr {
+    float: right
+}
+
+.fl {
+    float: left
+}
+
+.fc:before,
+.fc:after {
+    display: block;
+    overflow: hidden;
+    height: 0;
+    content: '\0020'
+}
+
+.fc:after {
+    clear: both
+}
+
+.fc {
+    *zoom: 1
+}
+
+body {
+    font-family: "Microsoft YaHei";
+}
+
+.sk-zzgh {
+    width: 100%;
+    min-height: 1859px;
+    display: block;
+    background: url(../guahao/sk-gh.jpg)no-repeat top center;
+    overflow: hidden;
+    /*background-size: 100%;*/
+}
+
+.sk-zzgh .banner {
+    width: 1200px;
+    margin: 0 auto;
+    height: 463px;
+    display: block;
+    background: url(../guahao/sk-banner.png)no-repeat center center;
+    /*margin-top: 55px;*/
+}
+
+.sk-zzgh-con1 {
+    width: 1200px;
+    height: 786px;
+    background: url(../guahao/sk-con1.png)no-repeat center center;
+    margin: 0 auto;
+}
+
+.item1 {
+    width: 1120px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    background: #fff
+}
+
+.item1 .title {
+    width: 269px;
+    height: 356px;
+    background: url(../guahao/register_title_1.jpg) 0 0 no-repeat
+}
+
+.item1 .title div {
+    padding-bottom: 110px;
+    background: url(../guahao/register_item1_tel.jpg) 24px 100% no-repeat
+}
+
+.item1 .title a {
+    font-size: 14px;
+    float: left;
+    margin: 120px 0 0 23px;
+    padding-top: 50px;
+    text-align: center;
+    background: 50% 0 no-repeat;
+    text-decoration: none;
+    color: #5f5f5f;
+}
+
+.item1 .title .list1 {
+    background-image: url(../guahao/register_item1_link_1.jpg)
+}
+
+.item1 .title .list2 {
+    background-image: url(../guahao/register_item1_link_2.jpg)
+}
+
+.item1 .title .list3 {
+    background-image: url(../guahao/register_item1_link_3.jpg)
+}
+
+.item1 .form {
+    width: 748px;
+    margin-right: 40px
+}
+
+.item1 .captain {
+    padding: 90px 0 14px 130px;
+    border-bottom: 1px solid #e5e5e5;
+    background: url(../guahao/register_captain.jpg) 0 100% no-repeat
+}
+
+.item1 .captain .fc * {
+    float: left;
+    color: #008cc8
+}
+
+.item1 .captain b {
+    font-size: 32px
+}
+
+.item1 .captain i {
+    font-size: 24px;
+    font-style: normal;
+    margin-top: 6px
+}
+
+.item1 .captain p {
+    color: #505050
+}
+
+.item1 form {
+    padding-top: 20px;
+}
+
+.item1 form li {
+    padding: 10px 0
+}
+
+.item1 li .fl {
+    width: 120px
+}
+
+.item1 form li i {
+    font-size: 20px;
+    line-height: 1;
+    float: left;
+    width: 20px;
+    height: 1em;
+    margin-top: 10px;
+    color: #ff2c2c
+}
+
+.item1 form .fl span {
+    font-size: 18px;
+    line-height: 36px;
+    float: left;
+    color: #323232
+}
+
+.item1 form .fr {
+    width: 540px;
+    margin-right: 80px
+}
+
+.item1 .text {
+    width: 330px
+}
+
+.item1 form .text,
+.item1 form textarea {
+    padding: 0;
+    padding-left: 20px;
+    color: #323232;
+    border: 1px solid #c8c8c8;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    font-family: "Microsoft YaHei";
+    outline: none;
+    font-size: 16px;
+}
+
+.item1 form .text,
+.item1 form textarea,
+.item1 label {
+    line-height: 36px
+}
+
+.item1 form textarea {
+    line-height: 24px;
+    width: 510px;
+    height: 110px;
+    padding-right: 25px;
+    resize: none;
+    font-family: "Microsoft YaHei";
+}
+
+.item1 label {
+    display: inline-block;
+    text-indent: 16px;
+    color: #323232
+}
+
+.item1 .btn {
+    overflow: hidden
+}
+
+.jzsj {
+    background: url(../guahao/time.jpg)no-repeat right top;
+    cursor: pointer;
+}
+
+.item1 .btn .fc {
+    left: 50%;
+    margin: 25px 0
+}
+
+.item1 .btn .fc div {
+    position: relative;
+    right: 50%;
+    float: left;
+    width: 176px;
+    margin: 0 50px
+}
+
+.item1 .btn a,
+.item1 .btn input {
+    width: 176px;
+    height: 56px;
+    display: block;
+    font-size: 22px;
+    line-height: 56px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    border: 0;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px
+}
+
+.item1 .submit {
+    background: url(../guahao/btn1.jpg) no-repeat left center;
+}
+
+.item1 .btn .reset,
+.item1 .btn a {
+    display: block;
+    background: url(../guahao/btn2.jpg) no-repeat left center;
+}
+
+.item1 .btn i {
+    position: absolute;
+    top: 14px;
+    left: 16px
+}
+
+.item2 .captain {
+    z-index: 1
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+
+/*huahao*/
+
+.gh-xuzhi {
+    width: 100%;
+    height: 202px;
+    display: block;
+    background: url(../guahao/sk-icon2.png)no-repeat center center;
+}
+
+.gh-xuzhi .text {
+    width: 1120px;
+    margin: 0 auto;
+    padding: 25px 30px;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.text-l {
+    width: 580px;
+    margin-left: 30px;
+}
+
+.gh-xuzhi .text p {
+    line-height: 36px;
+}
+
+.sk-liucheng {
+    width: 1200px;
+    height: 432px;
+    display: block;
+    position: relative;
+    background: url(../guahao/sk-liucheng.png)no-repeat center center;
+    margin: 0 auto;
+    top: -25px;
+}

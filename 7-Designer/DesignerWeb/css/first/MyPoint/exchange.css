@@ -1,0 +1,172 @@
+     *{
+				padding: 0;
+				margin: 0;
+				list-style: none;
+			}
+			body{
+				font-size: 16px;
+				font-family: Malgun Gothic;
+			}
+			 /* *****************积分兑换*********************/
+   .coding{
+   	 width: 769px;
+   	 height: 22px;
+   	 margin: 70px auto 35px;
+   	 color: #abaaaa;
+   }
+  .coding span{
+  	color: rgba(120, 135, 157, 1);
+  }
+ /* *****************************收货信息*****************************/
+.xinxis{
+	width: 769px;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+}
+ .goods{
+	width: 161px;
+	height: 245px;
+	float: left;
+	
+}
+.goodss{
+	width: 161px;
+	height: 207px;
+	background: url(../../../img/gipadpro.png) no-repeat center;
+}
+
+.goods p{
+	color: rgba(120, 135, 157, 1);
+	text-align: center;
+	margin-top: 15px;
+}
+
+   /**************信息填写***************/
+  .messges{
+  	width:440px ;
+  	float: right;
+  }
+.message{
+	height: 68px;
+	width: 439px;
+	margin: 0 auto;
+	border-bottom: 1px solid #e6e6e6;
+	padding-bottom: 12px;
+	position: relative;
+	
+}
+.message p{
+	float: left;
+	height: 19px;
+	font-size: 16px;
+	position: absolute;
+	bottom: 19px;
+	text-align: left;	
+	color: rgba(141, 141, 141, 1);
+}
+.message input{
+	outline: none;
+    right: 0;
+	position: absolute;
+	bottom: 19px;
+	text-align: right;
+	height: 19px;
+	font-size: 16px;
+	color: #c3c3c3;
+	border: none;
+}
+.message .ping{
+	right: 24px;
+	position: absolute;
+	bottom: 19px;
+}
+.message .ping1{
+	right: 0;
+	position: absolute;
+	bottom: 19px;
+	display: inline-block;
+	width: 14px;
+	height: 19px;
+} 
+.message .arr1{
+	right: 0;
+	position: absolute;
+	bottom: 19px;
+	display: inline-block;
+	width: 14px;
+	height: 19px;
+	background:url(../../../img/arrup.png) no-repeat center ;
+	cursor: pointer;
+} 
+.message .arr2{
+	right: 0;
+	position: absolute;
+	bottom: 19px;
+	display: inline-block;
+	width: 14px;
+	height: 19px;
+	background:url(../../../img/arrup.png) no-repeat center ;
+	cursor: pointer;
+} 
+	.message .img02{
+		   background: url(../../../img/zhankai.png) no-repeat center right;
+		}
+
+.province{
+	width: 439px;
+	height: 100px;	
+	margin:25px auto;
+	padding: 15px 0 20px;
+	background: #F2F2F2;
+	height: auto;
+	overflow: hidden;
+	display:block;
+	display: none;
+}
+.province ul{
+	width: 100%;
+}
+.province ul li{
+	height: 30px;
+	line-height: 30px;
+	padding-left:10px;
+	padding-right:10px;
+	font-size: 16px;
+	color: rgba(141, 141, 141, 1);
+	float:left;	
+	cursor: pointer;
+	
+}
+
+.province ul .current{
+	color:#ffffff;
+	background: #78879d ;
+}
+.addess{
+	width: 769px;
+	margin: 0 auto;
+}
+.addess .new{
+	width: 769px;
+	
+}
+	/*******************底部按钮*********************/
+ 	.foot{
+		width: 131px;
+		height: 34px;
+		text-align: center;
+		line-height: 34px;
+		background: url(../../../img/wszlm.png) no-repeat center;
+		cursor: pointer;
+		margin: 80px auto 20px;
+	}
+   .foot:hover{
+   	   background: url(../../../img/wszlx.png) no-repeat center;
+   	     color: #FFFFFF;
+   }
+   .Warning{
+   	 width: 180px;
+   	 height: 20px;
+   	 margin: 0 auto 340px;
+   }

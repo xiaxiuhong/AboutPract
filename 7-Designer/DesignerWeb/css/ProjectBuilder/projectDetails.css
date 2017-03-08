@@ -1,0 +1,140 @@
+ *{
+				padding: 0;
+				margin: 0;
+				list-style: none;
+			}
+			body{
+				font-size: 16px;
+				font-family: Malgun Gothic;
+			}
+			/*头部、一级导航*/
+		
+			/* ***********************上传资料*******************************/
+			.navtwo{
+				width: 100%;
+				height: 110px;
+				background: #F2F2F2;	
+				line-height: 110px;	
+				overflow: hidden;		
+			}
+			.Info{
+				width: 787px;
+				height: 28px;
+				line-height: 28px;
+				margin: 44px auto 0;		
+			} 
+			.Info li{
+				float: left;
+			}
+				.Info li:nth-child(1){
+					color: rgba(49, 50, 50, 1);
+					font-size: 20px;
+					float: left;
+					margin-right: 80px;
+				}
+				.Info li:nth-child(3){
+					float: right;
+					cursor: pointer;
+				}
+				.plan{
+					width: 787px;
+					height: 28px;
+					line-height: 28px;
+					margin: 0 auto 45px;		
+				}
+				.plan p{
+					color: rgba(120, 135, 157, 1);
+					margin-right: 45px;
+					float: left;
+					letter-spacing: -2px;
+				}
+				.plan span{
+					width: 68px;
+					height: 28px;
+					display: inline-block;
+					float: right;
+					cursor: pointer;
+				}
+			/*	 **********************日期显示框****************************/
+				.data{
+					width: 787px;
+					height: 215px;
+					margin: 0 auto;
+					overflow: hidden;
+					letter-spacing: -1px;
+					margin-top: 50px;
+				}
+				.data p{
+					height: 25px;
+					color: rgba(141, 141, 141, 1);
+					border-bottom: 1px solid #E6E6E6;
+				}
+				.data p span:nth-child(1){
+					float: left;
+				}
+				.data p span:nth-child(2){
+					float: right;
+				}
+				.dataword{
+					margin-top:20px ;
+				}
+				.dataword p{
+					color: #313232;
+					line-height: 26px;
+					border-bottom: none;	
+				}
+			/*	********************下载按钮******************/
+				.xiazai{
+					width: 787px;
+					height: 37px;
+					line-height: 34px;
+					margin: 0 auto 17px;
+					border-bottom: 1px solid #E6E6E6;
+					letter-spacing: -1px;
+				}
+				.xiazai p{
+					color: rgba(141, 141, 141, 1);			
+				}
+				.xiazai p span:nth-child(1){
+					float: left;
+					margin-right: 435px;
+				}
+				.xiazai p span:nth-child(2){
+					width: 130px;
+					float: left;
+					cursor: pointer;
+				}
+				.xiazai  .anclex{
+					display: inline-block;
+					width: 131px;
+					height: 34px;
+					line-height: 34px;
+					text-align: center;
+					color: #FFFFFF;
+					float: right;
+					background: url(../../img/wszlm.png) no-repeat center;
+					cursor: pointer;
+				}
+				.xiazai  .anclex:hover{
+					background: url(../../img/wszlx.png) no-repeat center;
+				}
+				.xiazai  .anclex i{
+						margin-right: 8px;
+					}
+		 .footbutton{
+			    	width: 244px;
+			    	height: 38px;
+			    	margin: 0 auto 20px;
+			    	cursor: pointer;
+			    	line-height: 38px;
+					text-align: center;
+					color: #FFFFFF;
+					background: url(../../img/gcxmxqm.png);
+   				}
+   				 .footbutton:hover{
+   				 	background: url(../../img/gcxmxqx.png) no-repeat center;
+   				 }
+				/********************************轮播图1***************************************/
+	
+ 
+   

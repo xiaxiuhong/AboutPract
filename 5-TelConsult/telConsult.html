@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="viewport" content="width=640,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="apple-mobile-web-app-title" content="">
+		<meta name="format-detection" content="telephone=no">
+		<title>电话咨询</title>
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+				border: 0;
+			    text-shadow: none;
+			    font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif;
+			}
+			input {
+			    font-family: 微软雅黑;
+			    outline: none;
+			    border-width: initial;
+			    border-style: none;
+			    border-color: initial;
+			    border-image: initial;
+			   -webkit-appearance:none; /*去除input默认样式*/
+			 	border-radius: 0;
+			}
+			/*.head{
+				height:24px;
+				font-size:14px;
+				text-align: left;
+				padding-top:5px;
+			}*/
+			.inputBox{
+				width:285px;
+				height:40px;
+				/*margin-top: -20px;*/
+			}
+			.inputBox .tel-input{
+				width:190px;
+				height:38px;
+				line-height:38px;
+				font-size:14px;
+				float: left;
+				color:#5f5454;
+				text-indent:30px;
+				border:1px solid #c6c6c6;
+				border-right: none;
+				background: url(http://4g.hkyyfk.com/include/images/list/art-tel1.png)no-repeat 5px center #f1f9fe;				
+			}
+			.inputBox .free-to{
+				width:90px;
+				height:40px;
+				line-height:40px;
+				float: left;
+				text-align: center;
+				font-size:14px;
+				color:#fff;
+				background: #38b4fe;
+				border: 1px solid #C6C6C6;
+			}
+		</style>
+		<script type="text/javascript">  
+		  var phoneWidth=parseInt(window.screen.width);  
+		  var phoneScale=phoneWidth / 640;  
+		  var ua=navigator.userAgent;  
+		  if (/Android (\d+\.\d+)/.test(ua)) {  
+			var version=parseFloat(RegExp.);  
+			if (version > 2.3) {  
+			  document.write('<meta name="viewport" content="width=640, minimum-scale=' + phoneScale + ', maximum-scale=' + phoneScale + ', target-densitydpi=device-dpi">');  
+			} else {  
+			  document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');  
+			}  
+		  } else {  
+			document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');  
+		  }  
+		</script>
+	</head>
+	<body>
+		<div class="free">
+			<form name="fcall2" id="fcall2" method="post" action="http://tel.kuaishang.com.cn/calld.php" target="aa">
+	            <iframe name="aa" id="aa" frameborder="0" height="0" width="0"></iframe>
+	    		<input name="fromurl" id="call_fromurl1" value="" type="hidden">
+	 			<input name="sid" value="2013191655" type="hidden">
+	          	<input name="did" value="1009900" type="hidden">
+				<!--<p class="head">宏康提供免费电话咨询、预约挂号服务：</p>-->
+				<div class="inputBox">
+					<input type="text" placeholder="请输入你的电话号码..."  class="tel-input" name="tel" id="tel2" value="请输入您的电话号码" autocomplete="off" onfocus="if(this.value=='请输入您的电话号码'){this.value='';}" onblur="if(this.value==''){this.value='请输入您的电话号码';}"/>
+					<input target="_blank" name="shubmitdh" value="拨打电话" type="submit" class="free-to">
+	  			</div>
+			</form>
+		</div>
+	</body>
+</html>

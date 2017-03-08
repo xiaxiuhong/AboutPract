@@ -1,0 +1,397 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>404错误页面_康贝佳口腔医院</title>
+<link href="/templets/mytem/zt/404/css/index.css" rel="stylesheet" type="text/css" />
+<script src="/templets/mytem/zt/404/js/jquery.min.js" type="text/javascript"></script>
+<script src="/templets/mytem/zt/404/js/pd.js" type="text/javascript"></script>
+<link href="/templets/mytem/zt/404/css/headstyle.css" type="text/css" rel="stylesheet">
+
+<link href="/templets/mytem/css/css.css" rel="stylesheet" type="text/css" />
+
+
+
+</head>
+<body>
+<div id="w_pd">
+ <script src="http://siteapp.baidu.com/static/webappservice/uaredirect.js" type="text/javascript"></script>
+<script type="text/javascript">uaredirect("http://m.kangbeijia.com/")</script>
+<div id="header"> 
+    <nav>
+        <div class="kbj-header">
+            <div class="kbj-header-wrap">
+                <div class="kbj-header-logo"><h1><a href="http://npc.kangbeijia.com/">南京康贝佳口腔医院</a></h1></div>
+                <div class="nav_menu">
+                    <ul class="kbj-header-link">
+                        <li id="kbj-header-link-product" class="kbj-header-link-product"><a href="/html/yiyuanpinpai/" class="a">品牌</a></li>
+                        <li id="kbj-header-link-product1" class="kbj-header-link-product"><a href="/html/yczz/" class="a">科目</a></li>
+                        <li id="kbj-header-link-product2" class="kbj-header-link-product"><a href="/html/zlxm/" class="a">百科</a></li>
+                        <li><a href="/html/yiyuandongtai/" class="a">动态</a><div class="nav_hover a1"><dl><dt>最新动态</dt><dd>尽览医院最新动态</dd></dl></div></li>
+                        <li><a href="/html/yishengtuandui/" class="a">团队</a><div class="nav_hover a2"><dl><dt>医疗团队</dt><dd>生动感知医院团队风采</dd></dl></div></li>
+                        <li><a href="/html/shipinxinwen/" class="a">视频</a><div class="nav_hover a3"><dl><dt>科普视频</dt><dd>视频科普，满足您的求知需求</dd></dl></div></li>
+                        <li><a onClick="openZoosUrl();return false;" href="javascript:void(0)" class="a">问答</a><div class="nav_hover a4"><dl><dt>在线问答</dt><dd>即时在线伺服，沟通如此用心</dd></dl></div></li>
+                    </ul>
+                </div>
+            </div>
+        </div><!--top end-->
+        
+        <div id="kbj-header-sub" class="kbj-header-sub">
+            <div class="xiangmunr_div">
+                <ul class="xiangmunr">
+                    <li id="dhsj1" onmouseover="box('dhsj','dhsjBoxs',1,9);" class="bbp"><a href="/html/yiyuanpinpai/#1"><i class="ppjs1"></i><p>品牌介绍</p></a></li>
+                    <li id="dhsj2" onmouseover="box('dhsj','dhsjBoxs',2,9);"><a href="/html/yiyuanpinpai/#2"><i class="ppjs2"></i><p>大事记</p></a></li>
+                    <li id="dhsj3" onmouseover="box('dhsj','dhsjBoxs',3,9);"><a href="/html/yiyuanpinpai/#3"><i class="ppjs3"></i><p>爱心公益</p></a></li>
+                    <li id="dhsj4" onmouseover="box('dhsj','dhsjBoxs',4,9);"><a href="/html/yiyuanpinpai/#4"><i class="ppjs4"></i><p>品牌理念</p></a></li>
+                    <li id="dhsj5" onmouseover="box('dhsj','dhsjBoxs',5,9);"><a href="/html/yiyuanpinpai/#5"><i class="ppjs5"></i><p>服务理念</p></a></li>
+                    <li id="dhsj6" onmouseover="box('dhsj','dhsjBoxs',6,9);"><a href="/html/yiyuanpinpai/#6"><i class="ppjs6"></i><p>品牌荣誉</p></a></li>
+                    <li id="dhsj7" onmouseover="box('dhsj','dhsjBoxs',7,9);"><a href="/html/yiyuanpinpai/#7"><i class="ppjs7"></i><p>品牌特色</p></a></li>
+                    <li id="dhsj8" onmouseover="box('dhsj','dhsjBoxs',8,9);" style="margin-right:0;"><a href="/html/yiyuanpinpai/#8"><i class="ppjs8"></i><p>安全保障</p></a></li>
+
+                    <div id="dhsjBoxs1"></div>
+                    <div id="dhsjBoxs2" class="disnone"></div>
+                    <div id="dhsjBoxs3" class="disnone"></div>
+                    <div id="dhsjBoxs4" class="disnone"></div>
+                    <div id="dhsjBoxs5" class="disnone"></div>
+                    <div id="dhsjBoxs6" class="disnone"></div>
+                    <div id="dhsjBoxs7" class="disnone"></div>
+                </ul>
+            </div>
+        </div><!--xiala 01-->
+        
+        
+        <div id="kbj-header-sub1" class="kbj-header-sub">
+            <div class="header_nav_km">
+                <ul>
+                    <li><a href="/html/yczz/#1"><img src="/templets/mytem/images/kmnav/km_nav_01.jpg"><p>牙齿种植</p></a></li>
+                    <li><a href="/html/ycjz/#2"><img src="/templets/mytem/images/kmnav/km_nav_02.jpg"><p>牙齿矫正</p></a></li>
+                    <li><a href="/html/mrxf/#3"><img src="/templets/mytem/images/kmnav/km_nav_03.jpg"><p>美容修复</p></a></li>
+                    <li><a href="/html/ycmb/#4"><img src="/templets/mytem/images/kmnav/km_nav_04.jpg"><p>牙齿美白</p></a></li>
+                    <li><a href="/html/yczl/#5"><img src="/templets/mytem/images/kmnav/km_nav_05.jpg"><p>牙齿治疗</p></a></li>
+                    <li><a href="/html/bjhl/#6"><img src="/templets/mytem/images/kmnav/km_nav_06.jpg"><p>护理保健</p></a></li>
+                </ul>
+            </div>
+        </div><!--xiala 02-->
+        
+        <div id="kbj-header-sub2" class="kbj-header-sub">
+            <div style="width:1210px; margin:0 auto">
+                <div id="skinBoxs1">
+                    <ul class="sub_nav_ul">
+                        <a href="/html/yczz/"><h3 class="sub_nav_div_h3">牙齿种植</h3></a>
+                        
+                        <li><a href="/html/zzy/">种植牙</a></li>
+                        
+                        <li><a href="/html/ycqs/">牙齿缺失</a></li>
+                        
+                        <li><a href="/html/yczz/jkzzy/">即刻种植牙</a></li>
+                        
+                        <li><a href="/html/yczz/CTzzy/">CT亲骨种植牙</a></li>
+                        
+                        <li><a href="/html/ALL-on-4/">ALL-on-4种植牙</a></li>
+                        
+                        <li><a href="/html/zzycl/">种植体品牌</a></li>
+                        
+                    </ul><ul class="sub_nav_ul">
+                        <a href="/html/ycjz/"><h3 class="sub_nav_div_h3">牙齿矫正</h3></a>
+                        
+                        <li><a href="/html/byjz/">龅牙矫正</a></li>
+                        
+                        <li><a href="/html/dbt/">地包天矫正</a></li>
+                        
+                        <li><a href="/html/ycbq/">牙齿不齐</a></li>
+                        
+                        <li><a href="/html/sdtsjz/">时代天使正畸</a></li>
+                        
+                        <li><a href="/html/yinshimei/">隐适美隐形矫正</a></li>
+                        
+                        <li><a href="/html/jinshutuocao/">金属托槽矫正</a></li>
+                        
+                    </ul><ul class="sub_nav_ul">
+                        <a href="/html/mrxf/"><h3 class="sub_nav_div_h3">美容修复</h3></a>
+                        
+                        <li><a href="/html/meiyaguan/">美牙冠</a></li>
+                        
+                        <li><a href="/html/yatiemian/">牙贴面</a></li>
+                        
+                        <li><a href="/html/kaociya/">烤瓷牙</a></li>
+                        
+                        <li><a href="/html/quanciya/">全瓷牙</a></li>
+                        
+                        <li><a href="/html/ycxs/">牙齿稀疏</a></li>
+                        
+                        <li><a href="/html/ycyj/">牙齿拥挤</a></li>
+                        
+                    </ul><ul class="sub_nav_ul">
+                        <a href="/html/ycmb/"><h3 class="sub_nav_div_h3">牙齿美白</h3></a>
+                        
+                        <li><a href="/html/huangya/">黄牙</a></li>
+                        
+                        <li><a href="/html/heiya/">黑牙</a></li>
+                        
+                        <li><a href="/html/yanziya/">烟渍牙</a></li>
+                        
+                        <li><a href="/html/chaziya/">茶渍牙</a></li>
+                        
+                        <li><a href="/html/kafeiya/">咖啡牙</a></li>
+                        
+                        <li><a href="/html/fubanya/">氟斑牙</a></li>
+                        
+                    </ul><ul class="sub_nav_ul">
+                        <a href="/html/yczl/"><h3 class="sub_nav_div_h3">牙齿治疗</h3></a>
+                        
+                        <li><a href="/html/zhuya/">蛀牙</a></li>
+                        
+                        <li><a href="/html/zc/">智齿</a></li>
+                        
+                        <li><a href="/html/yazhoubing/">牙周病</a></li>
+                        
+                        <li><a href="/html/ggzl/">根管治疗</a></li>
+                        
+                        <li><a href="/html/yycx/">牙龈出血</a></li>
+                        
+                        <li><a href="/html/clyg/">残留牙根</a></li>
+                        
+                    </ul><ul class="sub_nav_ul">
+                        <a href="/html/bjhl/"><h3 class="sub_nav_div_h3">护理保健</h3></a>
+                        
+                        <li><a href="/html/xiyajieya/">洗牙洁牙</a></li>
+                        
+                        <li><a href="/html/huangya/">黄牙</a></li>
+                        
+                        <li><a href="/html/heiya/">黑牙</a></li>
+                        
+                        <li><a href="/html/yanziya/">烟渍牙</a></li>
+                        
+                        <li><a href="/html/chaziya/">茶渍牙</a></li>
+                        
+                        <li><a href="/html/kafeiya/">咖啡牙</a></li>
+                        
+                    </ul> 
+                </div>
+            </div>
+        </div><!--xiala 03-->
+    </nav>
+</div><!--header end-->
+<link href="/templets/mytem/css/head.css" type="text/css" rel="stylesheet">
+
+  <div class="error">
+    <div class="error-top">
+      <dl>
+        <dt><img src="/templets/mytem/zt/404/images/ico_03.png" width="141" height="146" alt=" " /></dt>
+        <dd><p><span>sorry</span>您访问的页面弄丢了</p></dd>
+        <dd>您的牙齿问题没解决？<a onClick="openZoosUrl();return false;" href="javascript:void(0)">咨询医生</a>吧... ...</dd>
+      </dl>
+    </div>
+    <div class="error-mid">
+      <div class="error-mid1">
+        <dl>
+         <dt>您好！有任何问题，请点击发起对话！我们随时准备为您解答。</dt>
+         <dd><a onClick="openZoosUrl();return false;" href="javascript:void(0)">发起<br/>对话</a></dd>
+        </dl>
+      </div>
+      
+      <div class="error-mid2">
+        <p>全国免费咨询热线：<strong>400-025-0505</strong></p>
+        <div class="error-mid2-txt">
+        <input type="text" id="telInput" class="a1" value="输入您的电话,我们向您回拨" onfocus="if(this.value=='输入您的电话,我们向您回拨'){this.value='';}" onblur="if(this.value==''){this.value='输入您的电话,我们向您回拨';}">
+        <input type="button" id="callBtn" value="给我回拨" class="a2">
+		<script>document.write('<script type="text/javascript"  data-lxb-uid="10839915" data-lxb-gid="180940"  src="http://lxbjs.baidu.com/api/asset/api.js?t=' + new Date().getTime() + '" charset="utf-8"></scr' + 'ipt>' );</script>
+		<script>document.getElementById("callBtn").onclick = function () {lxb.call(document.getElementById("telInput"));};</script>
+        </div>
+      </div> 
+    </div>
+    <div class="error-bot">
+      <ul>
+        <li><a href="/">网站首页</a></li>
+        <li><a onClick="openZoosUrl();return false;" href="javascript:void(0)">了解更多</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="clear"></div>
+<div id="footer">
+    <div class="f_top">
+        <dl>
+            <dt><a href="/html/yczz/" class="a1"><p>牙齿种植</p></a></dt>
+            <dd>
+                <ul>
+                    
+						<li><a href="/html/zzy/">种植牙</a></li>
+					
+						<li><a href="/html/ycqs/">牙齿缺失</a></li>
+					
+						<li><a href="/html/yczz/jkzzy/">即刻种植牙</a></li>
+					
+						<li><a href="/html/yczz/CTzzy/">CT亲骨种植牙</a></li>
+					
+						<li><a href="/html/ALL-on-4/">ALL-on-4种植牙</a></li>
+					
+						<li><a href="/html/zzycl/">种植体品牌</a></li>
+					
+						<li><a href="/html/q-bkzzy/">半/全口种植</a></li>
+					
+						<li><a href="/html/jyxy/">假牙镶牙</a></li>
+					
+                </ul>
+            </dd>
+        </dl>
+        <dl>
+            <dt><a href="/html/ycjz/" class="a2"><p>牙齿矫正</p></a></dt>
+            <dd>
+                <ul>
+                    
+						<li><a href="/html/byjz/">龅牙矫正</a></li>
+					
+						<li><a href="/html/dbt/">地包天矫正</a></li>
+					
+						<li><a href="/html/ycbq/">牙齿不齐</a></li>
+					
+						<li><a href="/html/sdtsjz/">时代天使正畸</a></li>
+					
+						<li><a href="/html/yinshimei/">隐适美隐形矫正</a></li>
+					
+						<li><a href="/html/jinshutuocao/">金属托槽矫正</a></li>
+					
+						<li><a href="/html/taocituocao/">陶瓷托槽矫正</a></li>
+					
+						<li><a href="/html/MBTzhisigong/">MBT直丝弓矫正</a></li>
+					
+						<li><a href="/html/zisuotuocao/">自锁托槽矫正</a></li>
+					
+						<li><a href="/html/etjz/">儿童矫正</a></li>
+					
+						<li><a href="/html/crjz/">成人矫正</a></li>
+					
+                </ul>
+            </dd>
+        </dl>
+        <dl>
+            <dt><a href="/html/mrxf/" class="a3"><p>美容修复</p></a></dt>
+            <dd>
+                <ul>
+                    
+						<li><a href="/html/meiyaguan/">美牙冠</a></li>
+					
+						<li><a href="/html/yatiemian/">牙贴面</a></li>
+					
+						<li><a href="/html/kaociya/">烤瓷牙</a></li>
+					
+						<li><a href="/html/quanciya/">全瓷牙</a></li>
+					
+						<li><a href="/html/ycxs/">牙齿稀疏</a></li>
+					
+						<li><a href="/html/ycyj/">牙齿拥挤</a></li>
+					
+						<li><a href="/html/ycsd/">牙齿松动</a></li>
+					
+						<li><a href="/html/ytqx/">牙体缺损</a></li>
+					
+						<li><a href="/html/ycdl/">牙齿断裂</a></li>
+					
+						<li><a href="/html/yfgd/">牙缝过大</a></li>
+					
+						<li><a href="/html/kcysb/">烤瓷牙失败</a></li>
+					
+                </ul>
+            </dd>
+        </dl>
+        <dl>
+            <dt><a href="/html/ycmb/" class="a4"><p>牙齿美白</p></a></dt>
+            <dd>
+                <ul>
+					
+						<li><a href="/html/huangya/">黄牙</a></li>
+					
+						<li><a href="/html/heiya/">黑牙</a></li>
+					
+						<li><a href="/html/yanziya/">烟渍牙</a></li>
+					
+						<li><a href="/html/chaziya/">茶渍牙</a></li>
+					
+						<li><a href="/html/kafeiya/">咖啡牙</a></li>
+					
+						<li><a href="/html/fubanya/">氟斑牙</a></li>
+					
+						<li><a href="/html/sihuansuya/">四环素牙</a></li>
+					
+						<li><a href="/html/caiguangmeibai/">彩光美白</a></li>
+					
+							
+                </ul>
+            </dd>
+        </dl>
+    </div>
+    
+    <div class="f_bottom">
+        <div class="fott_wz">康贝佳品牌连锁：南京 | 北京 | 苏州 | 无锡 | 常州 | 沈阳 | 大连　　咨询热线：400-025-0505　　门诊时间：8:30—20:00（全年无假日）<br />　南京旗舰院地址：南京市鼓楼区新模范马路46号 <a href="/html/lylx/" style="color:#1574a0;">查看地图></a>&#160;&#160;&#160;&#160;Copyright@2009-2013 KB+ All Rihgts Resrved | 版权所 南京康贝佳口腔医院 &#160;&#160;&#160;&#160;<a href="javascript:;" style="color:#828282">网站地图</a></div> 
+    </div>
+</div><!--footer end-->
+<script src="/templets/mytem/js/pre-index.js"></script>
+<script src="/templets/mytem/js/pre-index1.js"></script>
+<script src="/swt/swt.js"></script>
+<script type="text/javascript" src="/templets/mytem/js/nav.js"></script>
+<script type="text/javascript">
+    var anquan = new Object();
+    anquan.index = new Object();
+    anquan.zt = new Object();
+    var _hmt = _hmt || [];
+    
+    $(document).ready(function(){
+        anquan.index.init();
+    });
+</script>
+<script type="text/javascript" src="/templets/mytem/js/dh.js"></script>
+<script type="text/javascript" src="/templets/mytem/js/anquan.js"></script>
+
+<link href="/swt/swt.css" type="text/css" rel="stylesheet"/>
+<div id="left_swt"><p><a onclick="openZoosUrl();LR_HideInvite();return false;" href="javascript:void(0)" class="a1"></a><a id="close" class="a2"></a></p></div>
+<div id="swt_right">
+    <ul id="swt_right_nav">
+        <li id="mainCate-1" class="mainCate">
+            <h3><a onclick="openZoosUrl();LR_HideInvite();return false;" href="javascript:void(0)" target="_blank"><img src="/swt/xx.png"></a></h3>
+            <div class="subCate"><a onclick="openZoosUrl();LR_HideInvite();return false;" href="javascript:void(0)" target="_blank"><img src="/swt/xx_pic.png" class="a1"></a></div>
+        </li>
+        <li id="mainCate-2" class="mainCate"> <h3><a href="http://wpa.b.qq.com/cgi/wpa.php?ln=1&key=XzgwMDAxMjMzM180MDI3OTdfODAwMDEyMzMzXzJf" target="_blank"><img src="/swt/qq.png"></a></h3>
+            <div class="subCate"><a href="http://wpa.b.qq.com/cgi/wpa.php?ln=1&key=XzgwMDAxMjMzM180MDI3OTdfODAwMDEyMzMzXzJf" target="_blank"><img src="/swt/qq_pic.png" class="a2"></a></div>
+        </li>
+        
+        <li id="mainCate-3" class="mainCate evenLeval">
+            <h3><img src="/swt/tel.png"></h3>
+            <div class="subCate"><div class="dh"><iframe marginheight="0" src="/swt/dh.html" marginwidth="0" scrolling="no" frameborder="0"></iframe></div></div>
+        </li>
+        
+        <li id="mainCate-4" class="mainCate">
+            <h3><img src="/swt/wx.png"></h3>
+            <div class="subCate"><img src="/swt/wx_pic.png" class="a4"></div>
+        </li>
+        <li class="mainCate evenLeval"><h3><a href="javascript:;" id="h_top"><img src="/swt/top.png"/></a></h3></li>
+    </ul>
+</div>
+<script>
+	jQuery("#swt_right_nav").slide({
+		type:"menu", //效果类型
+		titCell:".mainCate", // 鼠标触发对象
+		targetCell:".subCate", // 效果对象，必须被titCell包含
+		delayTime:0, // 效果时间
+		triggerTime:0, //鼠标延迟触发时间
+		defaultPlay:false,//默认执行
+		returnDefault:true//返回默认
+	});
+	
+ 
+ 	$(function(){
+		var top=($(window).height()-$("#swt_right").height())/2+"px";
+		$("#swt_right").css({'top':top});
+		$("#swt_right #h_top").click(function(){
+			$("#swt_right").animate({'top':top},600);
+			$('html,body').animate({'scrollTop':0},600);
+		})
+	})
+</script>
+<script type="text/javascript" language="javascript" src="/templets/mytem/js/jquery.hhService.js"></script> 
+<script type="text/javascript">$(function(){$("#swt_right").fix({float:'right',minStatue:false,skin:'green',durationTime:1000})});</script>
+
+</div>
+<script src="/templets/mytem/zt/404/js/pre-index.js"></script>
+<script src="/templets/mytem/zt/404/js/pre-index1.js"></script>
+</body>
+</html>

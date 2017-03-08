@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>我的订单详情</title>
+			<link href="../../css/first/personal information My order2.css" type="text/css"  rel="stylesheet" />
+	</head>
+	<body>
+			<!--一级导航-->			
+		 <div class="header">
+	 	<div  class="nav">
+	 		<div class="totleimg">
+	 			<img src="../../img/t1.png" />
+	 		</div>
+	 		   <ul>
+	 	   				<li >프로젝트
+	 	   					<span ></span><i  ></i> 	   					
+	 	   				</li>
+	 	   				<li>나의 작품
+	 	   					<span ></span><i ></i> 	   		
+	 	   				</li>
+	 	   				<li>중국통
+	 	   					<span ></span><i ></i> 	   		
+	 	   				</li>
+	 	   				<li>알림
+	 	   					<span ></span><i ></i> 	   		
+	 	   				</li>
+	 	   				<li id="navcurrent">나의 정보
+	 	   					<span ></span><i class="arrowT"></i> 
+	 	   				</li>
+	 	   </ul>
+	 	</div>	
+	 </div>
+		  		  	
+		  <!--二级导航-->		  
+		
+		<div class="navtwo">
+	 	<div  class="navtwoT">
+	 		   <ul>
+	 	   				<li >나의 정보
+	 	   				    <i  ></i> 	   					
+	 	   				</li>
+	 	   				<li id="navtwocurrent">나의 프로젝트
+	 	   					<i class="arrowD"></i> 	   		
+	 	   				</li>
+	 	   				<li>나의 포인트
+	 	   				     <i ></i> 	   		
+	 	   				</li>
+	 	   				<li>고객평가
+	 	   					  <i ></i> 	   		
+	 	   				</li>	 	   				
+	 	   </ul>
+	 	</div>	
+	 </div>
+	<!-- 	/*************我的订单列表头部******************/-->
+	
+	</body>
+</html>

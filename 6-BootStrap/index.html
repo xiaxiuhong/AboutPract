@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width=device-width,initial-scale=1"/>
+	<title>Bootstrap</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body style="padding-top:50px;">
+	<h1>Hello 拓康医疗</h1>
+	<!--导航条-->
+	<nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
+		<!--<div class="container-fluid">-->
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapse" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Togglenavigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="#" class="navbar-brand">Brand</a>
+			</div>
+			
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li class="active">
+						<a href="#">link</a>
+					</li>
+					<li><a href="#">link</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<hr />
+	<!--下拉菜单-->
+	<div>
+		<ul>
+			<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">dropdown<span class="caret"></span></a>
+				<ul class="dropdown-menu" role="menu">
+					<li><a href="#">Action</a></li>
+					<li><a href="#">Button</a></li>
+					<li><a href="#">Something</a></li>
+					<li class="divider"></li>
+					<li><a href="#">Drop</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<hr />
+	<!--轮播图-->
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+		</ol>
+		<div class="carousel-inner" role="listbox">
+			<div class="item active">
+				<img src="img/rxgy01.jpg" alt="" />
+				<div class="carousel-caption"></div>
+			</div>
+			<div class="item">
+				<img src="img/txfw02.jpg" alt="" />
+				<div class="carousel-caption"></div>
+			</div>
+			<div class="item">
+				<img src="img/wxhj.jpg" alt="" />
+				<div class="carousel-caption"></div>
+			</div>
+			<div class="item">
+				<img src="img/wxhj02.jpg" alt="" />
+				<div class="carousel-caption"></div>
+			</div>
+		</div>
+		<a href="#carousel-example-generic" class="left carousel-control" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left"></span>
+			<span class="sr-only">Prev</span>
+		</a>
+		<a href="#carousel-example-generic" class="right carousel-control" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+	<hr />
+	<!--选项卡-->
+	<div>
+		<ul class="nav nav-tabs" role="tablist">
+			<li class="active"><a href="#home" role="tab" data-toggle="tab">最新快讯</a></li>
+			<li><a href="#profile" role="tab" data-toggle="tab">院内热点</a></li>
+			<li><a href="#messages" role="tab" data-toggle="tab">健康宣教</a></li>
+			<li><a href="#setting" role="tab" data-toggle="tab">最新阅读</a></li>
+		</ul>
+		<div class="tab-content">
+			<div class="tab-pane active" id="home">宏康医保不仅报销幅度大，更能享受到优质的服务</div>
+			<div class="tab-pane" id="profile">公信力--上海肝胆临床诊疗</div>
+			<div class="tab-pane" id="messages">上海宏康医院医保流程图</div>
+			<div class="tab-pane" id="setting">宏康医保单位，让您享受医院看病报销的费用</div>
+		</div>
+	</div>
+	<hr />
+	<!--模态层-->
+	<div class="modal fade">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">
+						<span aria-hidden="true">&times;</span>
+						<span class="sr-only">Close</span>
+					</button>
+					<h4 class="modal-title">Modal-title</h4>
+				</div>
+				<div class="modal-body">
+					上海宏康医院
+					上海宏康医院
+					上海宏康医院
+					上海宏康医院
+					上海宏康医院
+					上海宏康医院
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Save</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery-3.1.0.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

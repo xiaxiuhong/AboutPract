@@ -1,0 +1,363 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  border: none;
+  width: 100%;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  font-style: normal;
+}
+a,
+input {
+  outline: none;
+}
+.clearfix:after {
+  content: '';
+  display: block;
+  height: 0;
+  clear: both;
+}
+i,
+em {
+  font-style: normal;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../font/OpenSans-Regular.eot');
+  src: url('../font/OpenSans-Regular.eot?#iefix') format('embedded-opentype'), url('../font/OpenSans-Regular.woff') format('woff'), url('../font/OpenSans-Regular.ttf') format('truetype'), url('../font/OpenSans-Regular.svg#NeuesBauenDemo') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@keyframes EnterBot {
+  0% {
+    transform: translateY(20rem);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(-1.2rem);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes EnterTop {
+  0% {
+    transform: translateY(-20rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes EnterLeft {
+  0% {
+    transform: translateX(-20rem);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes EnterRight {
+  0% {
+    transform: translateX(15rem);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes EnterRightTop {
+  0% {
+    transform: translateX(15rem);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+body {
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 0.32rem;
+}
+header {
+  height: 3.36rem;
+  width: 100%;
+  border-bottom: 0.04rem solid #f3f3f3;
+}
+.innerShare {
+  width: 13.4rem;
+  margin: 0 auto;
+  height: 100%;
+}
+.hantuLogo {
+  width: 9.8rem;
+  height: 100%;
+  float: left;
+}
+.hantuLogo dl {
+  margin-top: 0.9rem;
+}
+.hantuLogo dl dd {
+  float: left;
+  height: 1.76rem;
+  width: 1.76rem;
+  margin-right: 0.5rem;
+}
+.hantuLogo img {
+  width: 100%;
+  height: 100%;
+}
+.hantuLogo dt h3 {
+  font-size: 0.6rem;
+  color: #313232;
+  font-weight: bold;
+  line-height: 0.92rem;
+  height: 0.92rem;
+  margin-bottom: 0.2rem;
+}
+.hantuLogo dt p {
+  font-size: 0.46rem;
+  line-height: 0.56rem;
+  color: #8d8d8d;
+}
+.resBtn {
+  width: 3.6rem;
+  height: 100%;
+  float: left;
+}
+.resBtn a {
+  display: block;
+  text-align: center;
+  height: 1.72rem;
+  width: 3.56rem;
+  background: #ffffff;
+  border: 1px solid #f3f3f3;
+  border-radius: 0.1rem;
+  margin-top: 0.9rem;
+  color: #7e8da2;
+  line-height: 1.72rem;
+  font-size: 0.52rem;
+  font-weight: bold;
+}
+#mainIndex ,#mainIndex2{
+  width: 100%;
+  /*height: 26.68rem;*/
+  height: 18.8rem;
+  /*background: url(../img/SharePage/share_map_bg.png) no-repeat center center;*/
+  background-size: cover;
+}
+.wrap {
+  text-align: center;
+}
+.wrap h2 {
+  font-size: 0.84rem;
+  line-height: 1.44rem;
+  height: 1.44rem;
+  color: #313232;
+  font-weight: bold;
+  margin-top: 4.4rem;
+  margin-bottom: 1.5rem;
+  animation: EnterTop 1s;
+}
+.wrap p {
+  font-size: 0.48rem;
+  line-height: 1.6rem;
+  color: #313232;
+  margin-bottom: 2.8rem;
+  animation: EnterLeft 1s;
+}
+.wrap .arrowTop {
+  display: block;
+  width: 100%;
+  height: 2rem;
+  margin: 0 auto;
+  line-height: 2rem;
+  opacity: 0;
+  animation: EnterBot 2s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+}
+.wrap .arrowTop img {
+  width: 0.68rem;
+  height: 0.34rem;
+}
+.aboutWrap h2 {
+  height: 2.8rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+  line-height: 1.4rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1.9rem;
+}
+.aboutInfro dl {
+  height: 3rem;
+  margin-bottom: 1.4rem;
+  animation: EnterLeft 1s;
+}
+.aboutInfro dl:nth-child(2) {
+  animation: EnterRight 1s;
+}
+.aboutInfro dd a {
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  margin: 0 auto;
+}
+.aboutInfro .location a {
+  width: 0.8rem;
+}
+.aboutInfro dt {
+  font-size: 0.46rem;
+  height: 2rem;
+  line-height: 2.18rem;
+  color: #313232;
+}
+.aboutInfro .aboutDesigner {
+  float: left;
+  width: 50%;
+}
+.aboutInfro .aboutDesigner dl {
+  margin-bottom: 3rem;
+}
+.aboutInfro .aboutDesigner dd a {
+  width: 1.4rem;
+  height: 1.4rem;
+}
+.aboutInfro .aboutDesigner dd .lastPic {
+  position: relative;
+  top: 0.2rem;
+  width: 1.42rem;
+  height: 1rem;
+  margin-bottom: 0.46rem;
+}
+.aboutInfro .aboutDesigner dt {
+  font-size: 0.56rem;
+}
+.aboutWrap .arrowTop span {
+  color: #313232;
+}
+.desText {
+  position: relative;
+  top: -1.3rem;
+}
+.aboutWrap .aboutInfro .areaH {
+  animation: EnterRightTop 1s;
+  animation-fill-mode: forwards;
+}
+.aboutWrap .aboutInfro .messageH {
+  opacity: 0;
+  animation: EnterRightTop 1s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+}
+.aboutWrap .aboutInfro .goldH {
+  opacity: 0;
+  animation: EnterRightTop 1s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+.aboutWrap .aboutInfro .busTraH {
+  opacity: 0;
+  animation: EnterRightTop 1s;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
+}
+#mainMarket {
+  width: 100%;
+  height: 26.68rem;
+  /*background: url(../img/SharePage/share_city_bg.png) no-repeat;*/
+  background-size: cover;
+}
+.marketWrap {
+  padding-top: 7.2rem;
+}
+.marketWrap p.textInfro {
+  font-size: 0.6rem;
+  padding: 0.4rem 0;
+  line-height: 1.44rem;
+  background: rgba(106, 130, 154, 0.4);
+  color: #fff;
+  animation: EnterTop 1s;
+}
+.marketWrap .marketTop {
+  display: block;
+  opacity: 0;
+  width: 100%;
+  height: 2rem;
+  line-height: 2rem;
+  text-align: center;
+  animation: EnterBot 1.5s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+}
+.marketWrap .marketTop img {
+  margin: 0 auto;
+  width: 0.68rem;
+  height: 0.34rem;
+}
+#mainDown {
+	/*height: 26.68rem;*/
+	/*width: 100%;*/
+  text-align: center;
+}
+#mainDown .downPic {
+  width: 100%;
+  height: 11.52rem;
+  margin-bottom: 2rem;
+  animation: EnterTop 2s;
+}
+#mainDown .downPic img {
+  width: 100%;
+  height: 100%;
+}
+#mainDown .AppDown {
+  animation: EnterBot 2s;
+}
+#mainDown .AppDown h2 {
+  font-size: 0.86rem;
+  font-weight: bold;
+  color: #313232;
+  line-height: 1.62rem;
+  height: 1.62rem;
+}
+#mainDown .AppDown p {
+  font-size: 0.46rem;
+  color: #313232;
+  line-height: 0.8rem;
+  height: 0.8rem;
+  margin-bottom: 1rem;
+}
+#mainDown .AppDown .downArrow {
+  display: block;
+  /*width: 100%;*/
+  height: 0.8rem;
+  margin-bottom: 1.2rem;
+}
+#mainDown .AppDown .downArrow img {
+  width: 0.68rem;
+  height: 100%;
+}
+#mainDown .AppDown .downBtn {
+  display: block;
+  width: 6.2rem;
+  height: 1.72rem;
+  border: 0.02rem solid #78879d;
+  border-radius: 0.12rem;
+  font-size: 0.5rem;
+  color: #78879d;
+  line-height: 1.72rem;
+  margin: 0 auto;
+}

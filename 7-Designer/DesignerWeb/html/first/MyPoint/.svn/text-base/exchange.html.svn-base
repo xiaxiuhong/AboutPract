@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>我的积点兑换</title>
+		<link href="css/first/MyPoint/exchange.css" type="text/css" rel="stylesheet" />
+	</head>
+	<body>
+	 <!-- *****************积分兑换********************-->
+	<p class="coding">兑换编号：<span>234523243434</span></p>
+<!--	*****************************收货信息****************************-->
+     <div class="xinxis">
+     	  <div class="goods">
+     	  	 <div class="goodss"></div>
+     	  	 <p>7000点</p>
+     	  </div>
+     <!--	  *************信息填写**************-->
+     	  <div class="messges">
+     	  	<div class=" message">
+			<p>姓名</p>
+			<input type="text" placeholder="请输入收件人姓名" id="userName"/>
+		</div>
+		<div class=" message">
+			<p>手机号</p>
+			<input type="text" placeholder="请输入收件人手机号码" id="phone" />			
+		</div>
+		<div class=" message">
+			<p>도시 </p>
+			<input class="ping" type="text" placeholder="한글 이름"  id="pointsProvientId"/>
+			<div class="arr1" id="arr"></div>
+		</div>
+		<div class="province province1">
+			<ul>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>				
+				<li>경기경기경기경</li>
+				<li>경기경기경기경</li>
+				<li>경기</li>
+		</ul>
+			
+		</div>
+		<div class=" message">
+			<p>- 세부 도시</p>
+			<input class="ping" type="text" placeholder="한글 이름"  id="pointsCityId"/>
+			<div class="arr2"></div>
+		</div>
+		<div class="province province2">
+			<ul>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>				
+				<li>경기경기경기경</li>
+				<li>경기경기경기경</li>
+				<li>경기</li>
+		</ul>		
+		</div>
+     	  </div>    	 
+     </div>
+      <div class="addess">
+     	  	  <div class=" message new">
+			<p>地址</p>
+			<input type="text" placeholder="请输入具体收货地址"  id="addressId"/>
+		</div>
+		<div class=" message new">
+			<p>备注</p>
+			<input type="text" placeholder="请输入备注信息"  id="commonId"/>			
+		</div>
+     	  </div>
+     	  <!--	/******************底部按钮********************/-->
+	   <div class="foot">
+	      	  确定      	
+	      </div>
+	        <p class=" Warning"><img src="img/jinggao.png" /></p>
+	</body>
+	<script src="js/core/jquery-3.1.1.min.js"></script>
+	<script src="js/core/address.js"></script>
+	<script src="js/core/config.js"></script>
+	<script src="js/core/common.js"></script>
+	<script src="js/first/myPoint/exchange.js"></script>
+</html>

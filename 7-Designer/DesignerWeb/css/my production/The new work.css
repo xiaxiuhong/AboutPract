@@ -1,0 +1,241 @@
+*{
+				padding: 0;
+				margin: 0;
+				list-style: none;
+			}
+			body{
+				font-size: 16px;
+				font-family: Malgun Gothic;
+			}
+			/*头部、一级导航*/
+			.header{
+				width: 100%;
+				height: 55px;
+				background: #303232;	
+			}
+			.header  .nav {
+				width: 850px;
+				height: 55px;	
+				margin: 0 auto;	
+				overflow: hidden;
+			}
+			.nav  .totleimg{
+				width: 110px;
+				height: 55px;
+				float: left;
+			}
+			.nav  li{
+				height: 19px;
+				margin-left: 84px;
+				color: #A7A7A7;
+				font-size: 16px;
+				font-family: sans-serif;
+				float: left;
+				position: relative;
+				margin-top: 20px;
+				cursor: pointer;
+			}
+			.nav  li:hover{
+				color: #FFFFFF;			
+			}
+			.xinxi{
+				width: 6px;
+				height: 6px;
+				border-radius: 50%;				
+				background: #E85B53;
+				position: absolute;
+				top: 0;
+				right: -5px;
+				display: inline-block;
+			}
+			.arrowT{
+				width: 6px;
+				height: 4px;
+				background: url(../../img/arrT.png) no-repeat center;
+				position: absolute;
+				bottom: -8px;
+				left: 45%;
+			}
+			/*二级导航*/
+			.navtwo{
+				width: 100%;
+				height: 110px;
+				background: #F2F2F2;				
+			}
+			.navtwo  .navtwoT {
+				width: 806px;
+				height: 110px;	
+				text-align: center;
+				margin: 0 auto;
+				line-height: 110px;
+				font-size: 14px;
+				color: rgba(49, 50, 50, 1));
+			}
+   /**************信息填写***************/
+  
+.message{
+	height: 70px;
+	width: 532px;
+	margin: 0 auto;
+	border-bottom: 1px solid #e6e6e6;
+	padding-bottom: 12px;
+	position: relative;
+}
+.message p{
+	float: left;
+	height: 19px;
+	font-size: 16px;
+	position: absolute;
+	bottom: 19px;
+	text-align: left;	
+	color: rgba(141, 141, 141, 1);
+}
+.message input{
+	outline: none;
+    right: 0;
+	position: absolute;
+	bottom: 19px;
+	text-align: right;
+	height: 19px;
+	font-size: 16px;
+	color: #c3c3c3;
+	border: none;
+}
+ #add{
+	color: rgba(49, 50, 50, 1);
+}
+.message .ping{
+	right: 24px;
+	position: absolute;
+	bottom: 19px;
+}
+.message .ping1{
+	right: 0;
+	position: absolute;
+	bottom: 19px;
+	display: inline-block;
+	width: 14px;
+	height: 19px;
+} 
+.message .arr1{
+	right: 0;
+	position: absolute;
+	bottom: 19px;
+	display: inline-block;
+	width: 14px;
+	height: 19px;
+	background:url(../../img/arrup.png) no-repeat center ;
+	
+} 
+.message .arr2{
+	right: 0;
+	position: absolute;
+	bottom: 19px;
+	display: inline-block;
+	width: 14px;
+	height: 19px;
+	background:url(../../img/arrup.png) no-repeat center ;	
+} 
+.province{
+	width: 532px;
+	height: 100px;	
+	margin:25px auto;
+	padding: 15px 0 20px;
+	background: #F2F2F2;
+	height: auto;
+	overflow: hidden;
+	display: none;
+}
+.province ul{
+	width: 100%;
+}
+.province ul li{
+	height: 30px;
+	line-height: 30px;
+	padding-left:10px;
+	padding-right:10px;
+	font-size: 16px;
+	color: rgba(141, 141, 141, 1);
+	float:left;	
+	cursor: pointer;
+}
+.province ul li:hover{
+	color:#ffffff;
+	background: #78879d ;
+}
+.province ul .current{
+	color:#ffffff;
+	background: #78879d ;
+}
+.addess{
+	width: 769px;
+	margin: 0 auto;
+}
+.addess .new{
+	width: 769px;
+}
+    .submitword {
+    	width: 532px;
+    	hei accelerator: 9px;
+    	color: rgba(141, 141, 141, 1);
+     	margin: 30px auto 25px;
+     }
+     	<!-- 	/*************上传作品框******************/-->
+     	.square{
+     		width: 452px;
+     		height: 160px;
+     		margin: 0 auto;
+     	}
+     .upload{
+				width: 213px;
+				height: 160px;
+				background: url(../../img/gongsi.png) no-repeat center center;
+                text-align: center;
+                border: 1px solid #E6E6E6;
+                position: relative;
+               float: left;
+			}
+			.upload p{
+				width: 68px;
+				height: 26px;
+				background: url(../../img/sk.png) no-repeat center;
+				color: rgba(120, 135, 157, 1);		
+				position: absolute;
+				top: 5px;
+				left: 10px;
+			}
+			.upload span{
+				height: 20px;
+				width: 20px;
+				position: absolute;
+				top: 5px;
+				right: 5px;
+			}
+			.uploadword{
+				height: 19px;
+				width: 225px;
+				margin: 0 auto 40px;
+				text-align: center;
+				color: rgba(141, 141, 141, 1);	
+			}
+			 .upload2{
+				width: 213px;
+				height: 160px;
+				background: url(../../img/add.png) no-repeat center center;
+                border: 1px solid #E6E6E6;     
+               float: right;
+			}
+			/*******************底部按钮*********************/
+		.foot{
+		width: 131px;
+		height: 34px;
+		text-align: center;
+		line-height: 34px;
+		background: url(../../img/bjb.png) no-repeat center;
+		cursor: pointer;
+		margin: 80px auto 20px;
+	}
+   .foot:hover{
+   	   background: url(../../img/bjbc.png) no-repeat center;
+   	     color: #FFFFFF;
+   }

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>二级菜单导航</title>
+		<style>
+				/*二级导航*/
+			  .navtwocurrent {
+		   	 	color: rgba(49, 50, 50, 1)!important; 	
+		   }
+			.navtwo{
+				width: 100%;
+				height: 110px;
+				background: #F2F2F2;				
+			}
+			.navtwo  .navtwoT {
+			    width: 775px;
+				height: 110px;	
+				text-align: center;
+				margin: 0 auto;
+			}
+			.navtwoT  li{
+				height: 22px;
+				width: 105px;
+				margin-left: 140px;
+				color: #a7a7a7;
+				font-size: 16px;
+			/*	font-family: Malgun Gothic;*/
+				float: left;
+				position: relative;
+				margin-top: 44px;
+				cursor: pointer;
+			}
+		  .navtwoT  li:hover{
+		  	color: rgba(49, 50, 50, 1); 	
+		  }
+			.arrowD{
+				width: 6px;
+				height: 4px;
+				background: url(img/navtwod.png) no-repeat center;
+				position: absolute;
+				bottom: -15px;
+				left: 45%;
+			}     
+		</style>
+		
+	</head>
+
+	<body>
+		<div class="navtwo">
+			<div class="navtwoT">
+				<ul>
+					<li id="navtwocurrentl"  class="navtwocurrent">나의 정보
+						<i class="arrowD"></i>
+					</li>
+					<li id="ermyOrderr">나의 프로젝트
+						<i></i>
+					</li>
+					<li id="ermypoint" style="display: none;">나의 포인트
+						<i></i>
+					</li>
+					<li id="myComment">고객평가
+						<i></i>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div style="width:100%;" id="personaCenterIndexId"></div>
+	</body>
+	<script src="js/core/jquery-3.1.1.min.js"></script>
+	<script src="js/core/address.js"></script>
+	<script src="js/core/config.js"></script>
+	<script src="js/core/common.js"></script>
+	<script src="js/first/personalCenter/personalCenterIndex.js"></script>
+	
+</html>

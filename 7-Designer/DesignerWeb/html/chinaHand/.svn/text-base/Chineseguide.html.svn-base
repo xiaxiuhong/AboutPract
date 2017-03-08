@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>中国指南</title>
+		<link  href="css/chinaHand/Chineseguide.css"  type="text/css" rel="stylesheet"/>
+		
+	</head>
+	<body>
+		<div class="chinaHan">
+			<ul id="chianID">
+				<!--<li>
+					<div class="Left"><img src="img/chinaT.png" /></div>
+					<div class="Right">
+						<p class="total">
+							   <span class="tital">上海紫藤万象城-Zoo Cafe</span>
+								<span class="data">2016-12-12</span>
+						</p>
+						<p class="cont">
+							     또한, 지난 5월 소설 ‘개미’로 유명한 베르나르 베르베르가 한국을 방문하여 어느 방송국에
+							인터뷰한 것이 화제가 된 적이 있었습니다. 그는 알파고와 이세돌 기사의 대국 이후 핫이슈로 
+							떠오른 인공지능에 대해서 다음과 같이 말했는데요. “컴퓨터가 바둑이나 다른 게임에서 인간을
+							 이기느냐 마느냐가 핵심이 아니라, 자의식을 가진 인공지능의 등장이
+							 <span class="contName">자세히 보기</span>
+						</p>
+					</div>
+				</li>-->
+					
+					<!--<li>
+					<div class="Left"><img src="img/chinaT.png" /></div>
+					<div class="Right">
+						<p class="total">
+							   <span class="tital">上海紫藤万象城-Zoo Cafe</span>
+								<span class="data">2016-12-12</span>
+						</p>
+						<p class="cont">
+							     또한, 지난 5월 소설 ‘개미’로 유명한 베르나르 베르베르가 한국을 방문하여 어느 방송국에
+							인터뷰한 것이 화제가 된 적이 있었습니다. 그는 알파고와 이세돌 기사의 대국 이후 핫이슈로 
+							떠오른 인공지능에 대해서 다음과 같이 말했는데요. “컴퓨터가 바둑이나 다른 게임에서 인간을
+							 이기느냐 마느냐가 핵심이 아니라, 자의식을 가진 인공지능의 등장이
+							 <span class="contName">자세히 보기</span>
+						</p>
+					</div>
+				</li>-->
+				
+				<!--<li>
+					<div class="Left"><img src="img/chinaT.png" /></div>
+					<div class="Right">
+						<p class="total">
+							   <span class="tital">上海紫藤万象城-Zoo Cafe</span>
+								<span class="data">2016-12-12</span>
+						</p>
+						<p class="cont">
+							     또한, 지난 5월 소설 ‘개미’로 유명한 베르나르 베르베르가 한국을 방문하여 어느 방송국에
+							인터뷰한 것이 화제가 된 적이 있었습니다. 그는 알파고와 이세돌 기사의 대국 이후 핫이슈로 
+							떠오른 인공지능에 대해서 다음과 같이 말했는데요. “컴퓨터가 바둑이나 다른 게임에서 인간을
+							 이기느냐 마느냐가 핵심이 아니라, 자의식을 가진 인공지능의 등장이
+							 <span class="contName">자세히 보기</span>
+						</p>
+					</div>
+				</li>-->
+			</ul>
+		</div>
+		  <!--************分页***************-->
+	   <div class="fenye">
+	   		<ul>
+	   			<li>1</li>
+	   			<li class="footcurrent">2</li>
+	   			<li>3</li>
+	   			<li>下一页</li>
+	   			<li><input type="text"  class="Input"/> <span><img src="img/huidown.png"/></span></li>
+	   		</ul>
+	   </div>
+	</body>
+	<script src="js/core/jquery-3.1.1.min.js"></script>
+	<script src="js/chinaHand/Chineseguide.js"></script>
+</html>

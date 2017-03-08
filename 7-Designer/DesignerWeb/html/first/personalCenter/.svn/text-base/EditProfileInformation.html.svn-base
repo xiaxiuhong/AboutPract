@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>personal information</title>	
+		<link href="css/first/personalCenter/EditProfileInformation.html.css"  type="text/css" rel="stylesheet" />
+	</head>
+	<body>
+	 <div class="person">
+	 	<div class="personimg">
+	 		<form id="designerzjPicFormId" method="post" enctype="multipart/form-data">
+				<div style="width:100%;overflow-y:hidden;margin-top: 10px;float: left;" id="fileUploadCollectionPicid">
+					<div class="fileInputContainer" id="headFileInputContainerId">
+				    	<input class="fileInput" type="file" name="designercolPicId" id="designercolPicId"/>
+					</div>
+				</div>
+			</form>
+	 		<!--<img src="img/person1.png"/>-->
+	 	</div>
+	 	<span class="sex" id="spansexId">꽃보다 <i><img src="img/boy.png" /></i></span>
+	 </div>
+	  <div class="personcon">
+	  	  <div class="words">
+	  	  	<textarea id="jjTextId">“컴퓨터가 바둑이나 다른 게임에서 인간을이기느냐 마느냐가 핵심이 아니라, 자의식을 가진 인공지능의 등장이 인간을이기느냐 마느냐가핵심이 아니라, 자의식을 가진 인공지능의 등장이이 아니라, 자의식을 가진 인공지능의 등장이 인간을이기느냐 마느냐가핵심이 아니라, 자의식을 가진 인  공지능의 등장이
+             </textarea>
+	  	  </div>
+	  	  <div class=" message">
+			<p>도시</p>
+			<input class="ping" type="text" placeholder="도시선택" id="provinceNameId"/>
+			<div class="arr1"></div>
+		</div>
+	  	  <div class="province province1">
+			<ul id="designerEditProvinceId">
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>				
+				<li>경기경기경기경</li>
+				<li>경기경기경기경</li>
+				<li>경기</li>
+		</ul>
+		</div>
+		<div class=" message">
+			<p>- 세부 도시</p>
+			<input class="ping" type="text" placeholder="세부도시 선택"  id="pointsCityId"/>
+			<div class="arr2"></div>
+		</div>
+		<div class="province province2">
+			<ul id="designerCityId">
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>				
+				<li>경기경기경기경</li>
+				<li>경기경기경기경</li>
+				<li>경기</li>
+		</ul>		
+		</div>
+		<div class=" message">
+			<p>성별</p>
+			<div class="radio">
+				<input type="hidden" id="radioSexId" />
+				<div class="radiobutton" id="manId">남</div>
+				<div class="radiobutton" id="moverId">여</div>
+		</div>
+		</div>
+		
+		<div class=" message">
+			<p>이메일</p>
+			<input  class="email" type="text"  value="hantu1223@126.com" id="designerEmailId"/>
+		</div>
+		<div class=" message">
+			<p>디자인 경력</p>
+			<div class="danwei">
+			<input  class="last" type="text" value="7" id="designerYearId" /><div class="ping1">년</div>
+			</div>
+		</div>
+			<div class="footbutton">
+				<div class="footL" id="editLID">취소</div>
+				<div class="footR"  id="editRID">저장</div>
+				
+			</div>
+		
+	   </div>
+	
+	</body>
+	<script src="js/core/jquery-3.1.1.min.js"></script>
+	<script src="js/core/address.js"></script>
+	<script src="js/core/config.js"></script>
+	<script src="js/core/common.js"></script>
+	<script src="js/first/personalCenter/EditProfileInformation.js"></script>
+</html>

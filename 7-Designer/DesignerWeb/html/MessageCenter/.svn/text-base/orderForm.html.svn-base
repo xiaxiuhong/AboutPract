@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>消息中心（系统）</title>
+		<link href="css/MessageCenter/orderForm.css" type="text/css" rel="stylesheet" />
+		<script src="js/core/jquery-3.1.1.min.js"></script>
+		<script src="js/MessageCenter/orderForm.js"></script>
+	</head>
+	<body>
+		<!--一级导航-->			
+		 <!--<div class="header">
+	 	<div  class="nav">
+	 		<div class="totleimg">
+	 			<img src="../../img/t1.png" />
+	 		</div>
+	 		   <ul>
+	 	   				<li >프로젝트
+	 	   					<span ></span><i  ></i> 	   					
+	 	   				</li>
+	 	   				<li  id="navcurrent">나의 작품
+	 	   					<span></span><i  class="arrowT"></i> 	   		
+	 	   				</li>
+	 	   				<li>중국통
+	 	   					<span ></span><i ></i> 	   		
+	 	   				</li>
+	 	   				<li>알림
+	 	   					<span ></span><i ></i> 	   		
+	 	   				</li>
+	 	   				<li >나의 정보
+	 	   					<span ></span><i ></i> 
+	 	   				</li>
+	 	   </ul>
+	 	</div>	
+	 </div>		  		  	-->
+		  <!--二级导航-->		  		
+		<div class="navtwo">
+	 	<div  class="navtwoT">
+	 		<p  id="first">메세지</p>
+	 		<p 	class="current" id="seconds">알림</p>
+	 	</div>
+	 </div>
+	 <!--********************************内容**********************************-->
+	 <div class="con">
+	 	<ul>
+	 		<li>
+			 	   <span>금일</span>
+			 	   <p>您的订单13123242343已更新</p>
+			 	     <i>자세히보기</i>
+	 	     </li>
+	 	     <li>
+			 	   <span>금일</span>
+			 	   <p>您的订单13123242343已更新</p>
+			 	     <i>자세히보기</i>
+	 	     </li>
+	 	     <li>
+			 	   <span>2017-01-01</span>
+			 	   <p>您的订单13123242343已更新</p>
+			 	     <i></i>
+	 	     </li>
+	 	     <li>
+			 	   <span>2017-01-01</span>
+			 	   <p>您的订单13123242343已更新</p>
+			 	 <i>자세히보기</i>
+	 	     </li>
+	 	     </ul>
+	 </div>
+	  <!--************分页***************-->
+	   <div class="fenye">
+	   		<ul>
+	   			<li>1</li>
+	   			<li class="footcurrent">2</li>
+	   			<li>3</li>
+	   			<li>下一页</li>
+	   			<li> <span><img src="img/huidown.png"/></span></li>
+	   			
+	   		</ul>
+	   </div>
+	</body>
+</html>

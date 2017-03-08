@@ -1,0 +1,94 @@
+/*公共样式*/
+*{ margin: 0; padding: 0;}
+li{ list-style: none;}
+a{ text-decoration: none;}
+img{ border: none; vertical-align: top;}
+input{ outline: none;}
+textarea{ resize: none;}
+i,em{ font-style: normal;}
+.inner{ width: 1200px; margin: 0 auto;}
+body{ background: #19b29c; font-family: "microsoft yahei";}
+/*头部*/
+/*.headCont{ background: red;height: 187px;}*/
+.headCont{ height: 68px; margin: 49px auto 0;position: relative;}
+.headCont img:nth-of-type(1){ margin-left: 339px; margin-right:17px;}
+.headCont>a{ position: absolute;bottom: 0;right: 190px;font: 16px/26px "microsoft yahei";
+	color: #afff00;}
+/*登录、注册公共样式*/
+.loginBox,.registerBox{ background: #efefef; border:2px solid #dddcdc; border-radius: 2px; }
+/*登录框*/
+.loginBox{ width: 978px; height: 578px; margin:70px auto;}
+.log_tit{ height: 86px; background: #D2E9DF; border-bottom: 2px solid #DDDCDC;padding-left: 57px;
+	font:bold 30px/86px "microsoft yahei"; color: #363636;letter-spacing: 2px;}
+.loginBox form{ height: 324px; width: 742px;margin: 71px auto 95px;}
+.loginBox form>div,.registerBox form>div{display: inline-block; height: 42px; width: 548px; border: 2px solid #DDDCDC; 
+	border-radius: 2px;margin-bottom: 24px;}
+.loginBox form>div:nth-of-type(3){width: 296px;margin-right: 8px;/*position: relative;top: -38px;*/}
+.loginBox form>div span:nth-of-type(1),.registerBox form>div span:nth-of-type(1){ width: 135px; height: 100%; display: inline-block;background: #19b29c;
+	border-right: 2px solid #DDDCDC; font: 19px/42px "microsoft yahei"; color: #fff; text-align: center;}
+.loginBox form>div input,.registerBox form>div input{ height:42px; width: 400px; background: #fff;border: none;position: relative;
+	top: -2px; font-size: 18px; padding-left: 11px;}
+.loginBox form>div:nth-of-type(3) input{ width:148px ;}
+.loginBox .btnYz{ height: 42px; width: 236px; background:#dddcdc; border: none;display: inline-block;
+	position: relative; top: 5px;cursor: pointer; text-align: center;color: blue; font:600 34px/42px arial;
+	letter-spacing: 4px; font-style:italic;}
+.loginBox .log_check{ font: 18px/58px "microsoft yahei"; color: #363636; height: 58px;}
+.log_check>label span{ display: inline-block; padding:0 20px 0 10px;}
+.log_check>a{ color: #19b29c;}
+.logBtn,.resBtn{ height: 44px; width: 231px; background: #ff8902;border: 2px solid #DDDCDC;
+	font:600 20px/44px "microsoft yahei";color: #fff; text-align: center;cursor: pointer;letter-spacing: 1px;}	
+.log_tip,.res_tip{ font: 18px/22px "microsoft yahei"; color: #999999; margin-left: 22px;cursor: pointer;}
+.log_tip>i,.res_tip>i{display: inline-block; height:22px; width: 22px;background: #19b29c; border-radius: 50%;
+	text-align: center;font:600 21px/22px "microsoft yahei"; color: #fff;margin-right: 8px;position: relative;
+	top: 2px;}
+/*.log_tip:nth-of-type(3){ position: relative; top: -14px;}	*/
+/*注册框*/
+.registerBox{ width: 1026px; height: 676px; margin:45px auto 40px;}
+.res_tit{ height: 78px; line-height: 78px;}
+.res_tit>span{ display: inline-block; font:21px/78px "microsoft yahei"; margin-left: 40px;}
+.res_tit>span>i{ display: inline-block; height: 24px; width: 24px; background: #19b29c;border-radius: 50%;
+	font:600 21px/24px "microsoft yahei"; color: #fff; text-align: center;margin-right: 8px;}
+.registerBox form{ height: 500px; width: 736px;margin:52px auto 44px;}
+.registerBox form>div{ margin-bottom: 16px;}
+.resBtn{ width: 380px;}
+.res_job{ width: 552px;display: inline-block;margin-bottom: 40px;height: 46px;}
+.res_job>span{ width: 135px; height: 100%; display: inline-block;background: #19b29c;border: 2px solid #DDDCDC;
+	font: 19px/42px "microsoft yahei"; color: #fff; text-align: center;}
+.res_job>label{ height:42px ; width: 146px;display: inline-block;line-height: 46px;
+	padding-left: 30px; position: relative;top: 5px;}
+.res_job>label span{ display: inline-block;height: 42px; width: 112px; background: #fff;border: 2px solid #DDDCDC;
+	margin-left: 13px; font: 20px/42px "microsoft yahei"; color: #363636; text-align: center;}
+.res_job>label i{ display: inline-block; height: 12px; width: 12px; border-radius: 50%;
+	background: #ffffff; box-shadow: 0 0 0 2px #DDDCDC;position: absolute; left: 30px;top:16px;}
+.res_job>label input:checked~i{ background:#19b29c;}
+.res_job>label input{ opacity: 0;filter: alpha(opacity=0);} 
+.res_tip:nth-of-type(6)>i{ background: #ff8902;}
+.res_check{padding-left: 12px; height: 52px; font: 18px/52px "microsoft yahei"; color: #363636;}
+.res_check>a{color: #19b29c; padding-left: 10px;}
+/*底部*/
+footer ul{ height: 43px;margin-bottom: 103px;}
+footer li{ width: 50%; float: left; font: 18px/43px "microsoft yahei"; color: #fff;}
+footer li:nth-of-type(1) p{ font-size: 23px;padding-left: 250px;}
+footer li:nth-of-type(1) a{ color:#afff00 ; font-size: 18px;}
+footer li:nth-of-type(2) span:nth-of-type(1){ padding-left: 45px;}
+footer li:nth-of-type(2) img:nth-of-type(1){ margin-right: 5px;}
+footer li:nth-of-type(2) i{ font-size: 23px;}
+/*发送成功提示框*/
+.modal{position: fixed;  left: 0; top: 0;  height: 100%;  width: 100%;  background-color: #000;  opacity: 0.2;  filter: alpha(opacity=20);}
+/*渠道编辑弹框*/
+.sucBox,.readBox{ height:465px; width:705px; position: absolute; left:28%; top:12%;text-align: center;
+	background:#ffffff;border-radius:14px; }
+.sucBox>a:nth-of-type(1){ display: block;height: 170px; width: 170px;margin: 70px auto 0;}
+.sucBox>a>img{ height: 100%; width: 100%;}
+.sucBox>p{ font:600 38px/87px "microsoft yahei"; color: #363636;height: 87px;letter-spacing:3px;}
+.sucBox .suc_logBtn{ display: block; font: 24px/96px "microsoft yahei"; color: #19b29c;
+	letter-spacing: 2px; height: 96px;}
+/*阅读协议弹框样式*/
+.readBox h4{height:50px; font:600 20px/50px "microsoft yahei"; background-color: #f7f7f7;border-bottom: 2px solid #DDDCDC;
+	text-indent: 1em; cursor: move; color: #363636; letter-spacing: 2px;border-top-left-radius: 5px;
+		border-top-right-radius: 5px;}
+.readBox .closeBtn{ position: absolute; top:-2px; right:0; color:#999; height:50px; width:50px;
+	 font:30px/50px "microsoft yahei"; text-align: center;}
+.xyCont{ height:320px; width: 645px; margin: 15px auto; border: 2px solid #DDDCDC;overflow: auto;}
+.readBox>button{ padding:5px 20px;margin: 0 20px;}
+

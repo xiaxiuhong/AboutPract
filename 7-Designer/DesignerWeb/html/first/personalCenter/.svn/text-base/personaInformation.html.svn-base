@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>个人中心</title>
+		<link href="css/first/personalCenter/personaInformation.css" type="text/css" rel="stylesheet" />
+	</head>
+	<body>
+	  <div id="bigbox">
+	   <!--个人头像-->
+	    <!--<div class="person" id="person">
+				 	<div class="personimg"><img src="img/person1.png"/></div>
+				 	<p class="sex">꽃보다 <i><img src="img/boy.png" /></i></p>
+	 	     
+	 </div>-->
+	 
+	  
+	<!-- 个人头像描述-->
+	    <!--<div class="personcon">
+	  	  <div class="words">
+	  	  	<textarea>“컴퓨터가 바둑이나 다른 게임에서 인간을이기느냐 마느냐가 핵심이 아니라, 자의식을 가진 인공지능의 등장이 인간을이기느냐 마느냐가핵심이 아니라, 자의식을 가진 인공지능의 등장이이 아니라, 자의식을 가진 인공지능의 등장이 인간을이기느냐 마느냐가핵심이 아니라, 자의식을 가진 인  공지능의 등장이
+             </textarea>
+	  	  </div>-->
+	  	 
+	  	<!--  等级进度条-->
+	  	   <!--<div class="LV">
+	  	  	<div  class="box1"></div>
+	  	  	 	<div  class="box2"></div>
+	  	  	 	<ul>
+	  	  	 		<li>LV1</li>
+	  	  	 		<li>LV2</li>
+	  	  	 		<li>LV3</li>
+	  	  	 		<li>LV4</li>
+	  	  	 		<li>LV5</li>
+	  	  	 		<li>LV6</li>
+	  	  	 	</ul>
+	  	  </div>-->
+	  	 	
+	  	 	<!--擅长领域-->
+	  	 	<!--<div class="check">
+	  	  	<p>나의 작품</p>
+	  	  	<div class="checkcon" id="checkcon">
+	  	  		<ul>
+		  	  		<li><span><img src="img/coffer.png"/></span>카페</li>
+		  	  		<li><span><img src="img/nife.png"/></span>식당</li>
+		  	  		<li><span><img src="img/house.png"/></span>기타상업공간</li>
+	  	  		</ul>
+	  	  	</div>
+	  	  	</div>-->
+	  	  	
+	  	  	<!--所选种类报价清单-->
+	  	  	 <!--<div class="check2">
+	  	  	<p>나의 디자인견적</p>
+	  	  	<div class="listcon">
+	  	  	<ul>
+	  	  		<li><span><img src="img/coffer.png"/>카페</span><p><span>120,000 ~ 200,000</span><span>원 / 평</span></p> </li>
+	  	  		<li><span><img src="img/nife.png"/>카페</span><p><span>120,000 ~ 200,000</span><span>원 / 평</span></p></li>
+	  	  		<li><span><img src="img/house.png"/>카페</span><p><span>120,000 ~ 200,000</span><span>원 / 평</span></p></li>
+	  	  	</ul>
+	  	  	</div>
+	  	  </div>	-->
+	  	 
+        <!--  message信息-->
+      
+	    <!--<div class=" message">
+			<div class="messagecon">
+				<p>나의 이메일</p>
+				<span >frfrjn000@126.com</span>
+			</div>
+		</div>-->
+		
+		 <!--<div class=" message">
+			<div class="messagecon">
+				<p>나의 도시</p>
+				<span >京畿道 水原市</span>
+			</div>
+		</div>-->
+		 
+		 <!--<div class=" message">
+			<div class="messagecon">
+				<p>디자인 견력</p>
+				<span >7<span>년</span></span>
+			</div>
+		</div>
+	    </div>-->
+	     </div>
+	  <!-- **********底部按钮***************-->
+	      <div class="footcon" id="footconID">
+	      	    수정하기
+	      </div>
+   
+	</body>
+	<script src="js/core/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="js/first/personalCenter/personaInformation.js"></script>
+</html>

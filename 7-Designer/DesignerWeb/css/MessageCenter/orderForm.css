@@ -1,0 +1,162 @@
+*{
+				padding: 0;
+				margin: 0;
+				list-style: none;
+			}
+			body{
+				font-size: 16px;
+				font-family: Malgun Gothic;
+			}
+			/*头部、一级导航*/
+			/*.header{
+				width: 100%;
+				height: 55px;
+				background: #303232;	
+			}
+			.header  .nav {
+				width: 850px;
+				height: 55px;	
+				margin: 0 auto;	
+				overflow: hidden;
+			}
+			.nav  .totleimg{
+				width: 110px;
+				height: 55px;
+				float: left;
+			}
+			.nav  li{
+				height: 19px;
+				margin-left: 84px;
+				color: #A7A7A7;
+				font-size: 16px;
+				font-family: sans-serif;
+				float: left;
+				position: relative;
+				margin-top: 20px;
+				cursor: pointer;
+			}
+			.nav  li:hover{
+				color: #FFFFFF;			
+			}
+			.xinxi{
+				width: 6px;
+				height: 6px;
+				border-radius: 50%;				
+				background: #E85B53;
+				position: absolute;
+				top: 0;
+				right: -5px;
+				display: inline-block;
+			}
+			.arrowT{
+				width: 6px;
+				height: 4px;
+				background: url(../../img/arrT.png)  no-repeat center;
+				position: absolute;
+				bottom: -8px;
+				left: 45%;
+			}*/
+			/*二级导航*/
+			.navtwo{
+				width: 100%;
+				height: 110px;
+				background: #F2F2F2;				
+			}
+			.navtwo  .navtwoT {
+				height: 110px;	
+				width: 200px;
+				line-height: 110px;
+				text-align: center;
+				margin: 0 auto;
+			}
+			.navtwoT p{
+				color: #A7A7A7;
+				float: left;
+				cursor: pointer;
+			}
+			.navtwoT p:last-child{
+				float: right;
+			}
+			.navtwoT  .current{
+				color: rgba(49, 50, 50, 1);
+			}
+		/* ********************************内容***********************************/
+		.con{
+			width: 786px;
+		  margin: 0 auto;
+		  overflow: hidden;
+		}
+		.con li{
+				height: 70px;
+				margin: 30px auto 0;
+				border-bottom: 2px solid #E6E6E6;
+			overflow: hidden;
+		}
+		.con span{
+			display: block;
+			color: rgba(141, 141, 141, 1);
+		}
+       .con p{
+       	 float: left;
+       	 margin-top: 15px;
+       
+       }
+      .con i{
+      	display: inline-block;
+      	float: right;
+      	 margin-top: 15px;
+      	 cursor: pointer;
+      	 width: 68px;
+      	 height: 28px;
+      	 line-height: 28px;
+      	 color: #FFFFFF;
+      	  font-style: normal;
+      	 font-size: 12px;
+      	 text-align: center;
+      	 background: url(../../img/message1.png) no-repeat center;
+      }
+      
+        .con i:hover{
+   			background: url(../../img/message2.png) no-repeat center;
+   }
+
+	/***********分页*************/
+   .fenye{
+   		width: 795px;
+   		height: 24px;
+   		margin: 35px auto 167px;
+   }
+    .fenye ul{
+    	float: right;
+    }
+    .fenye ul li{
+    	width: 24px;
+    	height: 24px;
+    	text-align: center;
+    	border: 1px solid #E6E6E6;
+    	float: left;
+    	margin-left: 14px;
+    	color: #abaaaa;
+    	cursor: pointer;
+    }
+     .fenye ul li:nth-child(4){
+     	width: 64px;
+     }
+     .fenye ul li:nth-child(5){
+     	width: 60px;
+     
+     	padding-right: 5px;
+     }
+      .fenye ul li:nth-child(5) span{
+      	 width: 10px;
+        	 height: 6px;
+      	    float: right;
+      		display: inline-block;
+      }
+     .fenye .footcurrent{
+     	background: #78879d;
+     	color: #FFFFFF;
+     }
+
+
+

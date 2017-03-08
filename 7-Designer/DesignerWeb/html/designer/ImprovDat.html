@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Improve the personal data</title>
+		<link href="../../css/personalData/ImprovDat.css"   type="text/css" rel="stylesheet"/>		
+	</head>
+	<body>
+		<div class="head1"></div>
+		<div class="header">
+			<p>개인정보 입력</p>
+		</div>
+		<div class="radio" id="radioDivId">
+			<div class="radioR" id="radioLDivId">
+				개인
+			</div>
+			<div class="radioL" id="radioRDivId">
+				기업
+			</div>
+			
+		</div>
+		<div class=" message">
+			<p>한글 이름</p>
+			<input type="text" placeholder="한글 이름" id="cm_hwNameId"/>
+		</div>
+		<div class=" message">
+			<p>영문 이름</p>
+			<input type="text" placeholder="영문 성-영문 이름" id="cm_EnName"/>			
+		</div>
+		<div class=" message">
+			<p>도시 </p>
+			<input class="ping" type="text" placeholder="한글 이름" id="provinceInputId" readonly="readonly" />
+			<div class="arr1" id="provinceDivId"></div>
+		</div>
+		<div class="province" style="display: none;" id="addressProvinceDivId">
+			<ul id="ulProvinceId">
+				<!--<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>				
+				<li>경기경기경기경</li>
+				<li>경기경기경기경</li>
+				<li>경기</li>-->
+			</ul>
+			
+		</div>
+		<div class=" message">
+			<p>- 세부 도시</p>
+			<input class="ping" type="text" placeholder="한글 이름" id="addressCityInputId" readonly="readonly"  />
+			<div class="arr2" id="CityDivId"></div>
+		</div>
+		<div class="province" style="display: none;" id="addressCityDivId">
+			<ul id="addressCityUlId">
+				<!--<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>				
+				<li>경기경기경기경</li>
+				<li>경기경기경기경</li>
+				<li>경기</li>-->
+		</ul>		
+		</div>
+		<div class=" message">
+			<p>디자인 경력</p>
+			<div class="danwei">
+			<input  class="ping" type="text" placeholder="디자인 경력 연도 입력" id="cm_yearId" /><div class="ping1">년</div>
+			</div>
+		</div>
+		<div class=" message">
+			<p>이메일</p>
+			<input type="text" placeholder="이메일주소 입력" id="cm_emailId"/>
+		</div>
+		<div class=" message last">
+			<p>주민등록증</p>			
+		</div>
+		<div class="IDcard">
+			<div style="" id="zjzDivId">
+				<form id="designerzjPicFormId" method="post" enctype="multipart/form-data">
+					
+					<div style="width:50%;overflow:hidden;margin-top: 10px;margin-left:10px;float: left;" id="fileUploadzjzPicid">
+						<div class="fileInputContainer">
+					    	<input class="fileInput" type="file" name="designerzjzPicId" id="designerzjzPicId" />
+						</div>
+					</div>
+					<div style="width:50%;overflow:hidden;margin-top: 10px;float: left; display: none;" id="fileUploadzjzimgid"></div>
+					<div style="width:50;overflow:hidden;margin-top: 10px; float: right;" id="fileUploadzjfPicid">
+						<div class="fileInputContainer">
+					    	<input class="fileInput" type="file" name="designerzjfPicId" id="designerzjfPicId" />
+						</div>
+					</div>
+					<div style="width:50%;overflow:hidden;margin-top: 10px;float: left; display: none;" id="fileUploadzjfimgid"></div>
+				</form>
+			</div>
+			<div style="display: none;" id="qyzDivId">
+				<form id="qydesignerzjPicFormId" method="post" enctype="multipart/form-data">
+					<div style="width:100%;overflow:hidden;margin-top: 10px;" id="qyfileUploadzjzPicid" align="center">
+						<div class="qyfileInputContainer">
+					    	<input class="qyfileInput" type="file" name="qydesignerzjzPicId" id="qydesignerzjzPicId" />
+						</div>
+					</div>
+					<div style="width:100%;overflow:hidden;margin-top: 10px;display: none;" id="qyfileUploadzjzimgid" align="center"></div>
+				</form>
+			</div>
+			<div class="idbutton" id="submitBtnId"></div>
+		</div>
+		
+		<div class="foot">
+			<img src="../../img/footid.png" />
+		</div>
+	</body>
+	<script src="../../js/core/jquery-3.1.1.min.js"></script>
+	<script src="../../js/core/address.js"></script>
+	<script src="../../js/core/config.js"></script>
+	<script src="../../js/core/common.js"></script>
+	<script src="../../js/designer/designer.js"></script>
+</html>

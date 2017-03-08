@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>中国通详情</title>
+		<link href="../../css/chinaHand/ChineseguideDetail.css" type="text/css" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="count">
+				<div class="top">
+					<p class="name">上海紫藤万象城-Zoo Cafe</p>
+					<p class="data">2016-12-12</p>
+				</div>
+				<img src="../../img/chinesetDetail.png" width="788" height="460"/>
+				<p class="contworder">또한, 지난 5월 소설 ‘개미’로 유명한 베르나르 베르베르가 한국을 방문하여 어느 
+					방송국에인터뷰한 것이 화제가 된 적이 있었습니다. 그는 알파고와 이세돌 기사의 대국 
+					이후 핫이슈로 떠오른 인공지능에 대해서 다음과 같이 말했는데요. “컴퓨터가 바둑이나 다른 
+					게임에서 인간을이기느냐 마느냐가 핵심이 아니라, 자의식을 가진 인공지능의 등장이</p>
+				<img src="../../img/chinesetDetail.png" width="788" height="460"/>
+				<p class="contworder">       약인공지능은 자아를 가지고 있지 않으며 주워진 조건 하에서 지시를
+					 따르는 것이 특징입니다. 아무리 인간 지능의 한계를 시험하는 인공지능이라 하더라도 ‘자아’가 없다면
+					 , 다시 말해 자신이 무엇이고 무엇이 자신을 만들었는지에 대한 철학적 사고를 할 수 없다면, 인간의 통제
+					  하에 움직이는 것이 어렵지 않을 것입니다.하지만, 자아를 지닌 인공지능이라면 이야기가 달라집니다. 인간을
+					   돕는 인공지능이 아니라, 그 인공지능이 인간처럼 자신을 지키는 것을 최우선 순위에 놓는다면 어떨까요?
+                   제대로 된 인공지능이 만들어지기 시작하고 있는데요. 지금 이 시대를 살고 있는 대부분의 사람들은 조만간
+                    인공지능의   시대를 경험하게 될 것입니다. 딥러닝 이후 가까워진	 인공지능의 시대에 우리는 어떻게 대처해야 
+                    할 지 알아볼 필요가 있습니다       
+				</p>
+		
+	    </div>
+	</body>
+</html>

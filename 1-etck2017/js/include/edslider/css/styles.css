@@ -1,0 +1,93 @@
+.container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.container {
+    margin: auto;
+}
+
+.mySlideshow .animated {
+    position: absolute;
+}
+
+.first {
+    background: url("../images/first.jpg") center top no-repeat;
+    background-size: cover;
+}
+
+.first a,
+.first img {
+    display: block;
+}
+
+.first a {
+    top: 80px;
+    left: 39%;
+    margin-left: -165px;
+}
+
+.first div {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 50px;
+    bottom: 80px;
+    left: 39%;
+    width: 320px;
+    text-align: center;
+    margin-left: -160px;
+}
+
+.second {
+    background: url("../images/second.jpg") center top no-repeat;
+    background-size: cover;
+}
+
+.second img {
+    top: 200px;
+    right: 19%;
+}
+
+.third {
+    background: url("../images/third.jpg") center top no-repeat;
+    background-size: cover;
+}
+
+.third img {
+    top: 200px;
+    left: 23%;
+}
+
+.fourth {
+    background: url("../images/fourth.jpg") center top no-repeat;
+    background-size: cover;
+}
+
+.fourth img {
+    top: 320px;
+    right: 8%;
+}
+
+.fifth {
+    background: url("../images/fifth.jpg") center top no-repeat;
+    background-size: cover;
+}
+
+.fifth img {
+    top: 120px;
+    left: 21%;
+}
+
+.six {
+    background: url("../images/six.jpg") center top no-repeat;
+    background-size: cover;
+}
+
+.six img {
+    top: 120px;
+    left: 21%;
+}
+
+.seven {
+    background: url("../images/seven.jpg") center top no-repeat;
+    background-size: cover;
+}

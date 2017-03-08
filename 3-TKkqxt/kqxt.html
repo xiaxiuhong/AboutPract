@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>拓康医疗后台管理系统</title>
+		<link rel="stylesheet" href="css/kqxt.css" />
+		<script type="text/javascript" src="js/jquery-3.1.0.js"></script>
+		<script type="text/javascript" src="js/kqxt_edit.js"></script>
+		<script type="text/javascript" src="js/kqxt_jq.js"></script>
+		<script>
+			$(function(){
+				//4.点击编辑弹出编辑框
+				/*//简介
+				$("#edit_jj").on("click",function(){
+					editBoxJj();
+				});
+				//专家
+				$("#edit_zj").on("click",function(){
+					editBoxZj();
+				});
+				//渠道
+				$("#edit_qd").on("click",function(){
+					editBoxQd();
+				});
+				//资源
+				$("#edit_zy").on("click",function(){
+					editBoxZy();
+				});
+				//物料
+				$("#edit_wl").on("click",function(){
+					editBoxWl();
+				});
+				//讨论
+				$("#edit_tl").on("click",function(){
+					editBoxTl();
+				})*/
+			});
+		</script>
+	</head>
+	<body>
+		<!--头部区域-->
+		<header>
+			<div class="inner">
+				<div class="logo">
+					<img src="images/top_logo.png" alt="" />
+					<img src="images/top_text.png" alt="" />
+				</div>
+				<div class="btn">
+					<a href="javascript:;">登录中心</a>
+					<a href="javascript:;" class="loginOut">退出页面</a>
+				</div>
+			</div>
+		</header>
+		<!--内容区域-->
+		<section>
+			<div class="wrap inner">
+				<!--选项卡-->
+				<div class="tk_tab" id="tab">
+					<div class="tk_left">
+						<!--登录者信息-->
+						<div class="tk_user">
+							<form>
+						    	<label>
+						    		<input class="fileInput" type="file" name="file"/>
+							    	<span class="addPic"><img src="images/left_user_show.png" alt=""/></span>
+						    	</label>
+							</form>
+							<div class="user_name">
+								<a href="javascript:;">用户名</a>
+								<a href="javascript:;" class="loginOut">退出</a>
+							</div>
+						</div>
+						<!--切换列表-->
+						<ul class="tabList">
+				            <li class="ac"><a href="javascript:;">宏康口腔</a></li>
+				            <li><a href="javascript:;">金高口腔</a></li>
+				            <li><a href="javascript:;">曙康口腔</a></li>
+				        </ul>
+					</div>
+					<!--切换内容-->
+					<div class="tabCont">
+						<div class="tabItem">
+							<div class="tk_info_top">
+								<div class="introduce">
+									<div class="int_tit">
+										<span>医院简介</span>
+										<a href="javascript:;" id="edit_jj" onclick='nagHtml("kq_jj.html")'>编辑</a>
+									</div>
+									<div class="int_text">
+										<span><img src="images/yyjj_pic_03.png" alt="" /></span>
+										<div class="yj_text">
+											<p>　上海宏康医院是一家集医疗、预防为一体的现代化大型综合性医院，是上海市医保定点单位（门诊医保+住院医保），价格诚信建设单位。医院建筑高度11层，面积15800平米，紧邻地铁11号线上海西站。医院以技术力量雄厚...</p>
+											<a href="javascript:;">点击访问PC站</a>
+											<a href="javascript:;">点击访问手机站</a>
+										</div>
+									</div>
+									<ul class="int_pic">
+										<li><a href="javascript:;"><img src="images/yyjj_lit_pic01.png" alt="" /></a></li>
+										<li><a href="javascript:;"><img src="images/yyjj_lit_pic02.png" alt="" /></a></li>
+										<li><a href="javascript:;"><img src="images/yyjj_lit_pic03.png" alt="" /></a></li>
+										<li><a href="javascript:;"><img src="images/yyjj_lit_pic04.png" alt="" /></a></li>
+										<li><a href="javascript:;"><img src="images/yyjj_lit_pic05.png" alt="" /></a></li>
+										<li><a href="javascript:;"><img src="images/yyjj_lit_pic06.png" alt="" /></a></li>
+										<li><a href="javascript:;"><img src="images/yyjj_lit_pic07.png" alt="" /></a></li>
+									</ul>
+								</div>
+								<div class="expert">
+									<div class="int_tit">
+										<span>专家板块</span>
+										<a href="javascript:;" id="edit_zj" onclick='nagHtml("http://ck.shskkq.com/")'>编辑</a>
+									</div>
+									<div class="ex_pic">
+										<dl>
+											<dd><img src="images/zjbk_pic01.png" alt="" /></dd>
+											<dt><span>吴长波  </span>/主治医师</dt>
+										</dl>
+										<dl>
+											<dd><img src="images/zjbk_pic02.png" alt="" /></dd>
+											<dt><span>陈洪伟  </span>/主治医师</dt>
+										</dl>
+										<dl>
+											<dd><img src="images/zjbk_pic03.png" alt="" /></dd>
+											<dt><span>周骅  </span>/主治医师</dt>
+										</dl>
+									</div>
+								</div>
+								<div class="channel">
+									<div class="int_tit">
+										<span>渠道</span>
+										<a href="javascript:;" id="edit_qd" onclick='nagHtml("http://baidu.com")'>编辑</a>
+									</div>
+									<ul class="cha_list">
+										<li>
+											<dl>
+												<dt>百度</dt>
+												<dd>账户名</dd>
+												<dd>密码</dd>
+												<dd>绑定电话</dd>
+												<dd>操作人</dd>
+											</dl>
+										</li>
+										<li>
+											<dl>
+												<dt>搜狗</dt>
+												<dd>账户名</dd>
+												<dd>密码</dd>
+												<dd>绑定电话</dd>
+												<dd>操作人</dd>
+											</dl>
+										</li>
+										<li>
+											<dl>
+												<dt>神马</dt>
+												<dd>账户名</dd>
+												<dd>密码</dd>
+												<dd>绑定电话</dd>
+												<dd>操作人</dd>
+											</dl>	
+										</li>
+										<li>
+											<dl>
+												<dt>今日头条</dt>
+												<dd>账户名</dd>
+												<dd>密码</dd>
+												<dd>绑定电话</dd>
+												<dd>操作人</dd>
+											</dl>
+										</li>
+										<li>
+											<dl>
+												<dt>大众美团</dt>
+												<dd>账户名</dd>
+												<dd>密码</dd>
+												<dd>绑定电话</dd>
+												<dd>操作人</dd>
+											</dl>
+										</li>
+										<li>
+											<dl>
+												<dt>拉手</dt>
+												<dd>账户名</dd>
+												<dd>密码</dd>
+												<dd>绑定电话</dd>
+												<dd>操作人</dd>
+											</dl>
+										</li>
+									</ul>
+								</div>
+								<div class="resources">
+									<div class="int_tit">
+										<span>资源</span>
+										<a href="javascript:;" id="edit_zy" onclick='nagHtml("http://baidu.com")'>编辑</a>
+									</div>
+									<ul class="res_list">
+										<li>
+											<dl>
+												<dt>电话</dt>
+												<dd>号码+用途（竞价、优化、地图、咨询）</dd>
+											</dl>
+										</li>
+										<li>
+											<dl>
+												<dt>手机</dt>
+												<dd>152XXXXXXXX</dd>
+											</dl>
+										</li>
+										<li>
+											<dl>
+												<dt>营销QQ</dt>
+												<dd>8695XXXXXXXX</dd>
+											</dl>
+										</li>
+										<li>
+											<dl>
+												<dt>商务通ID</dt>
+												<dd>695XXXXXX</dd>
+											</dl>
+										</li>
+										<li>
+											<dl>
+												<dt>预约系统地址</dt>
+												<dd>http://kqk.shhkyy.com/XXX/</dd>
+											</dl>
+										</li>
+										<li>
+											<dl>
+												<dt>快商通账户名+网址</dt>
+												<dd>XXXXX＋http://kqk.shhkyy.com/ystd/</dd>
+											</dl>
+										</li>
+										<li>
+											<dl>
+												<dt>挂号网账户名+网址</dt>
+												<dd>XXXXXX＋http://kqk.shhkyy.com/ystd/</dd>
+											</dl>
+										</li>
+										<li>
+											<dl>
+												<dt>短信平台账户名+网址</dt>
+												<dd>XXXXX＋http://kqk.shhkyy.com/ystd/</dd>
+											</dl>
+										</li>
+										<li>
+											<dl>
+												<dt>录音系统账户名+网址</dt>
+												<dd>2XXXXＸ＋http://kqk.shhkyy.com/ystd/</dd>
+											</dl>
+										</li>
+										<li>
+											<dl>
+												<dt>微博</dt>
+												<dd>8695XXXXXXXXXX</dd>
+											</dl>
+										</li>
+										<li>
+											<dl>
+												<dt>微信公众号</dt>
+												<dd>XXXXXXXXXX</dd>
+											</dl>
+										</li>
+										<li>
+											<dl>
+												<dt>个人微信号</dt>
+												<dd>152XXXXXXXX</dd>
+											</dl>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="tk_info_bot">
+								<div class="wuliao">
+									<div class="int_tit">
+										<span>物料上传区</span>
+										<a href="javascript:;" id="edit_wl" onclick='nagHtml("http://baidu.com")'>编辑</a>
+									</div>
+									<ul class="wl_list">
+										<li>
+											<dl>
+												<dt>物料名称1</dt>
+												<dd>2017.02.27　21:00</dd>
+												<dd>张三</dd>
+											</dl>
+										</li>
+										<li>
+											<dl>
+												<dt>物料名称1</dt>
+												<dd>2017.02.27　21:00</dd>
+												<dd>张三</dd>
+											</dl>
+										</li>
+										<li>
+											<dl>
+												<dt>物料名称1</dt>
+												<dd>2017.02.27　21:00</dd>
+												<dd>张三</dd>
+											</dl>
+										</li>
+										<li>
+											<dl>
+												<dt>物料名称1</dt>
+												<dd>2017.02.27　21:00</dd>
+												<dd>张三</dd>
+											</dl>
+										</li>
+										<li>
+											<dl>
+												<dt>物料名称1</dt>
+												<dd>2017.02.27　21:00</dd>
+												<dd>张三</dd>
+											</dl>
+										</li>
+										<li>
+											<dl>
+												<dt>物料名称1</dt>
+												<dd>2017.02.27　21:00</dd>
+												<dd>张三</dd>
+											</dl>
+										</li>
+									</ul>
+								</div>
+								<div class="taolun">
+									<div class="int_tit">
+										<span>内部讨论区</span>
+										<a href="javascript:;" id="edit_tl" onclick='nagHtml("http://baidu.com")'>编辑</a>
+									</div>
+									<ul class="tl_list">
+										<li><a href="javascript:;"><span>[置顶]</span>5555555</a></li>
+										<!--<li><a href="javascript:;">555</a></li>
+										<li><a href="javascript:;">555</a></li>
+										<li><a href="javascript:;">555</a></li>
+										<li><a href="javascript:;">555</a></li>
+										<li><a href="javascript:;">555</a></li>
+										<li><a href="javascript:;">555</a></li>
+										<li><a href="javascript:;">555</a></li>-->
+									</ul>
+								</div>
+							</div>
+						</div>
+						
+						<div class="tabItem hide">金高11111111</div>
+						<div class="tabItem hide">曙康333333333333333333</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--编辑弹框-->
+		<!--<div class="editBox" style="display: none;" id="editB">
+			
+		</div>-->
+		<!--底部区域-->
+		<footer>
+			<div class="foot_text"><img src="images/foot_text.png" alt="" /></div>
+			<div class="foot_bg"></div>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,728 @@
+/* CSS Document */
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+table,
+th,
+td {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: fixed;
+}
+
+body {
+    font-family: "Microsoft YaHei";
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+fieldset,
+img,
+action {
+    vertical-align: top;
+    border: 0px;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+img {
+    border: 0;
+}
+
+.none {
+    display: none;
+}
+
+.linespace {
+    height: 10px;
+    clear: both;
+    line-height: 10px;
+    overflow: hidden;
+    font-size: 0px;
+}
+
+.clear {
+    clear: both;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #666;
+}
+
+
+/*top*/
+
+.topf .width {
+    width: 1180px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.topf {
+    width: 100%;
+    height: 79px;
+    margin: 0 auto;
+    background: #fff;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.topf .top {
+    height: 78px;
+    width: 1180px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.topf .top h2 {
+    float: left;
+    padding: 15px 25px 0 0;
+}
+
+.topf .top h3 {
+    float: left;
+    padding-top: 40px;
+    padding-right: 230px;
+}
+
+.topf .top ul {
+    float: right;
+    font-size: 16px;
+}
+
+.topf .top ul li {
+    float: left;
+}
+
+.topf .top ul li a {
+    padding: 0 20px;
+    height: 79px;
+    display: block;
+    float: left;
+    font-size: 18px;
+    line-height: 79px;
+}
+
+.topf .top ul li a:hover {
+    color: #007aaa;
+}
+
+
+/*top*/
+
+.width {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.top {
+    height: 90px;
+    background: #f2f2f2;
+}
+
+.top h2 {
+    float: left;
+    padding: 25px 25px 0 0;
+}
+
+.top h3 {
+    float: left;
+    padding-top: 40px;
+    padding-right: 230px;
+}
+
+.top ul {
+    float: right;
+    font-size: 16px;
+}
+
+.top ul li {
+    float: left;
+}
+
+.top ul li a {
+    padding: 0 13px;
+    height: 90px;
+    display: block;
+    float: left;
+    line-height: 90px
+}
+
+
+/*banner*/
+
+.banner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 321px;
+}
+
+.banner img {
+    position: absolute;
+    width: 2000px;
+    left: 50%;
+    top: 0;
+    margin-left: -1000px;
+    z-index: 1;
+    height: 321px;
+}
+
+
+/*ͷ������*/
+
+.meizu-header-sub {
+    z-index: 100;
+    display: none;
+    width: 100%;
+    position: absolute;
+    background: #fff;
+}
+
+.sub_nav_div_h3 {
+    font-size: 16px;
+    color: #666;
+    font-weight: bold;
+    padding-top: 18px;
+    letter-spacing: 2px;
+    line-height: 28px;
+}
+
+.sub_nav_ul a:hover .sub_nav_div_h3 {
+    color: #c49664;
+}
+
+.sub_nav_ul {
+    font-size: 14px;
+    float: left;
+    width: 180px;
+    padding: 10px;
+}
+
+.sub_nav_ul li {
+    padding-top: 0px;
+    line-height: 24px;
+    float: left;
+    padding: 3px;
+}
+
+.sub_nav_ul li a {
+    color: #727171;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.sub_nav_ul li a:hover {
+    color: #be9e7f;
+    text-decoration: none
+}
+
+.sub_nav_ul font a {
+    color: #347fa7;
+}
+
+.xiangmunr_div {
+    width: 1180px;
+    margin: 0 auto;
+    background: #fff;
+    text-align: center;
+}
+
+.xiangmunr h3 {
+    font-size: 18px;
+    padding-bottom: 15px;
+    font-weight: 100;
+    color: #666464
+}
+
+.xiangmunr h3 a {
+    font-size: 16px;
+    color: #898989
+}
+
+.xiangmunr li {
+    width: 70px;
+    text-align: center;
+    display: inline-block;
+    margin: 0 33px;
+}
+
+.xiangmunr li a {
+    width: 70px;
+    height: 150px;
+    display: block;
+    padding-top: 40px;
+}
+
+.xiangmunr li p {
+    font-size: 16px;
+    color: #666464;
+    padding-top: 10px;
+}
+
+.xiangmunr li.bbp p {
+    color: #1574a0;
+}
+
+.ppjs1,
+.ppjs2,
+.ppjs3,
+.ppjs4,
+.ppjs5,
+.ppjs6,
+.ppjs7,
+.ppjs8 {
+    background: url(../Images/ppdhtb.png) no-repeat;
+    display: block;
+    width: 71px;
+    height: 71px;
+}
+
+.xiangmunr li a .ppjs1 {
+    background-position: 0 0;
+}
+
+.xiangmunr li a .ppjs2 {
+    background-position: -71px 0;
+}
+
+.xiangmunr li a .ppjs3 {
+    background-position: -142px 0;
+}
+
+.xiangmunr li a .ppjs4 {
+    background-position: -213px 0;
+}
+
+.xiangmunr li a .ppjs5 {
+    background-position: -284px 0;
+}
+
+.xiangmunr li a .ppjs6 {
+    background-position: -355px 0;
+}
+
+.xiangmunr li a .ppjs7 {
+    background-position: -426px 0;
+}
+
+.xiangmunr li a .ppjs8 {
+    background-position: -497px 0;
+}
+
+.xiangmunr li.bbp a .ppjs1 {
+    background-position: 0 -70px;
+}
+
+.xiangmunr li.bbp a .ppjs2 {
+    background-position: -71px -70px;
+}
+
+.xiangmunr li.bbp a .ppjs3 {
+    background-position: -142px -70px;
+}
+
+.xiangmunr li.bbp a .ppjs4 {
+    background-position: -213px -70px;
+}
+
+.xiangmunr li.bbp a .ppjs5 {
+    background-position: -284px -70px;
+}
+
+.xiangmunr li.bbp a .ppjs6 {
+    background-position: -355px -70px;
+}
+
+.xiangmunr li.bbp a .ppjs7 {
+    background-position: -426px -70px;
+}
+
+.xiangmunr li.bbp a .ppjs8 {
+    background-position: -497px -70px;
+}
+
+
+/*�Һ�ƽ̨*/
+
+#h_zxpt {
+    width: 100%;
+    height: 581px;
+    background: url(../Images/h_zxpt_bg.jpg) no-repeat center top;
+}
+
+#h_zxpt .h_zxpt {
+    width: 1180px;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#h_zxpt .h_left {
+    width: 573px;
+    height: 407px;
+    background: url(../Images/h_zxpt_bg.png) no-repeat left top;
+    float: left;
+    margin-top: 93px;
+}
+
+#h_zxpt .h_left dl {
+    width: 505px;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+#h_zxpt .h_left dl dt h6 {
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    font-size: 26px;
+    color: #00a064;
+    border-bottom: 1px solid #00a064;
+    margin-top: 20px;
+    font-weight: normal;
+}
+
+#h_zxpt .h_left dl dt p {
+    width: 100%;
+    padding: 5px 0 30px 0;
+    font-size: 20px;
+    color: #4f4f4f;
+    text-align: center;
+}
+
+#h_zxpt .h_left dl dd.dd_01 {
+    width: 453px;
+    height: 90px;
+    background: url(../Images/h_zxpt_01.jpg) no-repeat left top;
+    margin: 0 auto;
+}
+
+#h_zxpt .h_left dl dd.dd_01 p {
+    width: 260px;
+    height: auto;
+    padding-top: 10px;
+    float: left;
+    margin-left: 110px;
+    color: #94a2ab;
+    font-size: 15px;
+}
+
+#h_zxpt .h_left dl dd.dd_01 a {
+    width: 78px;
+    height: 77px;
+    overflow: hidden;
+    display: block;
+    float: right;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+}
+
+#h_zxpt .h_left dl dd.dd_01 a span {
+    height: auto;
+    display: block;
+    padding-top: 17px;
+    overflow: hidden;
+}
+
+#h_zxpt .h_left dl dd.dd_02 {
+    width: 367px;
+    height: 32px;
+    background: url(../Images/lxb_bg.jpg) no-repeat left top;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+#h_zxpt .h_left dl dd.dd_02 input.a1 {
+    width: 250px;
+    height: 32px;
+    line-height: 32px;
+    text-indent: 38px;
+    border: none;
+    background: none;
+    float: left;
+    outline: none;
+    color: #b2b2b2;
+}
+
+#h_zxpt .h_left dl dd.dd_02 input.a2 {
+    width: 115px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    border: none;
+    background: none;
+    float: left;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+#h_zxpt .h_left dl dd.dd_03 {
+    text-align: center;
+}
+
+#h_zxpt .h_left dl dd.dd_03 p {
+    font-size: 20px;
+    color: #00a064;
+    padding: 10px 0 5px 0;
+}
+
+#h_zxpt .h_left dl dd.dd_03 span {
+    color: #b2b2b2;
+}
+
+#h_zxpt .h_right {
+    width: 573px;
+    height: 407px;
+    background: #FFF;
+    float: right;
+    margin-top: 93px;
+    background: url(../Images/h_zxpt_bg2.png) no-repeat left top;
+}
+
+#h_zxpt .h_right dl {
+    width: 505px;
+    height: auto;
+    margin: 0 auto;
+}
+
+#h_zxpt .h_right dl dt {
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    font-size: 26px;
+    color: #00a064;
+    border-bottom: 1px solid #00a064;
+    margin-top: 20px;
+}
+
+#h_zxpt .h_right dl dd {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    margin-top: 14px;
+}
+
+#h_zxpt .h_right dl dd .text {
+    width: 136px;
+    height: 21px;
+    line-height: 21px;
+    border: 1px solid #b4b4b4;
+    text-indent: 10px;
+}
+
+#h_zxpt .h_right dl dd .text2 {
+    width: 36px;
+    height: 21px;
+    line-height: 21px;
+    border: 1px solid #b4b4b4;
+}
+
+#h_zxpt .h_right dl dd .text3 {
+    width: 149px;
+    height: 21px;
+    line-height: 21px;
+    border: 1px solid #b4b4b4;
+    text-align: left;
+}
+
+#h_zxpt .h_right dl dd .text4 {
+    width: 25px;
+    height: 21px;
+    line-height: 21px;
+    border: 1px solid #b4b4b4;
+    text-align: center;
+}
+
+#h_zxpt .h_right dl dd textarea {
+    width: 400px;
+    height: 69px;
+    border: 1px solid #b4b4b4;
+    float: left;
+    line-height: 22px;
+    font-size: 13px;
+    text-indent: 10px;
+}
+
+#h_zxpt .h_right dl dd p {
+    float: left;
+}
+
+#h_zxpt .h_right dl dd .submit {
+    width: 133px;
+    height: 33px;
+    background: #00a064;
+    line-height: 33px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+}
+
+
+/*#footer {
+    width: 100%;
+    overflow: hidden;
+    padding-top: 50px;
+    background: #fff;
+    padding-bottom: 20px;
+    border-top: 1px solid #f2f2f2;
+}
+
+#footer .f_top {
+    width: 1180px;
+    height: 210px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+#footer .f_top dl {
+    width: 295px;
+    height: 165px;
+    overflow: hidden;
+    float: left;
+    overflow: hidden;
+}
+
+#footer .f_top dl dt {
+    width: 140px;
+    height: 165px;
+    float: left;
+}
+
+#footer .f_top dl dt a {
+    display: block;
+    width: 140px;
+    height: 94px;
+    margin-top: 0px;
+}
+
+#footer .f_top dl dt a p {
+    width: 100%;
+    text-align: center;
+    padding-top: 74px;
+    font-size: 16px;
+}
+
+#footer .f_top dl dt a.a1 {
+    background: url(../Images/foot_gozzy1.png) no-repeat center top;
+}
+
+#footer .f_top dl dt a.a2 {
+    background: url(../Images/foot_gozzy2.png) no-repeat center top;
+}
+
+#footer .f_top dl dt a.a3 {
+    background: url(../Images/foot_gozzy3.png) no-repeat center top;
+}
+
+#footer .f_top dl dt a.a4 {
+    background: url(../Images/foot_gozzy4.png) no-repeat center top;
+}
+
+#footer .f_top dl dd {
+    width: 154px;
+    height: 165px;
+    float: left;
+    border-right: 1px solid #eee;
+    text-align: center;
+}
+
+#footer .f_top dl dd ul {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding-top: 0px;
+    margin-top: -8px;
+}
+
+#footer .f_top dl dd ul li {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    text-align: left;
+}
+
+#footer .f_top dl dd ul li a {
+    letter-spacing: 0px;
+    text-align: left;
+    font-size: 14px;
+}
+
+#footer .f_top dl dd ul li a:hover {
+    color: #1474a0;
+}
+
+#footer .f_bottom {
+    width: 1180px;
+    height: 242px;
+    background: #FF0;
+    margin: 0px auto;
+    background: url(../Images/f_logon1.png) no-repeat center top;
+}
+
+#footer .f_bottom .fott_wz {
+    width: 1180px;
+    height: 75px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-top: 120px;
+    text-align: center;
+    font-size: 14px;
+    color: #666464;
+    line-height: 30px;
+}
+
+#footer .f_bottom ul li {
+    color: #828282;
+    height: 25px;
+}
+
+#footer .f_bottom ul li a:hover {
+    text-decoration: underline;
+}*/

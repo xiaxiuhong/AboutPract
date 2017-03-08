@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>我的订单上传资料</title>
+		<link href="../../../css/first/my order/myOrderupload.css" rel="stylesheet" type="text/css" />
+		<script src="../../../js/first/jquery-3.1.1.min.js"></script>
+	</head>
+	<body>
+			<!--一级导航-->			
+		 <div class="header">
+	 	<div  class="nav">
+	 		<div class="totleimg">
+	 			<img src="../../../img/t1.png"/>
+	 		</div>
+	 		   <ul>
+	 	   				<li >프로젝트
+	 	   					<span ></span><i  ></i> 	   					
+	 	   				</li>
+	 	   				<li>나의 작품
+	 	   					<span ></span><i ></i> 	   		
+	 	   				</li>
+	 	   				<li>중국통
+	 	   					<span ></span><i ></i> 	   		
+	 	   				</li>
+	 	   				<li>알림
+	 	   					<span ></span><i ></i> 	   		
+	 	   				</li>
+	 	   				<li id="navcurrent">나의 정보
+	 	   					<span ></span><i class="arrowT"></i> 
+	 	   				</li>
+	 	   </ul>
+	 	</div>	
+	 </div>
+		  		  	
+		  <!--二级导航-->		  
+		
+		<div class="navtwo">
+	 	<div  class="navtwoT">
+	 		   <ul>
+	 	   				<li >나의 정보
+	 	   				    <i  ></i> 	   					
+	 	   				</li>
+	 	   				<li id="navtwocurrent">나의 프로젝트
+	 	   					<i class="arrowD"></i> 
+	 	   				</li>
+	 	   				<li>나의 포인트
+	 	   				     <i ></i> 	   		
+	 	   				</li>
+	 	   				<li>고객평가
+	 	   					  <i ></i> 	   		
+	 	   				</li>	 	   				
+	 	   </ul>
+	 	</div>	
+	 </div>
+	<!-- ***********************上传资料******************************-->
+	 <div class=" Info">
+	 		<ul>
+	 			<li>No.234384</li>
+	 			<li>카페, 상하이, 121평.</li>
+	 			<li>가격：1,000원 / 평</li>
+	 			<li>마감 되였습니다.</li>
+	 		</ul>
+	 </div>
+	 <div class="plan">
+	 	<p>디자인 참여 신청되였습니다.2017년3월9일까지한투인 홈페이지에서 디자인 참여 자료 올려주시기 바랍니다.</p>
+	 	<span><img  src="../../../img/plan.png"/></span>
+	 </div>
+	<!-- **********************日期显示框***************************-->
+	 <div class="data">
+	 	<p>
+	 			<span>■ 디자인 요청</span>
+	 			<span>2016-12-12</span>		
+	 	</p>
+	 	<div class="dataword">
+	 		<p>공연을 마친 이센스는 다음 앨범은 믹스테잎 형태로 발표될 것이라며 제목은 ‘이방인’이라고 귀띔했다. 발매 시기는 올해 상반기가 될 것으로 보인다.<br /> 
+이센스는 대마초 흡연 혐의로 1년6개월 간 복역한 뒤 지난해 10월 출소했다. 옥중 발매한 ‘디 애넥도트’로 지난해 2월 ‘제13회 한국대중음악상’에서 올해의 음반상 등을 받아 화제가 됐다. </p>
+	 	</div>
+	 </div>
+	 	<!--********************下载按钮*****************-->
+	 <div class="xiazai">
+	 	<p>
+	 			<span>■ 현장사진</span>
+	 			<span>현장사진 원본파일</span>		
+	 	</p>
+	 	</div>
+	 	<!--************************************轮播图1*******************************************-->
+	 	  	<!-- 代码begin -->
+<div class="ban" id="demo1">
+	<div class="ban2" id="ban_pic1">
+		<div class="prev1" id="prev1"><img src="../../../img/bannerR.png" width= "64" height="64"  alt=""/></div>
+		<div class="next1" id="next1"><img src="../../../img/bannerL.png"  width="64" height="64"  alt=""/></div>
+		<ul>
+			<li><a href="javascript:;"><img src="../../../img/bannner1.png" width="786" height="590" alt=""/></a></li>
+			<li><a href="javascript:;"><img src="../../../img/bannner1.png" width="786" height="590" alt=""/></a></li>
+			<li><a href="javascript:;"><img src="../../../img/bannner1.png" width="786" height="590" alt=""/></a></li>
+			<li><a href="javascript:;"><img src="../../../img/bannner1.png"  width="786" height="590" alt=""/></a></li>
+			<li><a href="javascript:;"><img src="../../../img/bannner1.png" width="786" height="590" alt=""/></a></li>
+			<li><a href="javascript:;"><img src="../../../img/bannner1.png" width="786" height="590" alt=""/></a></li>
+			<li><a href="javascript:;"><img src="../../../img/bannner1.png" width="786" height="590" alt=""/></a></li>
+			<li><a href="javascript:;"><img src="../../../img/bannner1.png" width="786" height="590" alt=""/></a></li>
+			<li><a href="javascript:;"><img src="../../../img/bannner1.png" width="786" height="590" alt=""/></a></li>
+			<li><a href="javascript:;"><img src="../../../img/bannner1.png" width="786" height="590" alt=""/></a></li>
+		</ul>
+	</div>
+	<div class="min_pic">
+		<div class="prev_btn1" id="prev_btn1"><img src="../../../img/feel3.png" width="9" height="18"  alt=""/></div>
+		<div class="num clearfix" id="ban_num1">
+			<ul>
+				<li><a href="javascript:;"><img src="../../../img/bannnersmall.png"    width="97"  height="74" alt=""/></a></li>
+				<li><a href="javascript:;"><img src="../../../img/bannnersmall.png"     width="97" height="74" alt=""/></a></li>
+				<li><a href="javascript:;"><img src="../../../img/bannnersmall.png"		 width="97" height="74" alt=""/></a></li>
+				<li><a href="javascript:;"><img src="../../../img/bannnersmall.png"		 width="97" height="74" alt=""/></a></li>
+				<li><a href="javascript:;"><img src="../../../img/bannnersmall.png"		 width="97" height="74" alt=""/></a></li>
+				<li><a href="javascript:;"><img src="../../../img/bannnersmall.png"		 width="97" height="74" alt=""/></a></li>
+				<li><a href="javascript:;"><img src="../../../img/bannnersmall.png"		width="97" height="74" alt=""/></a></li>
+				<li><a href="javascript:;"><img src="../../../img/bannnersmall.png"		 width="97" height="74" alt=""/></a></li>
+				<li><a href="javascript:;"><img src="../../../img/bannnersmall.png"		width="97" height="74" alt=""/></a></li>
+				<li><a href="javascript:;"><img src="../../../img/bannnersmall.png"		width="97" height="74" alt=""/></a></li>
+			</ul>
+		</div>
+		<div class="next_btn1" id="next_btn1"><img src="../../../img/feel4.png" width="9" height="18"  alt=""/></div>
+	</div>
+</div>
+
+<div class="mhc"></div>
+
+<div class="pop_up" id="demo2">
+	<div class="pop_up_xx"><img src="../../../img/chacha3.png" width="40" height="40"  alt=""/></div>
+	<div class="pop_up2" id="ban_pic2">
+		<div class="prev1" id="prev2"><img src="../../../img/bannerR.png"  width="64"  height="64"  alt=""/></div>
+		<div class="next1" id="next2"><img src="../../../img/bannerL.png"   width="64"  height="64" alt=""/></div>
+		<ul>
+			<li><a href="javascript:;"><img src="../../../img/bannner1.png" width="786" height="590" alt=""/></a></li>
+			<li><a href="javascript:;"><img src="../../../img/bannner1.png" width="786" height="590" alt=""/></a></li>
+			<li><a href="javascript:;"><img src="../../../img/bannner1.png" width="786" height="590" alt=""/></a></li>
+			<li><a href="javascript:;"><img src="../../../img/bannner1.png" width="786" height="590" alt=""/></a></li>
+			<li><a href="javascript:;"><img src="../../../img/bannner1.png" width="786" height="590" alt=""/></a></li>
+			<li><a href="javascript:;"><img src="../../../img/bannner1.png" width="786" height="590" alt=""/></a></li>
+			<li><a href="javascript:;"><img src="../../../img/bannner1.png" width="786" height="590" alt=""/></a></li>
+			<li><a href="javascript:;"><img src="../../../img/bannner1.png" width="786" height="590" alt=""/></a></li>
+			<li><a href="javascript:;"><img src="../../../img/bannner1.png" width="786" height="590" alt=""/></a></li>
+			<li><a href="javascript:;"><img src="../../../img/bannner1.png" width="786" height="590" alt=""/></a></li>
+		</ul>
+	</div>
+</div>
+	<script src="../../../js/first/pic_tab.js"></script>
+	<script type="text/javascript">
+	jq('#demo1').banqh({
+		box:"#demo1",//总框架
+		pic:"#ban_pic1",//大图框架
+		pnum:"#ban_num1",//小图框架
+		prev_btn:"#prev_btn1",//小图左箭头
+		next_btn:"#next_btn1",//小图右箭头
+		pop_prev:"#prev2",//弹出框左箭头
+		pop_next:"#next2",//弹出框右箭头
+		prev:"#prev1",//大图左箭头
+		next:"#next1",//大图右箭头
+		pop_div:"#demo2",//弹出框框架
+		pop_pic:"#ban_pic2",//弹出框图片框架
+		pop_xx:".pop_up_xx",//关闭弹出框按钮
+		mhc:".mhc",//朦灰层
+		autoplay:true,//是否自动播放
+		interTime:5000,//图片自动切换间隔
+		delayTime:400,//切换一张图片时间
+		pop_delayTime:400,//弹出框切换一张图片时间
+		order:0,//当前显示的图片（从0开始）
+		picdire:true,//大图滚动方向（true为水平方向滚动）
+		mindire:true,//小图滚动方向（true为水平方向滚动）
+		min_picnum:7,//小图显示数量
+		pop_up:true//大图是否有弹出框
+	})
+</script>
+<!-- 代码end -->
+	<!--********************第二个下载按钮*****************-->
+	 <div class="xiazai">
+	 	<p>
+	 			<span>■ 현장사진</span>
+	 			<span>현장사진 원본파일</span>		
+	 	</p>
+	 	</div>
+	 	<!--************************************轮播图2*******************************************-->
+	 	 	<!-- 代码begin -->
+<div class="ban" id="demo1">
+	<div class="ban2" id="ban_pic1">
+		<div class="prev1" id="prev1"><img src="../../../img/bannerR.png" width= "64" height="64"  alt=""/></div>
+		<div class="next1" id="next1"><img src="../../../img/bannerL.png"  width="64" height="64"  alt=""/></div>
+		<ul>
+			<li><a href="javascript:;"><img src="../../../img/bannner1.png" width="786" height="590" alt=""/></a></li>
+			<li><a href="javascript:;"><img src="../../../img/bannner1.png" width="786" height="590" alt=""/></a></li>
+			<li><a href="javascript:;"><img src="../../../img/bannner1.png" width="786" height="590" alt=""/></a></li>
+			<li><a href="javascript:;"><img src="../../../img/bannner1.png"  width="786" height="590" alt=""/></a></li>
+			<li><a href="javascript:;"><img src="../../../img/bannner1.png" width="786" height="590" alt=""/></a></li>
+			<li><a href="javascript:;"><img src="../../../img/bannner1.png" width="786" height="590" alt=""/></a></li>
+			<li><a href="javascript:;"><img src="../../../img/bannner1.png" width="786" height="590" alt=""/></a></li>
+			<li><a href="javascript:;"><img src="../../../img/bannner1.png" width="786" height="590" alt=""/></a></li>
+			<li><a href="javascript:;"><img src="../../../img/bannner1.png" width="786" height="590" alt=""/></a></li>
+			<li><a href="javascript:;"><img src="../../../img/bannner1.png" width="786" height="590" alt=""/></a></li>
+		</ul>
+	</div>
+	<div class="min_pic">
+		<div class="prev_btn1" id="prev_btn1"><img src="../../../img/feel3.png" width="9" height="18"  alt=""/></div>
+		<div class="num clearfix" id="ban_num1">
+			<ul>
+				<li><a href="javascript:;"><img src="../../../img/bannnersmall.png"    width="97"  height="74" alt=""/></a></li>
+				<li><a href="javascript:;"><img src="../../../img/bannnersmall.png"     width="97" height="74" alt=""/></a></li>
+				<li><a href="javascript:;"><img src="../../../img/bannnersmall.png"		 width="97" height="74" alt=""/></a></li>
+				<li><a href="javascript:;"><img src="../../../img/bannnersmall.png"		 width="97" height="74" alt=""/></a></li>
+				<li><a href="javascript:;"><img src="../../../img/bannnersmall.png"		 width="97" height="74" alt=""/></a></li>
+				<li><a href="javascript:;"><img src="../../../img/bannnersmall.png"		 width="97" height="74" alt=""/></a></li>
+				<li><a href="javascript:;"><img src="../../../img/bannnersmall.png"		width="97" height="74" alt=""/></a></li>
+				<li><a href="javascript:;"><img src="../../../img/bannnersmall.png"	 width="97" height="74" alt=""/></a></li>
+				<li><a href="javascript:;"><img src="../../../img/bannnersmall.png"		width="97" height="74" alt=""/></a></li>
+				<li><a href="javascript:;"><img src="../../../img/bannnersmall.png"		width="97" height="74" alt=""/></a></li>
+			</ul>
+		</div>
+		<div class="next_btn1" id="next_btn1"><img src="../../../img/feel4.png" width="9" height="18"  alt=""/></div>
+	</div>
+</div>
+
+<div class="mhc"></div>
+
+<div class="pop_up" id="demo2">
+	<div class="pop_up_xx"><img src="../../../img/chacha3.png" width="40" height="40"  alt=""/></div>
+	<div class="pop_up2" id="ban_pic2">
+		<div class="prev1" id="prev2"><img src="../../../img/bannerR.png"  width="64"  height="64"  alt=""/></div>
+		<div class="next1" id="next2"><img src="../../../img/bannerL.png"   width="64"  height="64" alt=""/></div>
+		<ul>
+			<li><a href="javascript:;"><img src="../../../img/bannner1.png" width="786" height="590" alt=""/></a></li>
+			<li><a href="javascript:;"><img src="../../../img/bannner1.png" width="786" height="590" alt=""/></a></li>
+			<li><a href="javascript:;"><img src="../../../img/bannner1.png" width="786" height="590" alt=""/></a></li>
+			<li><a href="javascript:;"><img src="../../../img/bannner1.png" width="786" height="590" alt=""/></a></li>
+			<li><a href="javascript:;"><img src="../../../img/bannner1.png" width="786" height="590" alt=""/></a></li>
+			<li><a href="javascript:;"><img src="../../../img/bannner1.png" width="786" height="590" alt=""/></a></li>
+			<li><a href="javascript:;"><img src="../../../img/bannner1.png" width="786" height="590" alt=""/></a></li>
+			<li><a href="javascript:;"><img src="../../../img/bannner1.png"width="786" height="590" alt=""/></a></li>
+			<li><a href="javascript:;"><img src="../../../img/bannner1.png" width="786" height="590" alt=""/></a></li>
+			<li><a href="javascript:;"><img src="../../../img/bannner1.png" width="786" height="590" alt=""/></a></li>
+		</ul>
+	</div>
+</div>
+	<!--<script src="../../../js/first/pic_tab.js"></script>
+	<script type="text/javascript">
+	jq('#demo1').banqh({
+		box:"#demo1",//总框架
+		pic:"#ban_pic1",//大图框架
+		pnum:"#ban_num1",//小图框架
+		prev_btn:"#prev_btn1",//小图左箭头
+		next_btn:"#next_btn1",//小图右箭头
+		pop_prev:"#prev2",//弹出框左箭头
+		pop_next:"#next2",//弹出框右箭头
+		prev:"#prev1",//大图左箭头
+		next:"#next1",//大图右箭头
+		pop_div:"#demo2",//弹出框框架
+		pop_pic:"#ban_pic2",//弹出框图片框架
+		pop_xx:".pop_up_xx",//关闭弹出框按钮
+		mhc:".mhc",//朦灰层
+		autoplay:true,//是否自动播放
+		interTime:5000,//图片自动切换间隔
+		delayTime:400,//切换一张图片时间
+		pop_delayTime:400,//弹出框切换一张图片时间
+		order:0,//当前显示的图片（从0开始）
+		picdire:true,//大图滚动方向（true为水平方向滚动）
+		mindire:true,//小图滚动方向（true为水平方向滚动）
+		min_picnum:7,//小图显示数量
+		pop_up:true//大图是否有弹出框
+	})
+</script>-->
+<!-- 代码end -->
+	 	<div class="allload">
+	 		<img src="../../../img/allxiazai.png" />
+	 	</div>
+	</body>
+</html>

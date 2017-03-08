@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>login</title>
+		<link href="css/login/login.css" type="text/css" rel="stylesheet" />
+		<link href="css/common/common.css" type="text/css" rel="stylesheet" />
+	</head>
+	<body>
+		<div align="center" style="width:100%;margin: 0px;" id="loginDivId">
+			<table style="width:100%;height:100%;border: 0px;" cellspacing="0" cellpadding="0">
+				<tr align="center">
+					<td>
+						<div class="boxlogin" align="left">
+							<div class="top">
+								<div class="toptitle">
+									<p></p>
+									<p>한투인 회원가입</p>
+								</div>
+							</div>
+							<div class="topcon">
+								<div class="conword">
+									<p>960만 평방메터! 정말 큽니다…</p>
+									<p>GDP 14.5만억불! 아주 대단합니다.</p>
+									<p>13억 인구! 멀 해도 될것 같네요.</p>
+									<p>이 어려운걸 한투인이 해내겠습니다.</p>
+									<p>대륙의스케일,억! 소리나게디자인하세요. </p>
+								</div>
+								<div class="logincon">
+									<div class="selectTel">
+										<form>
+											<label>
+												<input type="radio" name="Areacode" value="+82 대한민국" checked="checked"/>
+												<span><i>+82 대한민국</i></span>
+											</label>
+											<label>
+												<input type="radio" name="Areacode" value="+86 중국"/>
+												<span><i>+86 중국</i></span>
+											</label>
+										</form>
+									</div>
+									<div class="phone">
+										<input type="text" placeholder="휴대폰번호 입력 010-1234 5678" id="loginPhoneId"/>
+									</div>
+									<div class="YZM">
+										<input type="text" placeholder="인증 코드 입력" id="yzmInputId" />
+										<a href="#" id="yzBtnId">
+											<div class="yam">인증코드 받기</div>
+											<div class="yzmy">
+												<p><span>40</span><span>'s后重发</span></p>
+											</div>
+										</a>
+									</div>
+									<div class="error">
+										<p>오류: 전화번호 자릿수 확인하세요.</p>
+									</div>
+									<div class="buttonL" id="loginId">
+										회원가입하기
+									</div>
+								</div>
+							</div>
+							<div class="QR_code">
+								<img src="img/Group_ios1.png" alt="" />
+								<img src="img/Group_Ar.png" alt="" />
+							</div>
+							<div class="loginfoot">
+								<div class="beian"><a href="http://www.miibeian.gov.cn/state/outPortal/loginPortal.action;jsessionid=SJx2YFqf1tvhTDrQ111vPdq2LW1QBXyykhdc2S4ptf74T9dJpPyr!-1572902670" target="_blank ">©2017 한투인. All Rights Reserved.</a></div>
+								<p>
+									<a href="html/terms/first.html" target="_blank">이용약관 </a> 및
+									<a href="html/terms/send.html" target="_blank"> 개인정보 취급방침</a>에 동의합니다.</p>
+							</div>
+							<br />
+							<br />
+						</div>						
+					</td>
+				</tr>
+			</table>
+		</div>
+	</body>
+	<script src="js/core/jquery-1.8.3.min.js"></script>
+	<script src="js/core/config.js"></script>
+	<script src="js/core/common.js"></script>
+	<script src="js/login/login.js"></script>
+
+</html>

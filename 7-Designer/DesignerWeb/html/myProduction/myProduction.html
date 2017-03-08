@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>我的作品编辑状态</title>
+		<link href="css/myproduction/myProduct.css" type="text/css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<!--二级导航-->
+
+		<div class="navtwo">
+			<div class="navtwoT">
+				<ul id="dictypeliId">
+					<li value="1">
+						<i><img  src="img/iconN2.png"/></i>
+						<p>카페</p> 
+					</li>
+					<li value="2">
+						<i><img  src="img/2.png"/></i> 
+						<p>식당</p>
+					</li>
+					<li value="3">
+						<i><img  src="img/3.png"/></i>
+						<p>패션</p> 
+					</li>
+					<li value="4">
+						<i><img  src="img/4.png""/></i>
+						<p>화장품</p> 
+					</li>
+					<li value="5">
+						<i><img  src="img/5.png"/></i>
+						<p>신발,가방</p> 
+					</li>
+					<li value="6">
+						<i><img  src="img/6.png" /></i>
+						<p>KIDS</p> 
+					</li>
+					<li value="7">
+						<i><img  src="img/7.png"/></i>
+						<p> 숙박시설</p>
+					</li>
+					<li value="8">
+						<i><img  src="img/8.png"/></i>
+						<p> 사무공간</p>
+					</li>
+					<li value="9">
+						<i><img  src="img/9.png"/></i>
+						<p>기타상업공간</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 	/*************我的订单列表头部******************/-->
+		
+		<div class="titlet">
+			<div class="titalcon">
+			<p id="name1pId" class="namel"><i><img src="img/coffer.png"/></i>카페</p>
+			<div class="addproduct" id="addCollectionId">
+				+ 작품 올리기
+			</div>
+			<div class="bianji">
+				<div id="designerPriceDivId">
+					<p class="price" id="designerDicPriceId">
+						₩ 200,000~250,000
+						<span>원/평</span>
+					</p>
+					<div class="compile" id="designerDicpriceId">수정하기</div>
+				</div>
+				<div style="display: none;" id="designerUpdateInputId">
+					<div class="inputword">
+						<input type="text" placeholder="견적범위 입력" id="ckd_startpriced" />
+						<p class="line"><img src="img/line.png"></p>
+						<input type="text" placeholder="견적범위 입력" id="ckd_endprice" /> 원/평
+					</div>
+					<div class="compile" id="designerDicEditId">수정하기</div>
+				</div>
+				
+			</div>
+			</div>
+		</div>
+		<!--**********************内容**************************-->
+		<div class="listcon" style="overflow: hidden;">
+			<ul class="con" id="designerCollectionId">
+				<!--<li><i><img src="img/pp.png"/></i>
+					<p class="title">上海紫藤万象城-Zoo Cafe</p>
+					<p class="xinxiw"><span>7</span> <span>889</span><span>2017-01-01</span></p>
+				</li>
+				<li><i><img src="img/pp.png"/></i>
+					<p class="title">上海紫藤万象城-Zoo Cafe</p>
+					<p class="xinxiw"><span>7</span> <span>889</span><span>2017-01-01</span></p>
+				</li>
+				<li><i><img src="img/pp.png"/></i>
+					<p class="title">上海紫藤万象城-Zoo Cafe</p>
+					<p class="xinxiw"><span>7</span> <span>889</span><span>2017-01-01</span></p>
+				</li>
+				<li><i><img src="img/pp.png"/></i>
+					<p class="title">上海紫藤万象城-Zoo Cafe</p>
+					<p class="xinxiw"><span>7</span> <span>889</span><span>2017-01-01</span></p>
+				</li>
+				<li><i><img src="img/pp.png"/></i>
+					<p class="title">上海紫藤万象城-Zoo Cafe</p>
+					<p class="xinxiw"><span>7</span> <span>889</span><span>2017-01-01</span></p>
+				</li>
+				<li><i><img src="img/pp.png"/></i>
+					<p class="title">上海紫藤万象城-Zoo Cafe</p>
+					<p class="xinxiw"><span>7</span> <span>889</span><span>2017-01-01</span></p>
+				</li>
+				<li><i><img src="img/pp.png"/></i>
+					<p class="title">上海紫藤万象城-Zoo Cafe</p>
+					<p class="xinxiw"><span>7</span> <span>889</span><span>2017-01-01</span></p>
+				</li>
+				<li><i><img src="img/pp.png"/></i>
+					<p class="title">上海紫藤万象城-Zoo Cafe</p>
+					<p class="xinxiw"><span>7</span> <span>889</span><span>2017-01-01</span></p>
+				</li>-->
+			</ul>
+		</div>
+		<!--************分页***************-->
+	   <div class="fenye">
+	   		<ul>
+	   			<li>1</li>
+	   			<li class="footcurrent">2</li>
+	   			<li>3</li>
+	   			<li>下一页</li>
+	   			<li><input type="text"  class="Input"/> <span><img src="img/huidown.png"/></span></li>
+	   		</ul>
+	   </div>
+	</body>
+	<script src="js/core/jquery-3.1.1.min.js"></script>
+	<script src="js/core/address.js"></script>
+	<script src="js/core/config.js"></script>
+	<script src="js/core/common.js"></script>
+	<script src="js/myProduction/myProduction.js"></script>
+</html>

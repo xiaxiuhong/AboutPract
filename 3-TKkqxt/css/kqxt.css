@@ -1,0 +1,161 @@
+/*公共样式*/
+*{ margin: 0;padding: 0;}
+li{list-style: none;}
+a{ text-decoration: none;}
+body{ font-family: "microsoft yahei";}
+.inner{ width: 1200px;margin: 0 auto;position: relative;}
+/*头部*/
+header{ height: 95px; width: 100%; background: #19b29c;border-bottom: 5px solid #17a18d;}
+.logo{ padding: 16px 0 0 38px;}
+.logo img:nth-child(2){ padding:5px 0 0 17px ;}
+.btn{ height: 38px; width: 186px; position: absolute;right: 35px; top: 46px;}	
+.btn>a{ display: inline-block; width:90px; height: 100%; font: 16px/38px "microsoft yahei"; 
+	color: #fff; text-align: center;}
+.btn>a:nth-child(2){ color: #a8fb12;}
+/*内容区域*/
+.wrap{ height: 830px;}
+.tk_left{ float: left; height: 828px; width: 180px; border: 2px solid #dddcdc; border-top: none;
+	border-radius:2px; background: #efefef;margin-bottom: 15px;}
+.tk_user{ height: 193px; border-bottom: 2px solid #dddcdc;position: relative;}
+.tk_user>form{ height: 82px; width: 81px;position: absolute;top: 40px; left: 50px;}
+.tk_user label{ cursor: pointer;height:82px; width:81px;overflow: hidden;}
+.fileInput{ filter:alpha(opacity:0);opacity: 0; width: 81px;}
+.addPic{ position: relative;top: -22px;height: 82px; width: 81px;}
+.addPic>img{ height: 100%; width: 100%;}
+.user_name{width:100px; height: 21px; position: absolute; left:50px; top: 128px;
+padding-left: 15px;}
+.user_name a{display: inline-block;font:600 16px/21px "microsoft yahei"; color: #363636; }
+.user_name a:nth-child(2){ padding-left:10px; font-size: 14px; color: #19b29c;}
+/*切换列表*/
+.tabList li a{display:block; height: 66px; border-bottom: 2px solid #dddcdc;text-align: center;
+	font: 16px/66px "microsoft yahei"; color: #363636; width: 100%;}
+.tabList .ac a{ background: #ffffff; color:#19b29c;}
+/*切换内容*/
+.tabItem{ float:right; height:808px; margin-top: 18px; width:1005px; }
+.hide{ display: none;}
+.tk_info_top{ max-height: 560px; width: 100%; overflow: auto; margin-bottom: 18px;}
+.tk_info_top>div{ float: left; width: 476px; border: 2px solid #dddcdc;
+	margin-right: 12px; border-radius: 2px; background: #efefef;}
+.tk_info_top .introduce,.tk_info_top .expert{ height: 245px; margin-bottom: 11px;}
+.tk_info_top .channel,.tk_info_top .resources{ min-height: 296px;}
+.tk_info_bot{ height: 234px; width: 100%;}
+.tk_info_bot>div{ border: 2px solid #dddcdc; border-radius: 2px;float: left;
+	height: 230px; background: #efefef;}
+.tk_info_bot .wuliao{ width: 523px; margin-right: 15px;}
+.tk_info_bot .taolun{ width: 444px; }
+/*内容区具体*/
+/*标题--公共*/
+.int_tit{ height: 37px;width: 100%; border-bottom: 2px solid #DDDCDC; background: #d2e9df;}
+.int_tit span{ padding-left: 25px; font:600 16px/37px "microsoft yahei"; color: #363636;
+	display: inline-block; width: 80%;letter-spacing: 1px; }
+.int_tit a{ color: #363636;display: inline-block;height:37px;padding:0 5px;letter-spacing: 1px;
+line-height: 37px; font-size: 15px;}
+/*医院简介*/
+.int_text{ height: 125px; width: 438px; margin: 15px auto;}
+.int_text>span{ float: left; border: 2px solid #DDDCDC; height: 121px; width: 190px;margin-right: 17px;
+	border-radius: 2px;}
+.int_text>span img{ height: 100%; width: 100%;}
+.yj_text{ float: left; width: 227px;}
+.yj_text p{ font: 12px/16px "microsoft yahei"; color: #363636;max-width: 220px; 
+	overflow: hidden;max-height: 96px;}
+.yj_text a{ display: inline-block; width: 98px; height:25px; background: #19b29c;
+	border: 2px solid #DDDCDC;font: 12px/25px "microsoft yahei"; color: #fff; text-align: center;}
+.yj_text a:nth-of-type(1){ margin-right:7px;}
+.int_pic{ width: 434px; height: 37px; margin: 0 auto;}
+.int_pic>li{ float: left;margin-right:8px;}
+.int_pic>li:nth-last-of-type{ margin-right: 0}
+/*专家板块*/
+.ex_pic{ height: 172px; width: 405px; margin: 19px auto 12px;}
+.ex_pic dl{ width: 110px; height: 100%; float: left;}
+.ex_pic dl:nth-of-type(2){ margin: 0 37px;}
+.ex_pic dl dd{ height:138px; width:106px; border: 2px solid #DDDCDC;border-radius: 2px;}
+.ex_pic dl dt{ height: 20px; width: 106px; margin-top: 10px; text-align: center;
+	font: 12px/20px "microsoft yahei"; color: #363636;}
+.ex_pic dl dt span{ display: inline-block; font-size: 16px;}
+/*渠道部分*/
+.cha_list{ width: 434px; margin:0 auto; overflow: hidden;min-height: 244px; padding: 1px 0;}
+.cha_list>li{ border-bottom: 1px solid #DDDCDC; height: 42px; width: 100%;line-height: 42px;}
+.cha_list>li:last-of-type{ border-bottom: none;}
+.cha_list>li dt,.cha_list>li dd{ float: left; width: 86px; text-align: center;font:14px/42px "microsoft yahei";
+	color: #363636; }
+/*资源部分*/
+.res_list{ width: 402px; margin:0 auto; overflow: hidden; min-height: 228px;padding: 10px 0;}
+.res_list>li{ border-bottom: 1px solid #DDDCDC; height: 19px; width: 100%;line-height: 19px;}
+.res_list>li:last-of-type{ border-bottom: none;}
+.res_list>li dt,.res_list>li dd{ float: left;text-align: center; font:13px/19px "microsoft yahei";
+	color: #363636;}
+.res_list>li dt{ width: 140px;}
+.res_list>li dd{ width: 262px;overflow: hidden;}
+/*物料部分*/
+.wl_list{ width: 482px; margin: 0 auto; padding: 9px 0 7px;}
+.wl_list>li{ height: 28px; border-bottom: 1px solid #DDDCDC;width: 100%; line-height: 28px;}
+.wl_list>li:last-of-type{ border-bottom: none;}
+.wl_list>li dt,.wl_list>li dd{ float: left; width: 160px; text-align: left; font-size: 14px; color: #363636;}
+.wl_list>li dd:nth-of-type(2){ text-align: center;}
+/*内部讨论部分*/
+.tl_list{ width: 400px; margin: 0 auto; padding: 12px 0 18px; overflow: auto;height: 145px;}
+.tl_list li a{ text-decoration: underline;display: block;height: 20px;color: #363636;}
+.tl_list li:nth-of-type(1) a{ color: #19b29c;}
+.tl_list li a span{ font-weight: bold;}
+/*底部*/
+.foot_text{ width: 476px;height: 13px; margin:37px auto 16px;}
+.foot_bg{ height: 31px; width: 100%; background: #19b29c;border-top: 6px solid #17a18d;}
+/*模态层*/
+.modal{position: fixed;  left: 0; top: 0;  height: 100%;  width: 100%;  background-color: #000;  opacity: 0.2;  filter: alpha(opacity=20);}
+/*渠道编辑弹框*/
+.editBox{ height:600px; width:700px; position: absolute; left:28%; top:12%;
+	background:#ffffff;border-radius: 10px;border:5px solid #DDDCDC; }
+.editBox h4{height:50px; font:600 20px/50px "microsoft yahei"; background-color: #f7f7f7;border-bottom: 2px solid #DDDCDC;
+	text-indent: 1em; cursor: move; color: #363636; letter-spacing: 2px;border-top-left-radius: 5px;
+		border-top-right-radius: 5px;}
+.editBox .closeBtn{ position: absolute; top:-2px; right:0; color:#999; height:50px; width:50px;
+	 font:30px/50px "microsoft yahei"; text-align: center;}
+.editBox button{ height: 30px; width: 80px; background: #f3f3f3; border: 1px solid #929697;
+	border-radius: 2px; font: 16px/30px "microsoft yahei"; color: #363636;position: absolute;
+	bottom:10px; left:260px;}
+.editBox button:nth-of-type(2){ left:365px ;}
+/*渠道*/
+.editInfo,.editInfoZy,.editInfoWl,.editInfoZj{ height:480px; width:660px; margin:15px auto; border: 1px solid #0168cd;}
+.editInfo label,.editInfoZy label,.editInfoWl label{ display:block; height:60px; width:560px; line-height:60px; border-bottom: 1px solid #0168cd;
+	position: relative;}
+.editInfo label{ padding-left:20px;width: 540px; }
+.editInfo label:nth-of-type(4){ padding-left:14px;padding-right: 6px;}
+.editInfo label:after{ content: "";height: 60px; width: 1px; background: #0168cd; position: absolute;
+	top: 0; left: 95px;}
+.editInfo>label input{ width:390px;margin-left:50px; height: 30px;font-size: 16px;padding-left: 10px;}	
+.editInfo label:nth-of-type(4) input{ margin-left: 39px;}
+/*资源*/
+.editInfoZy label{ height:30px; line-height:30px;}
+.zyBox button{ bottom:26px;}
+.editInfoZy>label>i,.editInfoWl>label>i{ text-align: center;font-style: normal;display: inline-block; height: 100%;
+	border-right: 1px solid #0168cd;margin-right: 10px;}
+.editInfoZy>label>i{ width: 170px;}
+.editInfoZy>label input{display:inline-block; height:20px;position: relative;top: -2px; width:344px ;
+	font-size: 14px; padding-left: 10px;}
+.editInfoZy .labT input:nth-of-type(1){ width: 100px;}
+.editInfoZy .labT input:nth-of-type(2){ width: 218px;}
+/*物料上传*/
+.editInfoWl>label>i{ width: 100px;}
+.editInfoWl>label input{ width:410px; height:35px;font-size:15px;padding-left: 10px;}
+/*内部讨论*/
+.editInfoTl textarea{ border: 1px solid #0168cd; margin: 15px 35px; resize: none;padding:10px;
+	font-size: 14px;}
+/*医院简介*/
+.editInfoJj>label>i{display:inline-block;width: 100px;height:60px;font-style: normal; 
+	text-align: center;font:21px/60px "microsoft yahei";}
+.editInfoJj>label>textarea{ vertical-align:text-top;border: 1px solid #0168cd; padding: 10px;
+	font-size: 14px;}
+/*专家版块*/
+.editInfoZj .selZj{ display:inline-block; height:220px; width:160px; margin:20px; 
+	text-align: center;border: 1px solid #DDDCDC;position: relative;top: -108px;}
+.editInfoZj .selZj>i{ position: absolute;font: 600 80px "microsoft yahei"; color: #DDDCDC;
+	top:20%; left:32%;}
+.editInfoZj .selZj>span{ position: absolute;bottom: -12%; left:30%; color: #666;}
+.editInfoZj .selZj>input{ opacity: 0;filter: alpha(opacity=0);}
+.editInfoZj .InfoZj{ display: inline-block; margin-top: 20px;}
+.editInfoZj .InfoZj>label{ height:80px;line-height: 80px;display: block;}
+.editInfoZj .InfoZj>label i{ text-align: center;font-style: normal;display: inline-block; height: 100%;
+	margin-right: 10px;width: 70px;}
+.editInfoZj .InfoZj>label input{ display: inline-block; height:40px; width: 240px;font-size: 15px;
+	padding-left: 10px;}
+

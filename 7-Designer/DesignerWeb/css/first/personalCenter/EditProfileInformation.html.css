@@ -1,0 +1,247 @@
+* {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.person {
+	width: 532px;
+	height: 185px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.person .personimg {
+	width: 69px;
+	height: 85px;
+	margin: 60px auto 5px;
+	overflow: hidden;
+}
+.personimg .fileInputContainer{
+    height:69px;
+    background:url(../../../img/common/head.png);
+    position:relative;
+    background-size:69px 69px;
+    width: 69px;
+    border-radius: 34px;
+}
+.personimg .fileInput{
+    height:69px;
+    width:69px;
+    /*font-size: 250px;*/
+    position:absolute;
+    right:0;
+    top:0;
+    opacity: 0;
+    filter:alpha(opacity=0);
+    cursor:pointer;
+}
+.person .sex {
+	width: 532px;
+	height: 34px;
+	text-align: center;
+	margin: 5px auto;
+	display: block;
+	font-size: 20px;
+	color: #313232;
+}
+
+.personcon {
+	width: 532px;
+	height: auto;
+	margin: 0 auto;
+}
+
+.words {
+	width: 522px;
+	height: 147px;
+	padding: 5px;
+	border: 1px solid #E6E6E6;
+}
+
+.words textarea {
+	width: 522px;
+	height: 147px;
+	line-height: 25px;
+	color: #313232;
+	font-size: 14px;
+	border: none;
+	outline: none;
+	resize: none;
+	font-family: Malgun Gothic;
+}
+
+.message {
+	height: 68px;
+	width: 532px;
+	margin: 0 auto;
+	border-bottom: 1px solid #e6e6e6;
+	padding-bottom: 12px;
+	position: relative;
+}
+
+.message p {
+	float: left;
+	height: 22px;
+	font-size: 16px;
+	position: absolute;
+	bottom: 19px;
+	text-align: left;
+	color: rgba(171, 170, 170, 1);
+}
+
+.message input {
+	outline: none;
+	right: 0;
+	position: absolute;
+	bottom: 19px;
+	text-align: right;
+	height: 19px;
+	font-size: 16px;
+	color: #C4C4C4;
+	border: none;
+}
+
+.message .email {
+	width: 266px;
+	height: 34px;
+	border: 1px solid #C4C4C4;
+	color: #313232;
+	text-align: left;
+	padding-left: 5px;
+}
+
+.message .last {
+	width: 266px;
+	height: 34px;
+	border: 1px solid #C4C4C4;
+	color: #313232;
+	text-align: left;
+	padding-left: 5px;
+	right: 30px;
+}
+
+.message .ping {
+	right: 24px;
+	position: absolute;
+	bottom: 19px;
+}
+
+.message .ping1 {
+	right: 0;
+	position: absolute;
+	bottom: 30px;
+	display: inline-block;
+	width: 14px;
+	height: 19px;
+}
+
+.message .arr1 {
+	right: 0;
+	position: absolute;
+	bottom: 19px;
+	display: inline-block;
+	width: 14px;
+	height: 19px;
+	background: url(../../../img/arrup.png) no-repeat center;
+	cursor: pointer;
+}
+
+.message .arr2 {
+	right: 0;
+	position: absolute;
+	bottom: 19px;
+	display: inline-block;
+	width: 14px;
+	height: 19px;
+	background: url(../../../img/arrup.png) no-repeat center;
+	cursor: pointer;
+}
+
+.message .img02 {
+	background: url(../../../img/zhankai.png) no-repeat center right;
+}
+
+.province {
+	width: 532px;
+	height: 100px;
+	margin: 25px auto;
+	padding: 15px 0 20px;
+	background: #F2F2F2;
+	height: auto;
+	overflow: hidden;
+	display: none;
+}
+
+.province ul {
+	width: 100%;
+}
+
+.province ul li {
+	height: 30px;
+	line-height: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 16px;
+	color: rgba(141, 141, 141, 1);
+	float: left;
+	cursor: pointer;
+}
+
+.province ul .current {
+	color: #ffffff;
+	background: #78879d;
+}
+
+.radio {
+	width: 115px;
+	height: 19px;
+	position: absolute;
+	bottom: 19px;
+	right: 0;
+}
+
+.radiobutton {
+	width: 35px;
+	padding-left: 20px;
+	background: url(../../../img/duik.png) no-repeat center left;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	float: left;
+	cursor: pointer;
+}
+
+.radio .true {
+	background: url(../../../img/dui.png) no-repeat center left;
+}
+
+.footbutton {
+	width: 300px;
+	height: 34px;
+	margin: 45px auto 285px;
+}
+
+.footL,
+.footR {
+	width: 134px;
+	height: 34px;
+	line-height: 34px;
+	text-align: center;
+	background: url(../../../img/wszlm.png) no-repeat center;
+	color: #FFFFFF;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.footL {
+	float: left;
+}
+
+.footR {
+	float: right;
+}
+
+.footL:hover,
+.footR:hover {
+	background: url(../../../img/wszlx.png) no-repeat center;
+}

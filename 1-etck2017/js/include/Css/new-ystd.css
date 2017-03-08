@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    background: #fff;
+    font-family: "Microsoft YaHei";
+}
+
+img {
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    color: #1974A1;
+}
+
+
+/* 本例子css */
+
+.new-yytd {
+    width: 100%;
+    height: 1270px;
+    display: block;
+}
+.new-yytd .hd {
+    width: 100%;
+    height: 90px;
+    background: #0089c0;
+}
+
+.new-yytd .hd ul {
+    width: 1182px;
+    height: 90px;
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.new-yytd .hd ul li {
+    width: 214px;
+    height: 90px;
+    display: block;
+    float: left;
+    cursor: pointer;
+    margin-left: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.new-yytd .hd ul li:first-child {
+    margin-left: 28px;
+}
+
+.new-yytd .hd ul li .p1 {
+    padding-top: 25px;
+    font-size: 20px;
+}
+
+.new-yytd .hd ul li .p2 {
+    padding-top: 5px;
+    font-size: 12px;
+    color: #fff;
+    font-family: "Arial";
+}
+
+.new-yytd .hd ul li.on {
+    background: #0073a3;
+}
+
+.new-yytd .bd {
+    width: 100%;
+    height: 1180px;
+    background: url(../Images/ystd/hdbg.jpg)no-repeat center top;
+}
+
+.new-yytd .bd .bdcon {
+    width: 1182px;
+    display: block;
+    margin: 0 auto;
+}
+
+.new-yytd .bd .bdcon .jieshao {
+    width: 1182px;
+    height: 653px;
+}
+
+.new-yytd .bd .bdcon .jieshao .img {
+    width: 459px;
+    height: 617px;
+    display: block;
+    float: left;
+    margin-left: 28px;
+    padding-top: 36px;
+    box-sizing: border-box;
+}
+
+.new-yytd .bd .bdcon .jieshao .js {
+    width: 593px;
+    height: 701px;
+    display: block;
+    float: right;
+    margin-top: 50px;
+    background: #fff;
+    position: relative;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .32);
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, .32);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .32);
+}
+
+.bdcon .jieshao .js .by {
+    width: 84px;
+    height: 154px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.bdcon .jieshao .js dl {
+    margin-left: 68px;
+}
+
+.bdcon .jieshao .js dl dt {
+    font-size: 28px;
+    color: #545454;
+    line-height: 31px;
+    padding-top: 25px;
+    font-weight: 800;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.bdcon .jieshao .js dl dd {
+    height: 28px;
+    background: url(../Images/ystd/img2.png)no-repeat left center;
+    font-size: 16px;
+    color: #d35b00;
+    line-height: 28px;
+    text-indent: 25px;
+}
+
+.bdcon .jieshao .js .jj {
+    width: 472px;
+    margin-left: 68px;
+    margin-top: 25px;
+}
+
+.bdcon .jieshao .js .jj p {
+    font-size: 16px;
+    color: #333333;
+    line-height: 26px;
+    padding-top: 10px;
+}
+
+.bdcon .jieshao .js ul {
+    width: 450px;
+    display: block;
+    margin-left: 68px;
+    margin-top: 20px;
+}
+
+.bdcon .jieshao .js ul h3 {
+    font-size: 25px;
+    color: #333333;
+    font-weight: 800;
+    padding-bottom: 15px;
+}
+
+.bdcon .jieshao .js ul li {
+    width: 137px;
+    height: 31px;
+    display: block;
+    float: left;
+    font-size: 16px;
+    color: #545454;
+    border: 1px solid #595959;
+    border-radius: 20px;
+    margin-right: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    line-height: 31px;
+}
+
+.bdcon .jieshao .js .yy {
+    width: 229px;
+    height: 53px;
+    display: block;
+    background: #f76b00;
+    font-size: 20px;
+    color: #fff;
+    line-height: 53px;
+    text-align: center;
+    border-radius: 30px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 180px;
+}
+
+.bdcon .jieshao .js .yy i {
+    position: relative;
+    top: 12px;
+    padding-left: 5px;
+}
+
+.new-yytd .bd .bdcon .imgwrap {
+    height: 495px;
+}
+
+.bdcon .imgwrap .photo {
+    width: 100%;
+    height: 342px;
+    padding-top: 20px;
+    overflow: hidden;
+}
+
+.bdcon .imgwrap .photo li {
+    width: 385px;
+    height: 342px;
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+
+.bdcon .imgwrap .photo li:last-child {
+    margin-right: 0px;
+}
+
+.bdcon .imgwrap .photo li .img {
+    width: 385px;
+    height: 301px;
+}
+
+.bdcon .imgwrap .photo li p {
+    font-size: 16px;
+    color: #303030;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.bdcon .imgwrap .photo li p i {
+    position: relative;
+    top: 16px;
+    padding-right: 5px;
+}

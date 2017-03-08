@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>注册口腔系统</title>
+		<link rel="stylesheet" href="css/public_style.css" />
+		<script type="text/javascript" src="js/kqxt_edit.js"></script>
+		<script type="text/javascript" src="js/jquery-3.1.0.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				//发送成功
+				$("#resSucBtn").on("click",function(){
+					showSucBox(1000);
+				});
+				//阅读协议
+				$("#readXY").on("click",function(){
+					readAgree();
+				});
+				//点击聚焦
+				$(".res_tip").on("click",function(){
+					$(this).prev().find("input").focus();
+				});
+				
+			})
+		</script>
+	</head>
+	<body>
+		<!--头部-->
+		<header>
+			<div class="inner headCont">
+				<img src="images/top_logo.png" alt="" />
+				<img src="images/top_text.png" alt="" />
+				<a href="javascript:;"><<　返回首页</a>
+			</div>
+		</header>
+		<!--注册框-->
+		<section>
+			<div class="inner">
+				<div class="registerBox">
+					<div class="log_tit res_tit">用户注册<span><i>1</i>填写信息</span></div>
+					<form>
+					<!--<form action="" method="post">-->
+						<div><span>用户名</span><input type="text" name="username"/></div><span class="res_tip"><i>!</i>请输入用户名</span>
+						<div><span>密　码</span><input type="password" name="userpwd"/></div><span class="res_tip"><i>!</i>请输入密码</span>
+						<div><span>确认密码</span><input type="text" name="userpwdT"/></div><span class="res_tip"><i>!</i>请再次输入密码</span>
+						<div><span>邮　箱</span><input type="text" name="useremail"/></div><span class="res_tip"><i>!</i>请输入邮箱</span>
+						<div><span>昵　称</span><input type="text" name="usernick"/></div><span class="res_tip"><i>!</i>请输入昵称</span>
+						<p class="res_job">
+							<span><i>*</i>职　别</span>
+							<label><input type="radio" name="job" checked="checked"><i></i><span>组员</span></input></label>
+							<label><input type="radio" name="job"><i></i><span>主管</span></input></label>
+						</p><span class="res_tip"><i>!</i>必选</span>
+						<input type="submit" name="" value="同意注册协议，提交注册" class="resBtn"/>
+						<p class="res_check"><input type="checkbox" checked="checked"><a href="javascript:;" id="readXY">点击阅读注册协议</a></input><span class="res_tip" id="resSucBtn"><i>!</i>请阅读注册协议</span>
+					</form>
+				</div>
+			</div>
+		</section>
+		<!--底部-->
+		<footer>
+			<div class="inner">
+				<ul>
+					<li><p>已注册　,　<a href="login_kqxt.html">点击此处登录</a></p></li>
+					<li>
+						<span>第三方　</span>
+						<a href="javascript:;"><img src="images/login_icon01.png" alt="" /></a>
+						<a href="javascript:;"><img src="images/login_icon02.png" alt="" /></a>
+						<span><i>3秒 </i>注册</span>
+					</li>
+				</ul>
+			</div>
+		</footer>
+	</body>
+</html>

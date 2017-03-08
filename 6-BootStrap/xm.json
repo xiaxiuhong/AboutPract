@@ -1,0 +1,9 @@
+{
+	"name":"小明",
+	"age":23,
+	"sisters":[
+			{"name":"小兰","age":26,"work":"teach"},
+			{"name":"小云","age":28,"work":"doctor"}
+		],
+	"work":"student"
+}

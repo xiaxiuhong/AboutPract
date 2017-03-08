@@ -1,0 +1,207 @@
+*{
+				padding: 0;
+				margin: 0;
+				list-style: none;
+			}
+			body{
+				font-size: 16px;
+				font-family: Malgun Gothic;
+			}
+			/*头部、一级导航*/
+			.header{
+				width: 100%;
+				height: 55px;
+				background: #303232;	
+			}
+			.header  .nav {
+				width: 850px;
+				height: 55px;	
+				margin: 0 auto;	
+				overflow: hidden;
+			}
+			.nav  .totleimg{
+				width: 110px;
+				height: 55px;
+				float: left;
+			}
+			.nav  li{
+				height: 19px;
+				margin-left: 84px;
+				color: #A7A7A7;
+				font-size: 16px;
+				font-family: sans-serif;
+				float: left;
+				position: relative;
+				margin-top: 20px;
+				cursor: pointer;
+			}
+			.nav  li:hover{
+				color: #FFFFFF;			
+			}
+			.xinxi{
+				width: 6px;
+				height: 6px;
+				border-radius: 50%;				
+				background: #E85B53;
+				position: absolute;
+				top: 0;
+				right: -5px;
+				display: inline-block;
+			}
+			.arrowT{
+				width: 6px;
+				height: 4px;
+				background: url(../../../img/arrT.png) no-repeat center;
+				position: absolute;
+				bottom: -8px;
+				left: 45%;
+			}
+			/*二级导航*/
+			.navtwo{
+				width: 100%;
+				height: 110px;
+				background: #F2F2F2;				
+			}
+			.navtwo  .navtwoT {
+				width: 806px;
+				height: 110px;	
+				text-align: center;
+				margin: 0 auto;
+			}
+			.navtwoT  li{
+				height: 22px;
+				margin-left: 84px;
+				color: #a7a7a7;
+				font-size: 16px;
+				font-family: Malgun Gothic;
+				float: left;
+				position: relative;
+				margin-top: 44px;
+				cursor: pointer;
+			}
+		  .navtwoT  li:hover{
+		  	color: rgba(49, 50, 50, 1); 	
+		  }
+		  .navtwoT  li p{
+		  	 height: 19px;
+		  	 position: absolute;
+		  	 bottom: -38px;
+		  	 width: 125px;
+		  	 color: rgba(141, 141, 141, 1);
+		  }
+		   #navcurrent{
+		   		color: #FFFFFF;
+		   }
+		  #navtwocurrent {
+		   	 	color: rgba(49, 50, 50, 1); 	
+		   }
+			.arrowD{
+				width: 6px;
+				height: 4px;
+				background: url(../../../img/navtwod.png)  no-repeat center;
+				position: absolute;
+				bottom: -15px;
+				left: 45%;
+			}     
+			/* ***********************上传资料********************************/
+	.Info{
+				width: 787px;
+				height: 28px;
+				line-height: 28px;
+				margin: 38px auto 25px;		
+			} 
+			.Info li{
+				float: left;
+			}
+				.Info li:nth-child(1){
+					font-weight: bold;
+					color: rgba(49, 50, 50, 1);
+					font-size: 20px;
+					float: left;
+					margin-right: 80px;
+				}
+				.Info li:nth-child(2){
+				margin-right: 185px;
+				}
+				.Info li:nth-child(4){
+					float: right;
+					cursor: pointer;
+					color: rgba(171, 170, 170, 1);
+				}
+				/*  *****************************进度圈********************************/
+			.circle{
+				width: 640px;
+				height:97px;
+				line-height: 97px;
+				margin: 49px auto 115px;			
+			}
+			.circle li{
+				width: 95px;
+				height: 95px;
+				border-radius: 50%;
+				text-align: center;
+				background: #F2F2F2;
+				color: #ABAAAA;
+				margin-right: 83px;	
+				float: left;		
+			}
+			.circle li:nth-child(2),.circle li:nth-child(4){
+				width: 10px;
+				height: 20px;
+				background: #FFFFFF;
+			}
+				.circle li:last-child{
+					margin-right: 0;
+				}
+				#circlecurrent{
+					background: #78879d;
+					color: #FFFFFF;
+				}
+			.pressess{
+				width: 550px;
+				height: 950px;
+				margin: 0 auto;
+			/*	background: pink;*/
+			}	
+			.one{
+				width: 550px;
+				height: 165px;
+				position: relative;
+				border-left: 1px solid #E6E6E6;
+				
+			}
+			.one .title{
+				width: 550px;
+				height: 25px;
+				line-height: 25px;
+				position: absolute;
+				top: -24px;
+				left: -14px;
+				color: #abaaaa;
+				
+			}
+			.one .title span{
+				width: 25px;
+				height: 25px;
+				display: inline-block;
+				margin-right: 20px;
+			}
+			.one .titleword{
+				 position: absolute;
+				 top: 15px;
+				 left: 30px;
+			}
+			.one .Capacity{
+				position: absolute;
+				 top: 50px;
+				 left: 30px;
+			}
+			.titleword a{
+				text-decoration: underline;
+				color: rgba(120, 135, 157, 1);
+				cursor: pointer;
+			}
+			.one:last-child{
+				border-left: none;
+			}
+			

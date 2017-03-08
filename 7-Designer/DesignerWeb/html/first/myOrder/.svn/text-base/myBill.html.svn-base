@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>我的订单</title>
+		<link href="css/first/myOrder/myBill.css" type="text/css"  rel="stylesheet" />
+	</head>
+	<body>
+	 	<!--/*************我的订单列表头部******************/-->
+	  <div class="listhead">
+			  	<p>프로젝트</p>
+			  	<p>공간</p>
+			  	<p>도시</p>
+			  	<p>면적</p>
+			  	<p>날짜</p>
+			  	<p>전체
+			  		<span class="imgarr"></span>
+			  	</p>
+			  		<div class="downup">
+			  			<ul>
+			  				<li>진행중</li>
+			  				<li>마감</li>
+			  				<li >已投标</li>
+			  				<li>未中标</li>
+			  				<li>已结束</li>
+			  			</ul>
+	  </div>
+	  </div>
+	  <!-- ***************内容列表******************-->
+	 <div id="myBill">
+	   <div class="listCon" >
+	   		<ul id="listCon">   			
+	   				<li id="eryu">
+	   					<p>242344548</p>
+					  	<p>신발,가방</p>
+					  	<p>광저우</p>
+					  	<p>90평</p>
+					  	<p>2017-12-12</p>	
+					  	<p>진행중
+					  	    <span class="listopen"><img src="img/Rarrow.png"/></span>
+					  	</p>	
+	   				</li>		
+	
+	   				<li>
+	   					<p>242344548</p>
+					  	<p>신발,가방</p>
+					  	<p>광저우</p>
+					  	<p>90평</p>
+					  	<p>2017-12-12</p>	
+					  	<p>진행중
+					  		  <span class="listopen"><img src="img/Rarrow.png"/></span>
+					  	</p>	
+	   				</li>		
+	   			<li>
+	   					<p>242344548<span class="reddot"></span></p>
+					  	<p>신발,가방</p>
+					  	<p>광저우</p>
+					  	<p>90평</p>
+					  	<p>2017-12-12</p>	
+					  	<p>진행중
+					  		  <span class="listopen"><img src="img/huirarrow.png"/></span>
+					  	</p>	
+	   				</li>		
+	   			<li>
+	   					<p>242344548<span class="reddot"></span></p>
+					  	<p>신발,가방</p>
+					  	<p>광저우</p>
+					  	<p>90평</p>
+					  	<p>2017-12-12</p>	
+					  	<p>진행중
+					  		  <span class="listopen"><img src="img/Rarrow.png"/></span>
+					  	</p>	
+	   				</li>			
+	   		</ul>
+	   </div>
+	   </div>
+	    <!--************分页***************-->
+	   <div class="fenye">
+	   		<ul>
+	   			<li>1</li>
+	   			<li class="footcurrent">2</li>
+	   			<li>3</li>
+	   			<li>下一页</li>
+	   			<li><input type="text"  class="Input"/><span><img src="img/huidown.png"/></span></li>
+	   		</ul>
+	   </div>
+	</body>
+	<script src="js/core/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="js/first/myOrder/myBill.js"></script>
+</html>

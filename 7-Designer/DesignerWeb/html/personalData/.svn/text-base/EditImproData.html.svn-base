@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Improve the personal data</title>
+		<style>
+		* {
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		}
+		input{
+			color: #000;
+		}
+		@font-face{
+		  font-family:'Open Sans';
+		  src:url('fonts/OpenSans-Regular.eot');
+		  src:url('fonts/OpenSans-Regular.eot?#iefix')format('embedded-opentype'),
+		   url('fonts/OpenSans-Regular.woff')format('woff'),
+		   url('fonts/OpenSans-Regular.ttf')format('truetype'),
+		   url('fonts/OpenSans-Regular.svg#NeuesBauenDemo')format('svg');
+		   font-weight:normal;
+		   font-style:normal;
+		}
+		body {
+			font-family: 'Open Sans', sans-serif!important;
+		}
+		.message {
+			height: 68px;
+			width: 532px;
+			margin: 0 auto;
+			border-bottom: 1px solid #e6e6e6;
+			padding-bottom: 12px;
+			position: relative;
+		}
+		.EnglishMessage{
+			height: 68px;
+			width: 532px;
+			margin: 0 auto;
+			border-bottom: 1px solid #e6e6e6;
+			padding-bottom: 12px;
+			line-height: 81px;
+		}
+		.EnglishMessage p{
+			float: left;
+			height: 22px;
+			font-size: 16px;
+			text-align: left;
+			color:rgba(141, 141, 141, 1); 
+		}
+		.EnglishMessage .EnglishName{
+			float: right;
+			text-align: right;
+		}
+		.EnglishMessage .EnglishName input{
+			font: 16px 'Open Sans', sans-serif!important;;
+			width:70px;
+			height:68px;
+			border: none;
+			color: #000;
+			text-align:right;
+		}
+		.message p {
+			float: left;
+			height: 22px;
+			font-size: 16px;
+			position: absolute;
+			bottom: 19px;
+			text-align: left;
+			color:rgba(141, 141, 141, 1); 
+		}
+		.message input {
+			outline: none;
+			right: 0;
+			position: absolute;
+			bottom: 19px;
+			text-align: right;
+			height: 19px;
+			font-size: 16px;
+			color:#000;
+			border: none;
+		}
+		.message .ping {
+			right: 24px;
+			position: absolute;
+			bottom: 19px;
+		}
+		.message .ping1 {
+			right: 0;
+			position: absolute;
+			bottom: 19px;
+			display: inline-block;
+			width: 14px;
+			height: 19px;
+		}
+		.message .arr1 {
+			right: 0;
+			position: absolute;
+			bottom: 19px;
+			display: inline-block;
+			width: 14px;
+			height: 19px;
+			background: url("img/arrup.png") no-repeat center;
+			cursor: pointer;
+		}
+		.message .arr2 {
+			right: 0;
+			position: absolute;
+			bottom: 19px;
+			display: inline-block;
+			width: 14px;
+			height: 19px;
+			background: url("img/arrup.png") no-repeat center;
+			cursor: pointer;
+		}
+		.message .img02 {
+			background: url("img/zhankai.png") no-repeat center right;
+		}
+		.lastMessage{
+			height: 178px;
+			font: 14px 'Open Sans', sans-serif!important;
+			color:#c3c3c3;
+		}
+		.lastMessage span{
+			display: block;
+			/*padding-top: 37px;*/
+			padding: 37px 0 20px;
+			color: rgba(141, 141, 141, 1);
+			font:500 16px 'Open Sans', sans-serif!important;
+			text-align: left;
+		}
+		.lastMessage input{
+			height:50px;
+			width: 100%;
+			position: relative;
+			top:43px;
+			text-align: left;
+		}
+		.faseMessage{
+			height: 132px;
+			color: #c3c3c3;
+			font:14px 'Open Sans', sans-serif!important;
+			text-align: left;
+		}
+		.faseMessage span{
+			display: block;
+			padding: 34px 0 23px;
+			color: rgba(141, 141, 141, 1);
+			font:500 16px 'Open Sans', sans-serif!important;
+		}
+		.selFile{
+			height: 180px;
+		}
+		.province {
+			width: 532px;
+			height: 100px;
+			margin: 25px auto;
+			padding: 15px 0 20px;
+			background: #F2F2F2;
+			height: auto;
+			overflow: hidden;
+		}
+		.province ul {
+			width: 100%;
+		}
+		.province ul li {
+			height: 30px;
+			line-height: 30px;
+			padding-left: 10px;
+			padding-right: 10px;
+			font-size: 16px;
+			color: rgba(141, 141, 141, 1);
+			float: left;
+			cursor: pointer;
+		}
+		.province ul li:hover {
+			color: #ffffff;
+			background: #78879d;
+		}
+		
+		.province ul .current {
+			color: #ffffff;
+			background: #78879d;
+		}
+		
+		.IDcard {
+			/*height: 255px;*/
+			width: 542px;
+			margin: 0 auto 30px;
+			position: relative;
+			overflow: hidden;
+		}
+		
+		.IDcard .fileInputContainer {
+			height: 160px;
+			width: 250px;
+			background: url("img/common/newadd.png");
+			position: relative;
+			background-size:250px 160px;
+			width: 250px;
+			/*border-radius: 15px;*/
+			float: left;
+			margin-right: 10px;
+			cursor: pointer;
+		}
+		
+		.IDcard .fileInput {
+			height: 250px;
+			width: 160px;
+			font-size: 250px;
+			position: absolute;
+			right: 0;
+			top: 0;
+			opacity: 0;
+			filter: alpha(opacity=0);
+			cursor: pointer;
+		}
+		
+		.IDcard .qyfileInputContainer {
+			height: 160px;
+			background: url("img/common/newadd.png");
+			position: relative;
+			background-size:250px 160px;
+			width: 250px;
+			margin-right: 10px;
+			cursor: pointer;
+		}
+		
+		.IDcard .qyfileInput {
+			height: 250px;
+			width: 160px;
+			font-size: 200px;
+			position: absolute;
+			right: 0;
+			top: 0;
+			opacity: 0;
+			filter: alpha(opacity=0);
+			cursor: pointer;
+		}
+		
+		.IDcardL,.IDcardR {
+			width: 255px;
+			height: 160px;
+			border: 1px solid #E6E6E6;
+		}
+		
+		.IDcardL {
+			float: left;
+		}
+		
+		.IDcardR {
+			float: right;
+		}
+		
+		.IDcardL p:nth-child(1),
+		.IDcardR p:nth-child(1) {
+			height: 19px;
+			width: 35px;
+			line-height: 19px;
+			margin: 43px auto 20px;
+			font-size: 16px;
+			color: rgba(141, 141, 141, 1);
+		}
+		.IDcardL p:nth-child(2),
+		.IDcardR p:nth-child(2) {
+			height: 34px;
+			width: 34px;
+			margin: 0 auto;
+			font-size: 16px;
+			color: rgba(141, 141, 141, 1);
+		}
+		.subButton{
+			height: 76px;
+			margin: 69px auto 95px;	
+		}
+		.idbutton {
+			width: 131px;
+			margin: 0 auto;
+			background: url("img/wszlm.png") no-repeat center;
+			bottom: 0;
+			left: 40%;
+			text-align: center;
+			line-height: 34px;
+			cursor: pointer;
+			color: #FFFFFF;
+		}
+		.subButton p{
+			font:14px 'Open Sans', sans-serif!important;
+			color: rgba(120, 135, 157, 1);
+			margin-top: 32px;
+			text-align: center;
+		}
+		.idbutton:hover {
+			background: url("img/wszlx.png") no-repeat center;
+		}
+		.foot {
+			width: 256px;
+			height: 17px;
+			margin: 0 auto 24px;
+			display: none;
+		}
+		.img {
+			float: right;
+			margin: 5px;
+			width: 18px;
+			height: 18px;
+			border-radius: 15px;
+			opacity: 0.4;
+			filter: alpha(opacity=40);
+		}
+		.addFilebtn{
+			position: relative;
+		}
+		.addFile{
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+		.addText{
+			display: block;
+			height: 24px;
+			width: 87px;
+			position: absolute;
+			left: 86px;
+			top:103px;
+			font:16px 'Open Sans', sans-serif!important;
+			color: rgba(171, 170, 170, 1);
+		}
+		.fileImg{
+			position: relative;
+		}
+		.clickFile{
+			width: 189px;
+			height: 24px;
+			position: absolute;
+			left:40px;
+			top: 69px;
+			font: 16px 'Open Sans', sans-serif!important;
+			color: #fff;
+		}
+		
+		.selGender{
+			font: 16px 'Open Sans', sans-serif!important;
+		}
+		.selGender label{
+			float: right;
+			position: relative;
+			top:30px;
+			overflow: hidden;
+		}
+		.selGender label:nth-child(1){
+			right: -20px;
+		}
+		.selGender input{
+			height:21px;
+			position:absolute;
+			top:-21px;
+		}
+		.selGender span{
+			display: block;
+			padding-left: 20px;
+			width:15px;
+			height:21px;
+			line-height: 21px;
+			background:url("img/icon_no_choose1x.png") no-repeat;
+		}
+		.selGender span i{
+			font-style: normal;
+			display: inline-block;
+			padding-left:2px;
+			position: relative;
+			top: -2px;
+		}
+		.selGender label input:checked~span{
+			background:url("img/icon_choose1x.png") no-repeat;
+		}
+		.selGender label:first-child{
+			margin-right: 20px;
+		}
+		.addHide{
+			display: none;
+		}
+		
+		.radio{
+			height:20px;
+			width:200px;
+			margin:30px auto 0;
+			font: 16px 'Open Sans', sans-serif!important;
+			line-height: 21px;
+			/*background: pink;*/
+		}
+		.radio label{
+			float: left;
+			width:80px;
+			height:20px;
+			position: relative;
+			overflow: hidden;
+			/*background: yellow;*/
+		}
+		.radio li input{
+			height:21px;
+			position:absolute;
+			top:-21px;
+		}
+		.radio li span{
+			display: block;
+			padding-left: 20px;
+			width:100%;
+			height:21px;
+			line-height: 21px;
+			background:url("img/icon_no_choose1x.png") no-repeat;
+		}
+		.radio span i{
+			font-style: normal;
+			display: inline-block;
+			padding-left: 6px;
+			position: relative;
+			top: -2px;
+		}
+		.radio label input:checked~span{
+			background:url("img/icon_choose1x.png") no-repeat;
+		}
+		.radio label:first-child{
+			margin-right: 20px;
+		}
+		</style>
+	</head>
+	<body>
+		<!--<div class="head1"></div>-->
+		<!--<div class="header">
+			<p>회원정보 입력</p>
+		</div>-->
+		<div id="tabAddIntro" class="tabIntro">
+			<!--<div class="radio" id="radioDivId">
+				<div class="radioR" id="radioLDivId">
+					개인
+				</div>
+				<div class="radioL" id="radioRDivId">
+					기업
+				</div>
+			</div>-->
+			<ul class="radio" id="radioDivId">
+				<form>
+					<label>
+						<li class="ac" id="radioLDivId">
+							<input type="radio" name="userInforma" value="기업" checked="checked"/>
+							<span><i>기업</i></span>
+			           </li>
+					</label>
+					<label>
+						<li id="radioRDivId">
+							<input type="radio" name="userInforma" value="개인"/>
+							<span><i>개인</i></span>
+			          </li>
+					</label>
+				</form>
+	       </ul>
+			<div class="tabCont">
+			<div class="tabItem">
+				<div class=" message">
+					<p>한글 이름</p>
+					<input type="text" placeholder="한글 실명 입력" id="cm_hwNameId"/>
+				</div>
+				
+				<div class="EnglishMessage">
+					<p>영문 이름</p>
+					<div class="EnglishName">
+						<input type="text" placeholder="영문 성" id="cm_EnName"/>- <input type="text" placeholder="영문 이름" id="cm_EnName"/>
+					</div>
+				</div>
+				<div class=" message">
+					<p>성별</p>
+					<div class="selGender">
+						<form>
+							<label>
+								<input type="radio" name="Areacode" value="여" />
+								<span><i>여</i></span>
+							</label>
+							<label>
+								<input type="radio" name="Areacode" value="남" checked="checked"/>
+								<span><i>남</i></span>
+							</label>
+						</form>
+					</div>
+				</div>
+				<div class=" message">
+					<p>이메일</p>
+					<input type="text" placeholder="메일" id="cm_hwNameId"/>
+				</div>
+				<div class=" message">
+					<p>지역</p>
+					<input class="ping" type="text" placeholder="지역 선택" id="provinceInputId" readonly="readonly" />
+					<div class="arr1" id="provinceDivId"></div>
+				</div>
+				<div class="province province1" style="display: none;" id="addressProvinceDivId">
+					<ul id="ulProvinceId">
+						<!--<li>경기</li>
+						<li>경기</li>
+						<li>경기</li>
+						<li>경기</li>
+						<li>경기</li>
+						<li>경기</li>
+						<li>경기</li>
+						<li>경기</li>
+						<li>경기</li>
+						<li>경기</li>
+						<li>경기</li>
+						<li>경기</li>
+						<li>경기</li>
+						<li>경기</li>
+						<li>경기</li>				
+						<li>경기경기경기경</li>
+						<li>경기경기경기경</li>
+						<li>경기</li>-->
+					</ul>
+				</div>
+				<div class=" message">
+					<p>출생연도</p>
+					<input class="ping" type="text" placeholder="출생연도 선택" id="provinceInputId_date" readonly="readonly" />
+					<div class="arr2" id="provinceDivId_date"></div>
+				</div>
+				<!--<div class=" message">
+					<p>- 세부 도시</p>
+					<input class="ping" type="text" placeholder="세부 도시 선택" id="addressCityInputId" readonly="readonly"  />
+					<div class="arr2" id="CityDivId"></div>
+				</div>-->
+				<div class="province province2" style="display: none;" id="addressCityDivId">
+					<ul id="addressCityUlId">
+						<!--<li>경기</li>
+						<li>경기</li>
+						<li>경기</li>
+						<li>경기</li>
+						<li>경기</li>
+						<li>경기</li>
+						<li>경기</li>
+						<li>경기</li>
+						<li>경기</li>
+						<li>경기</li>
+						<li>경기</li>
+						<li>경기</li>
+						<li>경기</li>
+						<li>경기</li>
+						<li>경기</li>				
+						<li>경기경기경기경</li>
+						<li>경기경기경기경</li>
+						<li>경기</li>-->
+					</ul>		
+				</div>
+				<div class=" message">
+					<p>디자인 경력</p>
+					<div class="danwei">
+					<input  class="ping" type="text" placeholder="디자인 경력 연도 입력" id="cm_yearId" /><div class="ping1">년</div>
+					</div>
+				</div>
+				<!--<div class=" message">
+					<p>이메일</p>
+					<input type="text" placeholder="이메일주소 입력" id="cm_emailId"/>
+				</div>-->
+				<div class=" message lastMessage">
+					<span>자기소개</span>자기소개 자세히 적어주세요. 중국 클라이언트에게 중국어로 번역되여 보여드립니다.
+					<input type="text" />
+				</div>
+			</div>
+			
+			<div class="tabItem addHide">
+				<div class=" message">
+					<p>한글 기업명</p>
+					<input type="text" placeholder="한글 기업명 입력" id="cm_hwNameId"/>
+				</div>
+				<div class="EnglishMessage">
+					<p>영문 기업명</p>
+					<div class="EnglishName">
+						<input type="text" placeholder="영문 성" id="cm_EnName"/>- <input type="text" placeholder="영문 이름" id="cm_EnName"/>
+					</div>
+				</div>
+				<div class=" message">
+					<p>이메일</p>
+					<input type="text" placeholder="이메일 주소 입력" id="cm_hwNameId"/>
+				</div>
+				<div class=" message">
+					<p>지역</p>
+					<input class="ping" type="text" placeholder="지역 선택" id="provinceInputId_qy" readonly="readonly" />
+					<div class="arr1" id="provinceDivId_qy"></div>
+				</div>
+				<div class="province province1" style="display: none;" id="addressProvinceDivId_qy">
+					<ul id="ulProvinceId_qy">
+						<!--<li>경기</li>
+						<li>경기</li>
+						<li>경기</li>
+						<li>경기</li>
+						<li>경기</li>
+						<li>경기</li>
+						<li>경기</li>
+						<li>경기</li>
+						<li>경기</li>
+						<li>경기</li>
+						<li>경기</li>
+						<li>경기</li>
+						<li>경기</li>
+						<li>경기</li>
+						<li>경기</li>				
+						<li>경기경기경기경</li>
+						<li>경기경기경기경</li>
+						<li>경기</li>-->
+					</ul>
+				</div>
+				<div class=" message">
+					<p>회사 설립 연도</p>
+					<input class="ping" type="text" placeholder="설립연도 선택" id="provinceInputId_date" readonly="readonly" />
+					<div class="arr2" id="provinceDivId_date"></div>
+				</div>
+				<div class="province province2" style="display: none;" id="addressCityDivId">
+					<ul id="addressCityUlId">
+						<!--<li>경기</li>
+						<li>경기</li>
+						<li>경기</li>
+						<li>경기</li>
+						<li>경기</li>
+						<li>경기</li>
+						<li>경기</li>
+						<li>경기</li>
+						<li>경기</li>
+						<li>경기</li>
+						<li>경기</li>
+						<li>경기</li>
+						<li>경기</li>
+						<li>경기</li>
+						<li>경기</li>				
+						<li>경기경기경기경</li>
+						<li>경기경기경기경</li>
+						<li>경기</li>-->
+				</ul>		
+				</div>
+				<div class=" message lastMessage">
+					<span>회사소개</span>회사소개 자세히 적어주세요. 중국 클라이언트에게 중국어로 번역되여 보여드립니다.
+					<input type="text" />
+				</div>
+			</div>
+		</div>
+		</div>
+		
+		<div class="IDcard">
+			<div class="faseMessage">
+				<span>회원님의 멋있는 Face</span>중국 클라인트에 보여드리기에 제일 멋있는 사진으로 올려주세요~
+			</div>
+			<div class="selFile">
+				<div id="zjzDivId">
+					<form id="designerzjPicFormId" method="post" enctype="multipart/form-data">
+						<div style="width:49%;overflow:hidden;margin-top: 10px;margin-left:10px;float: left;" id="fileUploadzjzPicid">
+							<div class="fileInputContainer addFilebtn" id="fileUploadzjzimgid">
+						    	<label>
+						    		<input class="fileInput" type="file" name="designerzjzPicId" id="designerzjzPicId" />
+							    	<span class="addFile">
+							    		<img src="img/userImg.png" alt="" />
+							    		<span class="addText">사진올리기</span>
+							    	</span>
+						    	</label>
+							</div>
+						</div>
+						<div style="width:49%;overflow:hidden;margin-top: 10px; float: right;" id="fileUploadzjfPicid">
+							<div class="fileInputContainer fileImg" id="fileUploadzjfimgid">
+						    	<!--<input class="fileInput" type="file" name="designerzjfPicId" id="designerzjfPicId" />-->
+								<img src="img/Certificates.png" alt="" />
+								<span class="clickFile">사진 이렇게 사용됩니다</span>
+							</div>
+						</div>
+					</form>
+				</div>
+				<div style="display: none;" id="qyzDivId">
+					<form id="qydesignerzjPicFormId" method="post" enctype="multipart/form-data">
+						<div style="width:49%;overflow:hidden;margin-top: 10px;margin-left:10px;float: left;" id="fileUploadzjzPicid">
+							<div class="fileInputContainer addFilebtn" id="fileUploadzjzimgid">
+						    	<label>
+						    		<input class="fileInput" type="file" name="designerzjzPicId" id="designerzjzPicId" />
+							    	<span class="addFile">
+							    		<img src="img/company1.png" alt="" />						    		<!--<span class="addText">사진올리기</span>-->
+							    	</span>
+						    	</label>
+							</div>
+						</div>
+						<div style="width:49%;overflow:hidden;margin-top: 10px; float: right;" id="fileUploadzjfPicid">
+							<div class="fileInputContainer fileImg" id="fileUploadzjfimgid">
+						    	<!--<input class="fileInput" type="file" name="designerzjfPicId" id="designerzjfPicId" />-->
+								<img src="img/company2.png" alt="" />
+								<span class="clickFile">사진 이렇게 사용됩니다</span>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+			<!--<div class="idbutton" id="submitBtnId">저장하기</div>-->
+			<div class="subButton">
+				<div class="idbutton" id="submitBtnId">저장하기</div>
+				<p>한투인 홈페이지에서 개인작품 올리신후 디자인 참여 가능합니다.</p>
+			</div>
+		</div>
+		<div class="foot">
+			<img src="img/footid.png" />
+		</div>
+	</body>
+	<script src="js/core/jquery-1.8.3.min.js"></script>
+	<script src="js/core/address.js"></script>
+	<script src="js/core/config.js"></script>
+	<script src="js/core/common.js"></script>
+	<script src="js/designer/designer.js"></script>
+	<script>
+		window.onload=function(){
+			function MyTab(div_id){
+				var oTab=document.getElementById(div_id);
+				var oUl_list=oTab.getElementsByTagName("ul")[0];
+				var aLi=oUl_list.getElementsByTagName("li");
+				var oTabItem=oTab.getElementsByClassName("tabItem");
+				var n=0;
+				for(var i=0;i<aLi.length;i++){
+					aLi[i].onclick=function(){
+						for(var j=0;j<aLi.length;j++){
+//							aLi[j].className="";
+							oTabItem[j].style.display="none";
+						};
+//						this.className="ac";//打开自己的ac
+						oTabItem[this.index].style.display="block";
+						n=this.index;
+					};
+					aLi[i].index=i;
+				};
+			};
+			MyTab("tabAddIntro");
+		}
+	</script>
+</html>

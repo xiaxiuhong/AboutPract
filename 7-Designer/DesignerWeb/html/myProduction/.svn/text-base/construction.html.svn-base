@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>新建作品</title>
+		<link href="css/myproduction/construction.css"  type=" text/css"  rel="stylesheet" />
+	</head>
+
+	<body>
+
+		<!--二级导航-->
+		<div class="navtwo">
+			<div class="navtwoT">
+				나의 작품을 올려주세요.
+			</div>
+		</div>
+		<!--	  *************信息填写**************-->
+		<div class=" message">
+			<p id="divPtextId">공간선택</p>
+			<!--	<input  id="add" type="text" placeholder="化妆品店"  />-->
+		</div>
+		<div class="check">
+			<ul id="dicTypeId">
+				<li value="1">카페</li>
+				<li value="2">식당</li>
+				<li value="3">화장품</li>
+				<li value="4">패션</li>
+				<li value="5">신발,가방</li>
+				<li value="6">KIDS</li>
+				<li value="7">숙박시설</li>
+				<li value="8">사무공간</li>
+				<li value="9">기타상업공간</li>
+			</ul>
+		</div>
+		<div class=" message">
+			<p>디자인 비용</p>
+			<div class="inputk">
+				<input type="text" id="ckd_startprice" /><span class="one">~</span><input class="i2" type="text" id="ckd_endprice"/><span class="two">원 / 평	</span>
+			</div>
+			<input type="hidden" id="ckc_type" />
+			<input type="hidden" id="ckc_typeName" />
+		</div>
+		<div class=" message ">
+			<p>작품 이름</p>
+			<input type="text" placeholder="작품 이름 적어주세요." id="ckc_hwname" />
+		</div>
+
+		<div class=" message">
+			<p>지역</p>
+			<input class="ping" type="text" placeholder="도시선택"  id="desprovinceInputId" readonly="readonly" />
+			<div class="arr1" style="cursor: pointer;" id="desprovinceDivId"></div>
+		</div>
+		<div class="province province1" style="display: none;" id="desaddressProvinceDivId">
+			<ul id="desulProvinceId">
+				<!--<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기경기경기경</li>
+				<li>경기경기경기경</li>
+				<li>경기</li>-->
+			</ul>
+		</div>
+		<!--<div class=" message">
+			<p>- 세부 도시</p>
+			<input class="ping" type="text" placeholder="세부도시 선택" id="NewWorkCityInputId" />
+			<div class="arr2" style="cursor: pointer;" id="DesignerCityId"></div>
+		</div>
+		<div class="province province2" style="display: none;" id="DesignerCityDivId">
+			<ul id="NewWorkCityId">-->
+				<!--<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>
+				<li>경기</li>				
+				<li>경기경기경기경</li>
+				<li>경기경기경기경</li>
+				<li>경기</li>-->
+			<!--</ul>
+		</div>-->
+		<div class=" message last">
+			<p>면적</p>
+			<input type="text" placeholder="작품 면적" id="ckc_acreage" /><span>/ 평</span>
+		</div>
+		<p class="submitword">
+			작품 효과도 또는 현장사진 5M이내로 이쁜 사진 올려주세요~
+		</p>
+		<!-- 	/*************上传作品框******************/-->
+		<div class="square">
+			<div style="" id="zjzDivId">
+				<form id="designerzjPicFormId" method="post" enctype="multipart/form-data">
+					<div style="width:100%;overflow-y:hidden;margin-top: 10px;float: left;" id="fileUploadCollectionPicid">
+						<div class="fileInputContainer">
+					    	<input class="fileInput" type="file" name="designercolPicId" id="designercolPicId" multiple="multiple"/>
+						</div>
+					</div>
+				</form>
+			</div>
+			
+			<!--<div class="upload">
+				<p>표지사용</p>
+				<span><img src="img/less.png"/></span>
+			</div>
+			<div class="upload2">
+			</div>-->
+		</div>
+		<!--	/******************底部按钮********************/-->
+		<div class="foot" id="submitBtnDivId"> 저장하기 </div>
+	<!--	<p class=" Warning" align="center"><img src="../../img/jinggao.png" /></p>-->
+		<br />
+	</body>
+	<script src="js/core/jquery-3.1.1.min.js"></script>
+	<script src="js/core/address.js"></script>
+	<script src="js/core/config.js"></script>
+	<script src="js/core/common.js"></script>
+	<script src="js/myProduction/construction.js"></script>
+
+</html>

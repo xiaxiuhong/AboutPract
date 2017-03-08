@@ -1,0 +1,283 @@
+		*{
+			padding: 0;
+			margin: 0;
+			list-style: none;
+		}
+		@font-face{
+		  font-family:'Open Sans';
+		  src:url('../../fonts/OpenSans-Regular.eot');
+		  src:url('../../fonts/OpenSans-Regular.eot?#iefix')format('embedded-opentype'),
+		   url('../../fonts/OpenSans-Regular.woff')format('woff'),
+		   url('../../fonts/OpenSans-Regular.ttf')format('truetype'),
+		   url('../../fonts/OpenSans-Regular.svg#NeuesBauenDemo')format('svg');
+		  font-weight:normal;
+		  font-style:normal;
+		}
+		body{
+			width: 100%;
+			/*height: 1200px;*/
+			background: url(../../img/bg.png) no-repeat center;
+			background-size: 100% 100%;
+			/*font-family: "Malgun Gothic";*/
+			font-family: "Open Sans", sans-serif!important;
+			overflow-y: hidden;
+		}
+		.boxlogin{
+			/*width: 833px;*/
+			width:60%;
+			/*height: 490px;*/
+			/*margin:450px auto;*/
+			background-color: rgba(255, 255, 255, 0.9);  
+			position: relative;
+			left: -90px;
+			/*top:5%;*/
+		}
+		.top{
+			width: 100%;
+			/*height: 115px;*/
+			height:25%;
+			background: #FFFFFF;
+			overflow: hidden;
+			border-bottom: 1px solid #E6E6E6;
+			}
+		.top .toptitle{
+			width:250px;
+			/*width:43%;*/
+			height:45px;
+			line-height:45px;
+			margin: 30px auto 15px;
+		}
+		.top .toptitle p:nth-child(1){
+			width: 46px;
+			height: 46px;
+			background: url(../../img/logo2.png) no-repeat center;
+			float: left;
+		}
+		.top .toptitle p:nth-child(2){
+			width: 195px;
+			height: 31px;
+			line-height: 31px;
+			color: rgba(49, 50, 50, 1);
+			font-size: 26px;			
+			float: right;
+		   margin-top: 8px;
+		   font-weight:500;
+		   text-align: right;
+		}
+		.topcon{
+			/*width: 740px;*/
+			width: 90%;
+			margin: 16px auto -20px;
+			overflow: hidden;
+			/*position: relative;*/
+		}
+		.topcon .conword{
+			/*width: 351px;*/
+			width: 45%;
+			float: left;
+		}
+		.topcon .conword p{
+			font-family: 'Open Sans', sans-serif!important;
+			height: 48px;
+			line-height: 48px;
+			font-size: 16px;
+			color: #000;
+			font-weight:500;	
+		}
+		.topcon .conword p:last-child{
+			color:  rgba(49, 50, 50, 1);
+			font-size:18px;
+			height: 24px;
+			line-height: 24px;
+			margin-top: 10px;
+		}
+		.logincon{
+			/*width: 360px;*/
+			width: 50%;
+			float: right;
+		}
+		.logincon .phone{
+			height:30px;
+			padding-left:60px;
+			padding-bottom: 20px;
+			border-bottom:2px solid #c4c4c4;
+			background: url(../../img/phone.png) no-repeat 20px center;	
+			line-height: 50px;		
+		}
+		.logincon .phone input{
+			border: none;
+			height: 26px;
+			color: rgba(49, 50, 50, 1);
+			font-size: 18px;
+			background-color: rgba(0, 0, 0, 0); 
+			outline: none;  
+			width: 260px;
+			letter-spacing: 0px;
+		}
+		.logincon .YZM{
+			height:40px;
+			padding-left:60px;
+			padding-bottom: 30px;
+			border-bottom:2px solid #c4c4c4;
+			background: url(../../img/suo.png) no-repeat 20px center;	
+			line-height: 70px;
+			position: relative;	
+		}
+		.logincon .YZM input{
+			border: none;
+			height: 26px;
+			color: rgba(49, 50, 50, 1);
+			font-size: 18px;
+			background-color: rgba(0, 0, 0, 0);
+			outline: none; 
+			letter-spacing: 0px;
+			
+		}
+		.logincon .YZM .yam{
+			width: 112px;
+			/*width:40%;*/
+			height: 34px;
+			float: right;
+			background: url(../../img/hqyzmm.png) no-repeat center;
+			position: absolute;
+			bottom: 15px;
+			right: 0;
+			color: #FFFFFF;
+			line-height: 34px;
+			text-align: center;
+		}
+		.logincon .YZM .yzmy{
+			width: 112px;
+			height: 34px;
+			float: right;
+			background: url(../../img/hqyzmx.png) no-repeat center;
+			position: absolute;
+			bottom: 15px;
+			right: 0;
+			text-align: center;
+			display: none;
+			color: #FFFFFF;
+		}
+		.logincon .YZM .yzmy p{
+			height: 22px;
+			line-height: 22px;
+			color: #ffffff;
+			font-size: 16px;
+			margin: 6px auto;
+			display: none;
+		}
+		.error{
+			/*width: 360px;*/
+			width: 100%;
+			height: 35px;			
+			overflow: hidden;
+		}
+		.error p{
+			width: 190px;
+			color:#e85b53;
+			height: 17px;
+			line-height: 17px;
+			margin:21px auto 0 ;
+			font-size: 12px;
+			display: none;
+		}
+		.buttonL{
+			/*width: 360px;*/
+			width: 100%;
+			height: 58px;
+			cursor: pointer;
+			line-height: 58px;
+			text-align: center;
+		  	background: url(../../img/dlm.png) no-repeat center;
+		  	color: #FFFFFF;
+		  	font-size: 20px;
+		}
+		.buttonL:hover{
+			background: url(../../img/dlx.png) no-repeat center;
+		}
+		.QR_code{
+			position: absolute;
+			top: 80px;
+			right: -150px;
+			height: 141px;
+			width: 132px;
+		}
+		.QR_code img{
+			width: 100%;
+			height: 100%;
+		}
+		.QR_code img:first-child{
+			margin-bottom: 20px;
+		}
+		.loginfoot{
+			/*width: 740px;*/
+			width: 90%;
+			height: 22px;
+			margin: 30px auto 15px;
+			line-height: 22px;
+		}
+		.loginfoot .beian{
+			width: 260px;
+			height: 15px;
+			float: left;
+		}
+		.loginfoot .beian a{
+			text-decoration: none;
+			color: rgba(49, 50, 50, 1);
+		}
+		.loginfoot .beian a:hover{
+			text-decoration: none;
+		}
+		.loginfoot p{
+			height: 22px;
+			/*width: 340px;*/
+			width: 40%;
+			line-height: 22px;
+			float: right;
+			font-size: 16px;
+			color: rgba(120, 135, 157, 1);
+		}
+		.loginfoot p a{
+			color: rgba(120, 135, 157, 1);
+		}
+		
+		.logincon .selectTel{
+			height: 21px;
+			width: 270px;
+			margin:0 auto 10px;
+			font: 16px 'Open Sans', sans-serif!important;
+			line-height: 21px;
+		}
+		.logincon .selectTel label{
+			float: left;
+			width:45%;
+			height:21px;
+			position: relative;
+			overflow: hidden;
+		}
+		.logincon .selectTel input{
+			height:21px;
+			position:absolute;
+			top:-21px;
+		}
+		.logincon .selectTel span{
+			display: block;
+			padding-left: 20px;
+			width:100%;
+			height:21px;
+			line-height: 21px;
+			background:url(../../img/icon_no_choose1x.png) no-repeat;
+		}
+		.logincon .selectTel span i{
+			font-style: normal;
+			display: inline-block;
+			padding-left: 6px;
+			position: relative;
+			top: -2px;
+		}
+		.logincon .selectTel label input:checked~span{
+			background:url(../../img/icon_choose1x.png) no-repeat;
+		}
+		.logincon .selectTel label:first-child{
+			margin-right: 20px;
+		}

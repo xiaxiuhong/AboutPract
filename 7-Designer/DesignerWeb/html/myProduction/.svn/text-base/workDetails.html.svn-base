@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>我的作品详情</title>
+		<link href="css/myproduction/workDetails.css" type="text/css" rel="stylesheet" />
+	</head>
+	<body>
+	<!-- *****************************标题****************************-->
+    <div class="titlep">
+    	<input type="hidden" id="collectionId" />
+    	<input type="hidden" id="collectionNameId" />
+    	<p id="titlepNamePid">上海紫藤万象城-Zoo Cafe</p>
+    	<!--<p>拖拽鼠标转换顺序</p>-->
+    	<span id="updateCollectionId" style="cursor: pointer;float: right;"><img src="img/zpxqb.png"/></span>
+    	<p style="margin-right: 20px;float: right;" id="titlepDetailPid">카페, 서울, 83평</p>
+    	
+    </div>
+	  <!--  *************************图片**********************************-->
+	  <div class="picture">
+	  	<ul id="collectionDetailId">
+	  		<!--<li><img src="img/xxzpi.png"/></li>
+	  		<li><img src="img/xxzpi.png"/></li>
+	  		<li><img src="img/xxzpi.png"/></li>
+	  		<li><img src="img/xxzpi.png"/></li>
+	  		<li><img src="img/xxzpi.png"/></li>
+	  		<li><img src="img/xxzpi.png"/></li>
+	  		<li><img src="img/xxzpi.png"/></li>
+	  		<li><img src="img/xxzpi.png"/></li>
+	  		<li><img src="img/xxzpi.png"/></li>
+	  		<li><img src="img/xxzpi.png"/></li>
+	  		<li><img src="img/xxzpi.png"/></li>
+	  		<li><img src="img/xxzpi.png"/></li>-->
+	  	</ul>
+	  </div>
+	</body>
+	<script src="js/core/jquery-3.1.1.min.js"></script>
+	<script src="js/core/address.js"></script>
+	<script src="js/core/config.js"></script>
+	<script src="js/core/common.js"></script>
+	<script src="js/myProduction/workDetails.js"></script>
+</html>

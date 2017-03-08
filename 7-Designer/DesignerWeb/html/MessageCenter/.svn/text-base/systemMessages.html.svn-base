@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>消息中心（系统）</title>
+		<link href="css/MessageCenter/systemMessage.css" type="text/css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<!--二级导航-->
+		<div class="navtwo">
+			<div class="navtwoT">
+				<p class="current" id="systemMessagepId">메세지</p>
+				<p id="orderMessagepId">알림</p>
+			</div>
+		</div>
+		<!--********************************内容**********************************-->
+		<div class="con" id="sysMessageId">
+			<ul id="sysUlId">
+				<!--<li>
+					<span>금일</span>
+					<p>您有一个新的订单， 请尽快查看处理！</p>
+					<i>자세히보기</i>
+				</li>
+				<li>
+					<span>금일</span>
+					<p>您有一个新的订单， 请尽快查看处理！</p>
+					<i>자세히보기</i>
+				</li>
+				<li>
+					<span>2017--01</span>
+					<p>您好，感谢您参与投标，本次工程您未中标，请继续关注！</p>
+
+				</li>
+				<li>
+					<span>2017-01-01</span>
+					<p>您有一个新的订单， 请尽快查看处理！</p>
+					<i>자세히보기</i>
+				</li>-->
+			</ul>
+		</div>
+		<div class="con" style="display: none;" id="orderMessageId">
+			<ul id="orderUlId">
+				<!--<li>
+					<span>금일</span>
+					<p>您的订单13123242343已更新</p>
+					<i>자세히보기</i>
+				</li>
+				<li>
+					<span>금일</span>
+					<p>您的订单13123242343已更新</p>
+					<i>자세히보기</i>
+				</li>
+				<li>
+					<span>2017-01-01</span>
+					<p>您的订单13123242343已更新</p>
+					<i></i>
+				</li>
+				<li>
+					<span>2017-01-01</span>
+					<p>您的订单13123242343已更新</p>
+					<i>자세히보기</i>
+				</li>-->
+			</ul>
+		</div>
+		<!--************分页***************-->
+		<div class="fenye">
+			<ul>
+				<li class="footcurrent">1</li>
+				<li class="footcurrent">2</li>
+	   			<li>3</li>
+			   <li>下一页</li>
+				<li> <span><img src=" img/huidown.png"/></span></li>
+
+			</ul>
+		</div>
+	</body>
+	<script src="js/core/jquery-3.1.1.min.js"></script>
+	<script src="js/MessageCenter/systemMessage.js"></script>
+
+</html>

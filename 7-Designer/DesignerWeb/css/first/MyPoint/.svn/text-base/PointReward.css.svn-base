@@ -1,0 +1,109 @@
+* {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+body {
+	font-size: 16px;
+	font-family: Malgun Gothic;
+}
+
+
+/*头部、一级导航*/
+
+
+/* *****************积分兑换*********************/
+
+.fen {
+	width: 786px;
+	height: 22px;
+	margin: 70px auto 35px;
+	color: #abaaaa;
+}
+
+.fen span {
+	color: rgba(120, 135, 157, 1);
+}
+
+
+/* **************************积分礼品****************************/
+
+.gift {
+	width: 786px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.gift ul li {
+	width: 161px;
+	height: 220px;
+	float: left;
+	margin-right: 45px;
+	margin-bottom: 38px;
+	cursor: pointer;
+}
+
+.gift ul li:nth-child(1) {
+	background: url(../../../img/shopping/watch.png) no-repeat center;
+}
+
+
+/*.gift ul li:nth-child(1):hover{
+ 	background: url(../../../img/iwatchnew.png) no-repeat center;
+ }*/
+
+.gift ul li:nth-child(2) {
+	background: url(../../../img/shopping/ipad.png) no-repeat center;
+}
+
+
+/*.gift ul li:nth-child(2):hover{
+ 	background: url(../../../img/iPadnew.png) no-repeat center;
+ }*/
+
+.gift ul li:nth-child(3) {
+	background: url(../../../img/shopping/iphone7.png) no-repeat center;
+}
+
+
+/*.gift ul li:nth-child(3):hover{
+ 	background: url(../../../img/iphone7new.png) no-repeat center;
+ }*/
+
+.gift ul li:nth-child(4) {
+	background: url(../../../img/shopping/book.png) no-repeat center;
+	margin-right: 0;
+}
+
+
+/*.gift ul li:nth-child(4):hover{
+ 	background: url(../../../img/booknew.png) no-repeat center;
+ }*/
+
+.gift ul li:nth-child(5) {
+	background: url(../../../img/shopping/pan.png) no-repeat center;
+}
+
+
+/*.gift ul li:nth-child(5):hover{
+ 	background: url(../../../img/pannew.png) no-repeat center;
+ }*/
+
+
+/*******************底部按钮*********************/
+
+.foot {
+	width: 131px;
+	height: 34px;
+	text-align: center;
+	line-height: 34px;
+	background: url(../../../img/wszlm.png) no-repeat center;
+	cursor: pointer;
+	margin: 60px auto 340px;
+	color: #FFFFFF;
+}
+
+.foot:hover {
+	background: url(../../../img/wszlx.png) no-repeat center;
+}

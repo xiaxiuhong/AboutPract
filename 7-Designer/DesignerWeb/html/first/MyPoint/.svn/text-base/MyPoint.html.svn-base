@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>我的积点</title>
+		<link href="css/first/MyPoint/MyPoint.css" type="text/css" rel="stylesheet"/>
+	</head>
+	<body>
+				<!--一级导航-->			
+		 <!--<div class="header">
+	 	<div  class="nav">
+	 		<div class="totleimg">
+	 			<img src="../../../img/t1.png" />
+	 		</div>
+	 		   <ul>
+	 	   				<li >프로젝트
+	 	   					<span ></span><i  ></i> 	   					
+	 	   				</li>
+	 	   				<li>나의 작품
+	 	   					<span ></span><i ></i> 	   		
+	 	   				</li>
+	 	   				<li>중국통
+	 	   					<span ></span><i ></i> 	   		
+	 	   				</li>
+	 	   				<li>알림
+	 	   					<span ></span><i ></i> 	   		
+	 	   				</li>
+	 	   				<li id="navcurrent">나의 정보
+	 	   					<span ></span><i class="arrowT"></i> 
+	 	   				</li>
+	 	   </ul>
+	 	</div>	
+	 </div>
+		  		  	-->
+		  <!--二级导航-->		  
+		
+		<!--<div class="navtwo">
+	 	<div  class="navtwoT">
+	 		   <ul>
+	 	   				<li >나의 정보
+	 	   				    <i  ></i> 	   					
+	 	   				</li>
+	 	   				<li >나의 프로젝트
+	 	   					<i ></i> 
+	 	   				
+	 	   				</li>
+	 	   				<li id="navtwocurrent">나의 포인트
+	 	   				     <i class="arrowD"></i> 	   		
+	 	   				</li>
+	 	   				<li>고객평가
+	 	   					  <i ></i> 	   		
+	 	   				</li>	 	   				
+	 	   </ul>
+	 	</div>	
+	 </div>-->
+	<!-- ******************************当前积分*********************************-->
+	<div class="box">
+	<p class=" Integral">적립 포인트：<span id="userSpanId">2345</span></p>
+	 	<!--  等级进度条-->
+	  	   <div class="LV">
+	  	  	<div  class="box1"></div>
+	  	  	 	<div  class="box2"></div>
+	  	  	 	<ul>
+	  	  	 		<li>LV2</li>
+	  	  	 		<li>LV3</li>
+	  	  	 	</ul>
+	  	  	 	<div class="talkk"><p>Next Level：<span>500</span></p></div>
+	  	  </div>
+	  <!--	  ******************获取积分途径******************-->
+	 
+	  <div class="one">
+	  	<div class="two  get">포인트 적립하기</div>
+	  	<div class="thres getcon">
+	  		<ul>
+	  			<li><span>디자인 선정</span> <span>+15</span></li>
+	  			<li><span>개인 작품 올리기</span> <span>+35</span></li>
+	  			<li><span>나의친구 요청하기</span> <span>+5</span></li>
+	  		</ul>
+	  		</ul>
+	  	</div>
+	  </div>
+	  <div class="one">
+	  	<div class="two  dengji">레벨 올리기</div>
+	  	<div class="thres  dengjicon">
+	  		<ul>
+	  			<li><span>LV0</span> <span>0 포인트</span></li>
+	  			<li><span>LV1</span> <span>60 포인트</span></li>
+	  			<li><span>LV2</span> <span>300 포인트</span></li>
+	  			<li><span>LV3</span> <span>600 포인트</span></li>
+	  			<li><span>LV4</span> <span>900 포인트</span></li>
+	  		</ul>
+	  		</ul>
+	  	</div>
+	  </div>
+	  <div class="one">
+	  	<div class="two jilu">포인트 적립</div>
+	  	<div class="thres new jifencon">
+	  		<ul id="hqPointsUlId">
+	  			<li><span>注册<i>（+5）</i></span> <span>2016-11-30</span></li>
+	  			<li><span>完成订单 <i>（+5）</i></span> <span>2016-11-28</span></li>
+	  			<li><span>上传作品<i>（+5）</i></span> <span>2016-11-10</span></li>
+	  			<li><span>等级提升<i>（+5）</i></span> <span>2016-11-05</span></li>
+	  		</ul>
+	  		</ul>
+	  	</div>
+	  </div>
+	  <div class="one">
+	  	<div class="two  use">포인트 사용</div>
+	  	<div class="thres new usecon">
+	  		<ul id="syPointsUlId">
+	  			<li><span>兑换iwatch <i>（-16000）</i></span> <span>2016-11-30</span></li>
+	  			<li><span>兑换iphone <i>（-20000）</i></span>                       <span>2016-11-30</span></li>
+	  			<li><span>兑换mac <i>（-30000）</i></span>                <span>2016-11-30</span></li>
+	  			<li><span>兑换iwatch <i>（-16000）</i></span>                <span>2016-11-30</span></li>
+	  		</ul>
+	  		</ul>
+	  	</div>
+	  </div>
+	</div>
+	  	 <!--	/******************底部按钮********************/-->
+	   <div class="foot" id="duihuans">
+	      	   포인트 사용
+	      </div>
+	      <script src="js/core/jquery-3.1.1.min.js"></script>
+	      <script src="js/first/myPoint/myPoint.js"></script>
+	</body>
+</html>

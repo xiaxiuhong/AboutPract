@@ -1,0 +1,253 @@
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.float_left {
+    float: left;
+}
+
+.float_right {
+    float: right;
+}
+
+#LRdiv0,
+#LRfloater0,
+.swtCenter {
+    display: none;
+}
+
+.swtCenter {
+    width: 385px;
+    height: 270px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    z-index: 200;
+    margin-left: -192px;
+    margin-top: -135px;
+}
+
+.closeBtn_swt {
+    right: -5px;
+    top: -5px;
+    width: 44px;
+    height: 44px;
+    cursor: pointer;
+    background: #000;
+}
+
+#bobo {
+    width: auto;
+    height: 2000px;
+}
+
+#LRdiv0,
+#LRfloater0,
+.swtCenter {
+    display: none;
+}
+
+
+/*右侧弹窗*/
+
+#swt_right {
+    position: absolute;
+    z-index: 999;
+}
+
+#swt_right li {
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#swt_right #swt_right_nav .subCate img {
+    position: relative;
+}
+
+#swt_right #swt_right_nav .mainCate {
+    position: relative;
+}
+
+#swt_right #swt_right_nav .subCate {
+    display: none;
+    position: absolute;
+    left: -248px;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+
+#swt_right #swt_right_nav .subCate .aa1 {
+    width: 155px;
+    font-size: 14px;
+    height: 28px;
+    border: none;
+    color: #666;
+    line-height: 28px;
+    background: none;
+    outline: none;
+    margin: 43px 4px 0 22px;
+    overflow: hidden;
+}
+
+#swt_right #swt_right_nav .subCate .aa2 {
+    width: 40px;
+    height: 33px;
+    line-height: 33px;
+    border: none;
+    background: none;
+    text-align: center;
+    text-indent: -9999px;
+    cursor: pointer;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+}
+
+#swt_right #swt_right_nav .on .subCate {
+    display: block !important;
+}
+
+#swt_right #swt_right_nav .subCate img.a1 {
+    top: -5px
+}
+
+#swt_right #swt_right_nav .subCate img.a2 {
+    top: 0
+}
+
+#swt_right #swt_right_nav .subCate img.a4 {
+    top: -60px;
+    left: 80px;
+}
+
+#swt_right #swt_right_nav .dh {
+    width: 248px;
+    height: 95px;
+    background: #0F0;
+    position: relative;
+    top: -15px;
+    background: url(../Images/tel_pic.png) no-repeat left top;
+}
+
+/*
+
+div.swtCenter {
+    width: 500px;
+    height: 300px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    z-index: 1000;
+    margin-left: -250px;
+    margin-top: -150px;
+    background: url(../Images/swt622.jpg) no-repeat top left;
+    box-shadow: 5px 5px 5px rgba(206, 204, 204, .9);
+    -moz-box-shadow: 5px 5px 5px rgba(206, 204, 204, .9);
+    -webkit-box-shadow: 5px 5px 5px rgba(206, 204, 204, .9);
+}
+
+div.swtCenter a.closeBtn_swt {
+    width: 40px;
+    height: 40px;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: none;
+}
+
+div.swtCenter a.closeBtn_swtz {
+    width: 500px;
+    height: 216px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+div.swtCenter input#telInput {
+    width: 200px;
+    height: 30px;
+    background: none;
+    border: none;
+    margin-left: 30px;
+    float: left;
+}
+
+div.swtCenter input#callBtn {
+    width: 100px;
+    height: 30px;
+    background: none;
+    border: none;
+    float: left;
+}
+
+div.swtCenter div.swtCenterzm {
+    width: 330px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 4px;
+}
+ */
+#footer_swt {
+    width: 100%;
+    height: 58px;
+    background: url(../Images/bottom_swtbj.jpg);
+    position: fixed;
+    bottom: 0;
+    border-top: 1px solid #007aaa;
+    z-index: 10000
+}
+
+#footer_swt ul {
+    width: 1230px;
+    height: 58px;
+    margin: 0 auto;
+}
+
+#footer_swt ul li.lxb {
+    width: 314px;
+    height: 58px;
+    background: url(../Images/bottom_04.jpg) no-repeat left center;
+    margin-right: 15px;
+}
+
+#footer_swt ul li.lxb .f_n_form {
+    margin: 11px 0 0 29px;
+}
+
+#footer_swt ul li.lxb .input_1 {
+    width: 173px;
+    height: 36px;
+    line-height: 36px;
+    background: none;
+    border: none;
+    float: left;
+    text-indent: 10px;
+    color: #333;
+    background: transparent;
+    font-size: 14px;
+    margin-left: 19px;
+    font-family: "Microsoft YaHei";
+    outline: none;
+}
+
+#footer_swt ul li.lxb .input_2 {
+    width: 82px;
+    height: 36px;
+    border: none;
+    background: none;
+    float: left;
+    cursor: pointer;
+    outline: none;
+    text-indent: -9999px;
+}
+
+#footer_swt ul li {
+    float: left;
+}

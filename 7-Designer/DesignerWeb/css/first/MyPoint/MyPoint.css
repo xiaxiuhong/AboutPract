@@ -1,0 +1,234 @@
+*{
+				padding: 0;
+				margin: 0;
+				list-style: none;
+			}
+			body{
+				font-size: 16px;
+				font-family: Malgun Gothic;
+			}
+			/*头部、一级导航*/
+			/*.header{
+				width: 100%;
+				height: 55px;
+				background: #303232;	
+			}
+			.header  .nav {
+				width: 850px;
+				height: 55px;	
+				margin: 0 auto;	
+				overflow: hidden;
+			}
+			.nav  .totleimg{
+				width: 110px;
+				height: 55px;
+				float: left;
+			}
+			.nav  li{
+				height: 19px;
+				margin-left: 84px;
+				color: #A7A7A7;
+				font-size: 16px;
+				font-family: sans-serif;
+				float: left;
+				position: relative;
+				margin-top: 20px;
+				cursor: pointer;
+			}
+			.nav  li:hover{
+				color: #FFFFFF;			
+			}
+			.xinxi{
+				width: 6px;
+				height: 6px;
+				border-radius: 50%;				
+				background: #E85B53;
+				position: absolute;
+				top: 0;
+				right: -5px;
+				display: inline-block;
+			}
+			.arrowT{
+				width: 6px;
+				height: 4px;
+				background: url(../../../img/arrT.png) no-repeat center;
+				position: absolute;
+				bottom: -8px;
+				left: 45%;
+			}*/
+			/*二级导航*/
+			.navtwo{
+				width: 100%;
+				height: 110px;
+				background: #F2F2F2;				
+			}
+			.navtwo  .navtwoT {
+				width: 806px;
+				height: 110px;	
+				text-align: center;
+				margin: 0 auto;
+			}
+			.navtwoT  li{
+				height: 22px;
+				margin-left: 84px;
+				color: #a7a7a7;
+				font-size: 16px;
+				font-family: Malgun Gothic;
+				float: left;
+				position: relative;
+				margin-top: 44px;
+				cursor: pointer;
+			}
+		  .navtwoT  li:hover{
+		  	color: rgba(49, 50, 50, 1); 	
+		  }
+		  .navtwoT  li p{
+		  	 height: 19px;
+		  	 position: absolute;
+		  	 bottom: -38px;
+		  	 width: 125px;
+		  	 color: rgba(141, 141, 141, 1);
+		  }
+		   #navcurrent{
+		   		color: #FFFFFF;
+		   }
+		  #navtwocurrent {
+		   	 	color: rgba(49, 50, 50, 1); 	
+		   }
+			.arrowD{
+				width: 6px;
+				height: 4px;
+				background: url(../../../img/navtwod.png)  no-repeat center;
+				position: absolute;
+				bottom: -15px;
+				left: 45%;
+			} 
+			/*******************************当前积分**********************************/
+			.Integral{
+				width: 532px;
+				height: 22px;
+				margin: 68px auto 35px;
+				color: #ABAAAA;
+				position: relative;
+			}
+			.Integral span{
+				color: rgba(120, 135, 157, 1);
+			}
+			
+				/*	  等级进度条*/
+			.LV{
+				width: 534px;
+				height: 110px;
+				margin: 0 auto;
+				position: relative;
+				overflow: hidden;
+				position: relative;
+			}
+			.talkk{
+				width: 133px;
+				height: 51px;
+				background: url(../../../img/talkk.png) no-repeat ;
+				text-align: center;
+				line-height: 51px;
+				position: absolute;
+				top: 20px;
+				left: 318px;
+			}
+			.talkk p{
+				width: 133px;
+				height: 22px;
+				margin-top: 7px
+			}
+			.talkk p span{
+				color: rgba(120, 135, 157, 1);
+			}
+		.LV .box1{
+			width: 533px;
+			height: 8px;
+			position: absolute;
+			top: 0;
+			background: #F2F2F2;		
+		}
+			.LV .box2{
+			width: 318px;
+			height: 8px;
+			position: absolute;
+			top: 0;
+			left: 0;
+			background: #78879d;		
+		}	
+		.LV ul{
+			width: 100%;
+			height: 32px;
+		    margin-top: 15px; 
+		}	
+		.LV ul li{
+			height: 32px;
+			line-height: 32px;
+			color: #abaaaa;
+			font-size: 15px;
+			float: left;
+		}
+		.LV ul li:last-child{
+				float: right;
+		}    
+		 /*   ******************获取积分途径*******************/
+		.one{
+			width: 532px;
+			margin: 0 auto;
+		}
+		 .two,.get,.dengji,.jilu,.use{
+		  height: 50px;
+		  border-bottom: 1px solid #E6E6E6;	
+		  line-height: 50px;
+		  text-align: left;
+		  background: url(../../../img/upicon.png) no-repeat center right;
+		  color: rgba(141, 141, 141, 1);
+		  cursor: pointer;
+		}
+		
+		.img02{
+		   background: url(../../../img/zhankai.png) no-repeat center right;
+		}
+		.thres{
+			display: none;
+		}
+		.thres ul li{
+			height: 50px;
+			line-height: 50px;
+			border-bottom: 1px solid #E6E6E6;
+		}
+		.thres ul li span:nth-child(1){
+			 float: left;
+		}
+			.thres ul li span:nth-child(1) i{
+		color: rgba(141, 141, 141, 1); ;
+		}
+		.thres ul li span:nth-child(2){
+			 float: right;
+		}
+		.new ul li span:nth-child(2){
+		  color: rgba(141, 141, 141, 1);
+		}
+		.thres ul li span i{
+			font-style: normal;
+		}
+		
+			/******************底部按钮********************/
+		.foot{
+		width: 131px;
+		height: 34px;
+		text-align: center;
+		line-height: 34px;
+		background: url(../../../img/wszlm.png) no-repeat center;
+		cursor: pointer;
+		margin: 60px auto 60px;
+		color: #FFFFFF;
+		
+		
+	}
+   .foot:hover{
+   	   background: url(../../../img/wszlx.png) no-repeat center;
+   	     
+   }
+			

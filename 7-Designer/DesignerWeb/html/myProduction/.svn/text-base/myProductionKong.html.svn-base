@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>我的作品</title>
+		<link href="css/myproduction/myProductionKong.css"  type="text/css"   rel="stylesheet" />
+	</head>
+	<body>
+		<!--一级导航-->
+		<!--<div class="header">
+			<div class="nav">
+				<div class="totleimg">
+					<img src="img/t1.png" />
+				</div>
+				<ul>
+					<li>프로젝트
+						<span></span><i></i>
+					</li>
+					<li>나의 작품
+						<span></span><i></i>
+					</li>
+					<li>중국통
+						<span></span><i></i>
+					</li>
+					<li>알림
+						<span></span><i></i>
+					</li>
+					<li id="navcurrent">나의 정보
+						<span></span><i class="arrowT"></i>
+					</li>
+				</ul>
+			</div>
+		</div>-->
+		  		  	
+		  <!--二级导航-->		  
+		
+		<div class="navtwo">
+	 	<div  class="navtwoT">
+	 		    나의 작품을 올려주세요.
+	 	</div>	
+	 </div>
+	<!--  ***************************中间图片********************-->
+	   <div class="picture"><img src="img/bgpicture.png"/></div>
+	   <!--	/******************底部按钮********************/-->
+	   <div class="foot" id="addConectionID">
+	      	 + 작품 올리기  	
+	      </div>
+	</body>
+	<script src="js/core/jquery-3.1.1.min.js"></script>
+	<script src="js/core/address.js"></script>
+	<script src="js/core/config.js"></script>
+	<script src="js/core/common.js"></script>
+	<script src="js/myProduction/myProductionKong.js"></script>
+</html>

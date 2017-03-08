@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>我的订单进度查询 未中标</title>
+		<link href="css/first/myOrder/loseAbid.css"     type="text/css" rel="stylesheet" />
+	</head>
+	<body>
+			<!--一级导航-->			
+		 <!--<div class="header">
+	 	<div  class="nav">
+	 		<div class="totleimg">
+	 			<img src="../../../img/t1.png" />
+	 		</div>
+	 		   <ul>
+	 	   				<li >프로젝트
+	 	   					<span ></span><i  ></i> 	   					
+	 	   				</li>
+	 	   				<li>나의 작품
+	 	   					<span ></span><i ></i> 	   		
+	 	   				</li>
+	 	   				<li>중국통
+	 	   					<span ></span><i ></i> 	   		
+	 	   				</li>
+	 	   				<li>알림
+	 	   					<span ></span><i ></i> 	   		
+	 	   				</li>
+	 	   				<li id="navcurrent">나의 정보
+	 	   					<span ></span><i class="arrowT"></i> 
+	 	   				</li>
+	 	   </ul>
+	 	</div>	
+	 </div>
+		  		  	-->
+		  <!--二级导航-->		  
+		
+		<div class="navtwo">
+	 	<div  class="navtwoT">
+	 		   <ul>
+	 	   				<li >나의 정보
+	 	   				    <i  ></i> 	   					
+	 	   				</li>
+	 	   				<li id="navtwocurrent">나의 프로젝트
+	 	   					<i class="arrowD"></i> 
+	 	   				
+	 	   				</li>
+	 	   				<li>나의 포인트
+	 	   				     <i ></i> 	   		
+	 	   				</li>
+	 	   				<li>고객평가
+	 	   					  <i ></i> 	   		
+	 	   				</li>	 	   				
+	 	   </ul>
+	 	</div>	
+	 </div>
+	<!-- ***********************上传资料******************************-->
+	 <div class=" Info">
+	 		<ul>
+	 			<li>No.234384</li>
+	 			<li>카페, 상하이, 121평.</li>
+	 		</ul>
+	 </div>
+	<!--  *****************************进度圈*******************************-->
+	<div class=" circle">
+		<ul>
+			<li id="circlecurrent">참여단계</li>
+			<li><img src="img/icon_right@1x.png"/></li>
+			<li>참여단계</li>
+		<li><img src="img/icon_right@1x.png"/></li>
+			<li>참여단계</li>
+		</ul>		
+	</div>
+	<!--*********************************进度*************************************************-->
+	<div class="pressess">
+		<div class="one">
+				<div class="title">	<span><img src="img/quan.png"/></span>2016-12-13   12:00</div>
+				<p class="titleword">投标开始</p>
+				<p class="Capacity"><img src="img/tishi.png"/></p>
+	    </div>
+	    <div class="one">
+				<div class="title">	<span><img src="img/quan.png"/></span>2016-12-13   12:00</div>
+				<p  class="titleword">我参与了投标</p>
+	    </div>
+	    <div class="one">
+				<div class="title">	<span><img src="img/quan.png"/></span>2016-12-14   14:00</div>
+				<p  class="titleword">我上传了  <a>Dr.aw.zip</a> </p>
+	    </div>
+	    <div class="one">
+				<div class="title">	<span><img src="img/quan2.png"/></span>2016-12-16   12:00</div>
+				<p  class="titleword">很抱歉，您未中标</p>
+	    </div>
+	</div>
+	
+	</body>
+</html>

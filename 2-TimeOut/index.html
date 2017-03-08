@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="viewport" content="width=640,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="apple-mobile-web-app-title" content="">
+		<meta name="format-detection" content="telephone=no">
+		<link rel="stylesheet" href="css/css.css" />
+		<script type="text/javascript" src="js/rootresize.js"></script>
+		<!--<script type="text/javascript" src="smstj/sms/jquery-1.9.1.min.js"></script>-->
+		<script type="text/javascript" src="js/jquery-3.1.0.js"></script>	
+		<script type="text/javascript" src="js/jquery.cookie.js"></script>
+		<title>金高体检查询</title>
+	</head>
+
+	<body>
+		<div class="logo_bg">
+			<div class="logo">
+				<img src="images/logo.jpg">
+			</div>
+		</div>
+		<div class="conter">
+			<div class="titer">
+				<img src="images/titer.jpg">
+			</div>
+
+			<div class="biaodan">
+
+				<form action="index.php" method="post">
+					<p>
+						<input type="text" name="tel" id="tel" class="ico_1" placeholder="请输入您的手机号" autocomplete="off">
+
+					</p>
+
+					<p>
+						<input type="text" name="verify" id="" class="ico_2" placeholder="请输入验证码" autocomplete="off">
+						<!--<button id="btn" type="button" class="ico_3"></button>-->
+						<input id="btnYz" type="button" class="ico_3"></input>
+					</p>
+
+					<div class="tijiao">
+						<input type="submit" name="" value="提        交" class="tj">
+					</div>
+				</form>
+
+			</div>
+		</div>
+
+		<div class="footer">
+			<ul>
+				<li>健康热线：400-6670-630</li>
+				<li>医院地址：浦东新区金高路1115号（近巨峰路口)</li>
+			</ul>
+		</div>
+	</body>
+	<script>
+		$(function(){
+			$("#btnYz").click(function (){
+				sendCode($("#btnYz"));
+			});
+			checkCountdown();
+		})
+		//校验打开页面的时候是否要继续倒计时
+		function checkCountdown(){
+			var secondsremained = $.cookie("secondsremained");
+			if(secondsremained){
+				var date = new Date(unescape(secondsremained));
+				setCoutDown(date,$("#btnYz"));
+			}
+		}
+		//发送验证码
+		function sendCode(obj){
+			var tel = $("#tel").val();
+			var result = istel();
+			if(result){
+			//加载ajax 获取验证码的方法
+				var date = new Date();
+				addCookie("secondsremained",date.toGMTString(),5);//添加cookie记录,有效时间5s
+				setCoutDown(date,obj);
+				$(".ico_3").css({"background":"#F1F1F1","fontSize":"0.5rem","border":"0.05rem solid #DDDCDC","borderLeft":"none"});
+				//************
+				$.post('smstj/sms/SendTemplateSMS.php', {
+						'tel': tel
+				}, function(res) {
+					if (res) {
+						alert('发送成功');
+					} else {
+						alert('发送失败');
+					}
+				});
+				//************
+			}			
+		} 
+		var nowDate = null;
+		var time_difference = 0;
+		var count_down = 0;
+		function setCoutDown(date,obj) { 
+			nowDate = new Date();
+			time_difference = ((nowDate- date)/1000).toFixed(0);
+			count_down = 60 - time_difference;
+			//console.log(count_down);
+			if(count_down<=0){
+				obj.removeAttr("disabled"); 
+				//obj.val("重新获取验证码"); 
+				//obj.css({"fontSize":"20px","color":"red"});
+				obj.val("");
+				obj.css("background","url(images/anniu.jpg) no-repeat");
+	
+				addCookie("secondsremained","",60);//添加cookie记录,有效时间5s
+				return;
+			}
+			obj.attr("disabled", true); 
+			obj.val("重新发送(" + count_down + ")"); 
+			setTimeout(function() { setCoutDown(date,obj) },1000) //每1000毫秒执行一次
+		} 
+		//发送验证码时添加cookie
+		function addCookie(name,value,expiresHours){ 
+		//判断是否设置过期时间,0代表关闭浏览器时失效
+			if(expiresHours>0){ 
+				var date=new Date(); 
+				date.setTime(date.getTime()+expiresHours*1000); 
+				$.cookie(name, escape(value), {expires: date});
+			}else{
+				$.cookie(name, escape(value));
+			}
+		} 
+		//校验手机号是否合法
+		function istel(){
+		var tel = $("#tel").val();
+		if (tel.length == 0) {
+			alert('请输入手机号码！');
+			return false;
+		}
+		if (tel.length != 11) {
+			alert('请输入有效的手机号码！');
+			return false;
+		}
+		var myreg = /^(((13[0-9]{1})|(15[0-9]{1})|(18[0-9]{1}))+\d{8})$/; 
+		if(!myreg.test(tel)){ 
+			alert('请输入有效的手机号码！'); 
+			return false; 
+		}else{
+			return true;
+			}
+		} 
+	</script>
+</html>

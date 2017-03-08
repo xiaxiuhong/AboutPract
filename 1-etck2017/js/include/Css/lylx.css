@@ -1,0 +1,193 @@
+.item .title {
+    height: 85px;
+    border-bottom: 1px solid #000;
+    background: 50% 45px no-repeat
+}
+
+.item1 .title {
+    background-image: url(../Images/route_title_1.png)
+}
+
+.item1 .w1200 {
+    height: 480px;
+    background: url(../Images/route_1.jpg) 50% 30px no-repeat
+}
+
+.item2 .title {
+    background-image: url(../Images/route_title_2.png)
+}
+
+.item2 .tab {
+    position: relative;
+    margin-top: 60px
+}
+
+.item2 .pagination {
+    top: 0;
+    right: 0;
+    bottom: -10px;
+    left: 0;
+    width: 100%
+}
+
+.item2 .pagination div {
+    height: 100%
+}
+
+.item2 .pagination span {
+    position: relative;
+    float: left;
+    width: 240px;
+    height: 100%;
+    cursor: pointer
+}
+
+.item2 .pagination span i {
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    width: 0;
+    height: 0;
+    margin-left: -10px;
+    border: 10px solid #fff
+}
+
+.item2 .pagination .swiper-active-switch i {
+    border-top-color: #0180ab
+}
+
+.item2 .tab li {
+    position: relative;
+    float: left;
+    width: 226px;
+    margin-left: 12px;
+    text-align: center;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+    background: #0180ab;
+    cursor: pointer;
+    position: relative;
+}
+
+.item2 .tab li span {
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    width: 0;
+    height: 0;
+    margin-left: -10px;
+    border: 10px solid #fff;
+    border-top-color: #0180ab;
+    display: none;
+}
+
+.item2 .tab li.on span {
+    display: block;
+}
+
+.item2 .tab .list1 {
+    margin-left: 0
+}
+
+.item2 .tab i.icon {
+    display: block;
+    margin: auto;
+    margin-top: 15px
+}
+
+.item2 .tab li div {
+    font-size: 28px;
+    height: 50px;
+    color: #f5e1cf
+}
+
+.item2-swiper {
+    height: 895px;
+    margin-top: 25px
+}
+
+.type {
+    font-size: 30px;
+    line-height: 86px;
+    width: 220px;
+    text-align: center;
+    color: #0180ab;
+    border-top: 6px solid #0180ab;
+    background: #e6e6e6;
+    float: left;
+}
+
+.info {
+    width: 800px;
+    margin-left: 30px;
+    display: block;
+    float: left;
+}
+
+.info span {
+    font-size: 34px;
+    color: #0180ab
+}
+
+.info p {
+    font-size: 30px
+}
+
+.icon-route-1 {
+    width: 114px;
+    height: 90px;
+    background: url(../Images/icon_route_1.jpg) 0 0 no-repeat
+}
+
+.icon-route-2 {
+    width: 114px;
+    height: 90px;
+    background: url(../Images/icon_route_2.jpg) 0 0 no-repeat
+}
+
+.icon-route-3 {
+    width: 114px;
+    height: 90px;
+    background: url(../Images/icon_route_3.jpg) 0 0 no-repeat
+}
+
+.icon-route-4 {
+    width: 114px;
+    height: 90px;
+    background: url(../Images/icon_route_4.jpg) 0 0 no-repeat
+}
+
+.icon-route-5 {
+    width: 114px;
+    height: 90px;
+    background: url(../Images/icon_route_5.jpg) 0 0 no-repeat
+}
+
+.yunxuhelpwamp {
+    display: block;
+    float: left;
+    clear: both;
+}
+
+.yunxuhelpwamp .yunxuhelpshow {
+    height: 895px;
+    width: 1200px;
+    margin-top: 30px;
+}
+
+.road-list .fc {
+    margin-top: 25px;
+    width: 100%;
+    display: block;
+    float: left;
+    overflow: hidden;
+}
+
+.road-list .fc {
+    margin-top: 25px;
+    width: 100%;
+    display: block;
+    float: left;
+    overflow: hidden;
+}
